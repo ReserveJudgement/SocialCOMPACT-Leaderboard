@@ -1,16 +1,24 @@
 [green_agent]
 agentbeats_id = ""
-env = { API_KEY = "${GITHUB_SECRET_NAME}", LOG_LEVEL = "INFO" }
+
 
 [[participants]]
 agentbeats_id = ""
-name = "role_1_name"
-env = {}
+agent_id = "GPT-OSS-20"
+platform = "OLLAMA"
+model="gpt-oss:20b"
+api_key = ""
+
 
 [[participants]]
 agentbeats_id = ""
-name = "role_2_name"
-env = {}
+agent_id = "Nemotron"
+platform = "OLLAMA"
+model = "nemotron-3-nano:30b"
+api_key = ""
+
 
 [config]
-# Add your assessment config here
+max_runs = 5
+max_size = 4
+required = []
