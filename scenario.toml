@@ -11,7 +11,7 @@ env = {PLATFORM = "OPENAI", MODEL = "gpt-5-nano-2025-08-07", OPENAI_API_KEY = "$
 [[participants]]
 agentbeats_id = "019c06a6-408e-7110-ac0c-a05d5812d748"
 name = "nemotron"
-env = {PLATFORM = "OPENROUTER", MODEL = "nvidia/nemotron-3-nano-30b-a3b:free", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY1}"}
+env = {PLATFORM = "OPENROUTER", MODEL = "nvidia/nemotron-3-nano-30b-a3b:free", OPENROUTER_API_KEY = "${OPENROUTER_API_KEY2}"}
 
 
 [config]
