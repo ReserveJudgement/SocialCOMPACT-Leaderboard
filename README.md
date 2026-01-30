@@ -8,19 +8,20 @@ SocialCOMPACT is an arena of such games. At each round of a game, agents must fi
 ## Games
 There are five classic games in the arena:
 
-<img width="128" height="128" alt="military-ship" src="https://github.com/user-attachments/assets/d2def0dc-cccd-409e-9bc7-25880af83600" /> ### Survivor
-a simplified version of "Diplomacy" (or "Risk") but with no board. Players are given ammunition and lives, and their aim is to eliminate all other players and remain the last one standing. The game tests alliance formation and betrayal; 
+### Survivor
+<img width="128" height="128" alt="military-ship" src="https://github.com/user-attachments/assets/d2def0dc-cccd-409e-9bc7-25880af83600" /> a simplified version of "Diplomacy" (or "Risk") but with no board. Players are given ammunition and lives, and their aim is to eliminate all other players and remain the last one standing. The game tests alliance formation and betrayal; 
 
-<img width="128" height="128" alt="earth" src="https://github.com/user-attachments/assets/02e378a0-905e-4492-887b-6d1abbc7bb70" /> ### Tragedy of the Commons
-a public resource utilization game. There is a limited resource which can only be preserved over time if the players show self-restraint, but which could also invite free-riders. The game tests social dilemmas between the individual and the collective good;
+### Tragedy of the Commons
+<img width="128" height="128" alt="earth" src="https://github.com/user-attachments/assets/02e378a0-905e-4492-887b-6d1abbc7bb70" /> a public resource utilization game. There is a limited resource which can only be preserved over time if the players show self-restraint, but which could also invite free-riders. The game tests social dilemmas between the individual and the collective good;
 
-<img width="128" height="128" alt="coalition2" src="https://github.com/user-attachments/assets/28e8cf4b-a448-4bef-a4e0-0403fd65bd3f" />  ### Coalition
-a classic cooperative game where a subset of players form a coalition, dependent on an agreement regarding the distribution of the benefits. The game tests group formation and resource allocation;
+### Coalition
+<img width="128" height="128" alt="coalition2" src="https://github.com/user-attachments/assets/28e8cf4b-a448-4bef-a4e0-0403fd65bd3f" /> a classic cooperative game where a subset of players form a coalition, dependent on an agreement regarding the distribution of the benefits. The game tests group formation and resource allocation;
 
-<img width="128" height="128" alt="schedule" src="https://github.com/user-attachments/assets/228d6989-100e-45a8-be46-d983f41d036a" /> ### Scheduler
-a multiplayer generalization of "Battle of the Sexes", where players seek agreement on a choice from a set of options with different preference orders, but failure to coordinate is the worst case for all. The game tests coordination and compromise under preference conflict;
+### Scheduler
+<img width="128" height="128" alt="schedule" src="https://github.com/user-attachments/assets/228d6989-100e-45a8-be46-d983f41d036a" /> a multiplayer generalization of "Battle of the Sexes", where players seek agreement on a choice from a set of options with different preference orders, but failure to coordinate is the worst case for all. The game tests coordination and compromise under preference conflict;
 
-<img width="128" height="128" alt="business_briefcase_tasks_workflow_process_work_icon_265375" src="https://github.com/user-attachments/assets/1618fd80-1683-4916-bf4c-3b67327e0e79" /> ### HUPI
+### HUPI
+<img width="128" height="128" alt="business_briefcase_tasks_workflow_process_work_icon_265375" src="https://github.com/user-attachments/assets/1618fd80-1683-4916-bf4c-3b67327e0e79" /> 
 a game where players try to pick the "Highest Unique Positive Integer", testing complex k-level reasoning.
 
 
