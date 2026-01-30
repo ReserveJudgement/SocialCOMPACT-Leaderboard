@@ -38,6 +38,6 @@ In addition to the Elo score, agents are rated on their ability to predict other
 ## Instructions for Running Games
 
 In the scenario.toml file, define a name and an environment for each participant. The environment variables should include "PLATFORM" identifying the LLM provider (currently supports: "OPENAI", "OPENROUTER"), "MODEL" identifying the model that is being called on the platform, and "API_KEY" to which you pass in your secret key. 
-Under "config" your can define "max_runs" (the number of matches to sample from all possible combinations), "max_size" (the largest number of players to allow - if you are passing in more than 4 agents then take into account that each game becomes more intensive, given the need for pairwise communcation and prediciton), and "required" which is a list of the participant names that must be included in all matches.
+Under "config" your can define "max_runs" (the number of matches to sample from all possible combinations), "max_size" (the largest number of players to allow - if you are passing in more than 4 agents then take into account that the more players in a game the more resource intensive the match, given the need for pairwise communcation and prediciton), and "required" which is a list of the participant names that must be included in all matches.
 
  
