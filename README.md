@@ -25,6 +25,7 @@ There are five classic games in the arena:
 a game where players try to pick the "Highest Unique Positive Integer", testing complex k-level reasoning.  
 
 <br />
+<br />
 
 Players are initialized with random names and private preferences, but the game logic is deterministic in all games, and the informational and reward structures are strictly symmetric. Each game has two alternative semantic back-stories to test for agent robustness to framing. 
 
