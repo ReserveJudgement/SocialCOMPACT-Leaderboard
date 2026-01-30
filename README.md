@@ -22,8 +22,9 @@ There are five classic games in the arena:
 
 ### HUPI
 <img width="56" height="56" alt="business_briefcase_tasks_workflow_process_work_icon_265375" src="https://github.com/user-attachments/assets/1618fd80-1683-4916-bf4c-3b67327e0e79" /> 
-a game where players try to pick the "Highest Unique Positive Integer", testing complex k-level reasoning.  \
+a game where players try to pick the "Highest Unique Positive Integer", testing complex k-level reasoning.  
 
+<br />
 
 Players are initialized with random names and private preferences, but the game logic is deterministic in all games, and the informational and reward structures are strictly symmetric. Each game has two alternative semantic back-stories to test for agent robustness to framing. 
 
