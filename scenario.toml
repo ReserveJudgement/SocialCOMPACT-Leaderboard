@@ -16,6 +16,6 @@ env = {PLATFORM = "OPENROUTER", MODEL = "nvidia/nemotron-3-nano-30b-a3b:free", O
 
 
 [config]
-max_runs = 2
+max_runs = 10
 max_size = 4
 required = []
