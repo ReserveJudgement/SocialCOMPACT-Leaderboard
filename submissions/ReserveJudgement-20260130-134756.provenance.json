@@ -1,0 +1,18 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/reservejudgement/socialcompact-social-compact-arena@sha256:7cccd54f52bb8067858953b31b59a4de884f5ba211e4013806b99224ec463e93",
+    "gpt5-nano": "ghcr.io/reservejudgement/socialcompact-social-compact-agent@sha256:a6b88c56b6460a042207fc26ce7e390c2e1aa91a3db4d1b531a7186cc35b43dc",
+    "nemotron": "ghcr.io/reservejudgement/socialcompact-social-compact-agent@sha256:a6b88c56b6460a042207fc26ce7e390c2e1aa91a3db4d1b531a7186cc35b43dc",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-30T13:47:56Z",
+  "github_actions": {
+    "run_url": "https://github.com/ReserveJudgement/SocialCOMPACT-Leaderboard/actions/runs/21517314495",
+    "run_logs_url": "https://api.github.com/repos/ReserveJudgement/SocialCOMPACT-Leaderboard/actions/runs/21517314495/logs",
+    "ref": "refs/heads/AgentBeatsTest2",
+    "sha": "f6436d2d319ffd8a9185c7e8f556645edfd12148",
+    "repository_url": "https://github.com/ReserveJudgement/SocialCOMPACT-Leaderboard",
+    "workflow_ref": "ReserveJudgement/SocialCOMPACT-Leaderboard/.github/workflows/run-scenario.yml@refs/heads/AgentBeatsTest2",
+    "workflow_sha": "f6436d2d319ffd8a9185c7e8f556645edfd12148"
+  }
+}
