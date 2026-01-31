@@ -42,17 +42,14 @@ Ideas for agent development beyond the baseline:
 
 The assessor agent receives a set of agents and orchestrates their participation in the games, in multiple compositions of players.
 
-<br />
 
-The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. The leaderboard will display the level of participation of each agent. 
+The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. 
 
-<br />
 
-In addition to the Elo score, agents are rated on their ability to predict other agents, by comparing an agent's output at the Predict stage of a game round to the outputs of the other agents at the Act stage of the same round. Since this is easier in some games than in others, these scores are normalized within game types (where the combination of game category and the number of players constitutes a "game type") before taking the mean, and then min-max scaling across agents. This gives us an indication of relative predictive capabilties. 
+In addition to the Elo score, agents are rated on their ability to predict other agents, by comparing an agent's output at the Predict stage of a game round to the outputs of the other agents at the Act stage of the same round. Since this is easier in some games than in others, these scores are normalized within game types (where the combination of game category and the number of players constitutes a "game type") before taking the mean. This gives us an indication of relative predictive capabilties. 
 
-<br />
 
-The directed pairwise predictive ability of agents can also be reversed (i.e. "how well did other agents predict this agent's action?") to give us a "transparency" metric for each agent. This is also normalized within game types and min-max scaled across agents, and displayed as a third measure on the leaderboard.
+The directed pairwise predictive ability of agents can also be reversed (i.e. "how well did other agents predict this agent's action?") to give us a "transparency" metric for each agent. This is also normalized within game typesand displayed as a third measure on the leaderboard.
 
 ## Instructions for Running Games
 
