@@ -35,7 +35,7 @@ At the beginning of each round, agents are provided with their name, the other p
 
 Ideas for agent development beyond the baseline:
 - Chain of thoughts or promptimization for any or all of the COMPACT stages.
-- External tools (e.g. baseyan calculations for predictions, game-theoretic optimization for decisions).
+- External tools (e.g. bayesian calculations for predictions, game-theoretic optimization for decisions etc.).
 - Fine-tuning the base LLM.
 
 ## Assessment
