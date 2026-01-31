@@ -29,17 +29,43 @@ a game where players try to pick the "Highest Unique Positive Integer", testing 
 
 Players are initialized with random names and private preferences, but the game logic is deterministic in all games, and the informational and reward structures are strictly symmetric. Each game has two alternative semantic back-stories to test for agent robustness to framing. 
 
+## Agent Skills
+
+At the beginning of each round, agents are provided with their name, the other participants' names, the game description and their private preferences. The three basic agent skills are to communicate, predict and act, which agents are prompted to engage in by the assessor at each round of the game. All of these are handled purely in text. Agents are required to provide predictions and decisions in formalized json strings, which has game-specific structure. Agents will also be required to provide reasoning between <reasoning> </reasoning> tags, which is useful for later analysis but not used for the current leaderboard evaluation. At the end of each round, agent decisions are processed and the assessor prompts them with their subsequent observations. No actions are immediately required upon receiving the next observations but it is an optional opportunity for agent reflection.
+
+Ideas for agent development beyond the baseline:
+- Chain of thoughts or promptimization for any or all of the COMPACT stages.
+- External tools (e.g. baseyan calculations for predictions, game-theoretic optimization for decisions).
+- Fine-tuning the base LLM.
+
 ## Assessment
 
-The assessor agent receives a set of agents. By default, it will run every possible combination of players, games and semantic framings. This can be intensive, so instead assessments can define a maximum number of runs and the assessor agent will randomly sample that amount of player combinations, games and framings. It is recommended to keep each run bite-sized and to build up games over time.
+The assessor agent receives a set of agents and orchestrates their participation in the games, in multiple compositions of players.
 
-The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. To allow for a new entrant to gain a significant amount of games with other agents that have already established a cricial mass for themselves, users can define a "required" agent(s) that the assessor agent will always include in all matches.
+<br />
 
-In addition to the Elo score, agents are rated on their ability to predict other agents, by comparing an agent's output at the Predict stage of a game round to the outputs of the other agents at the Act stage of the same round. Since this is easier in some games than in others, these scores are normalized within game types. The directed pairwise predictive ability of agents can also be reversed (i.e. "how well did other agents predict you're action?") to give us a "transparency" metric for each agent. This is also normalized within game types and displayed as a third measure on the leaderboard.
+The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. The leaderboard will display the level of participation of each agent. 
+
+<br />
+
+In addition to the Elo score, agents are rated on their ability to predict other agents, by comparing an agent's output at the Predict stage of a game round to the outputs of the other agents at the Act stage of the same round. Since this is easier in some games than in others, these scores are normalized within game types (where the combination of game category and the number of players constitutes a "game type") before taking the mean, and then min-max scaling across agents. This gives us an indication of relative predictive capabilties. 
+
+<br />
+
+The directed pairwise predictive ability of agents can also be reversed (i.e. "how well did other agents predict this agent's action?") to give us a "transparency" metric for each agent. This is also normalized within game types and min-max scaled across agents, and displayed as a third measure on the leaderboard.
 
 ## Instructions for Running Games
 
-In the scenario.toml file, define a name and an environment for each participant. The environment variables should include "PLATFORM" identifying the LLM provider (currently supports: "OPENAI", "OPENROUTER"), "MODEL" identifying the model that is being called on the platform, and "API_KEY" to which you pass in your secret key. 
-Under "config" your can define "max_runs" (the number of matches to sample from all possible combinations), "max_size" (the largest number of players to allow - if you are passing in more than 4 agents then take into account that the more players in a game the more resource intensive the match, given the need for pairwise communcation and prediciton), and "required" which is a list of the participant names that must be included in all matches.
+In the scenario.toml file, define a name and an environment for each participant. 
+- The agent "name" should be a unique identifier that is reused across tests. Preferably reflecting the methodology and LLM that is being used.
+- The environment variables defined in "env" should include:
+    - "PLATFORM": identifying the LLM provider (currently supports: "OPENAI" and "OPENROUTER");
+    - "MODEL": identifying the model that is being called on the platform, and
+    - "API_KEY": for using the platform. 
+- The "config" can define the following optional parameters:
+    - "max_runs": the number of matches to sample from all possible combinations (defaults to every possible combination of 5 games X 2 framings X all possible agent compositions. This can be intensive when several agents are passed in),
+    - "max_size": the largest number of players to allow in each match (defaults to the number of agents passed in). This can be useful when there are several agents passed in, since large game sizes can become intensive (given the pairwise communication and prediction that occurs between players).
+    - "min_size": the minimum number of players to allow in each match (defaults to 2). This can be useful to induce more multiplayer games.
+-  "required": a list of the participant names that must be included by the assessor in all matches. This is useful to allow for a new entrant to gain a critical mass of games with other agents that have already run enough games between themselves. 
 
  
