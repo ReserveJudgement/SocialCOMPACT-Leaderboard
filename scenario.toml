@@ -21,6 +21,6 @@ env = {PLATFORM = "OPENROUTER", MODEL = "openai/gpt-oss-20b:free", API_KEY = "${
 
 
 [config]
-max_runs = 5
+max_runs = 10
 min_size = 3
 required = []
