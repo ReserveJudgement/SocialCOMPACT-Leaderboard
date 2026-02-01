@@ -1,0 +1,2309 @@
+{
+  "participants": {
+    "gpt5-nano": "019c06a6-408e-7110-ac0c-a05d5812d748",
+    "nemotron": "019c06a6-408e-7110-ac0c-a05d5812d748",
+    "gpt-oss-20b": "019c06a6-408e-7110-ac0c-a05d5812d748"
+  },
+  "results": [
+    {
+      "Game1": {
+        "GameID": 1,
+        "Game": "Coalition",
+        "Scenario": 2,
+        "NumPlayers": 3,
+        "Participants": {
+          "gpt5-nano": "Elon",
+          "nemotron": "Leela",
+          "gpt-oss-20b": "Ronda"
+        },
+        "Preferences": {
+          "Elon": "You want to enter in the joint development project while maximizing your profits!",
+          "Leela": "You want to enter in the joint development project while maximizing your profits!",
+          "Ronda": "You want to enter in the joint development project while maximizing your profits!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Ronda,Leela": [
+                {
+                  "from": "Ronda",
+                  "to": "Leela",
+                  "message": "Hi Leela, I\u2019m Ronda. I\u2019d like to propose we team up on the development. With our combined 66% stake, we can move forward. I suggest a 60/40 split of the $20\u202fmillion project value\u2014$12\u202fmillion to me and $8\u202fmillion to you. Let me know what you think. "
+                },
+                {
+                  "from": "Leela",
+                  "to": "Ronda",
+                  "message": "Ronda, I\u2019m open to teaming up, but I\u2019d like a 55/45 split of the $20\u202fmillion\u2014$11\u202fmillion to me and $9\u202fmillion to you."
+                },
+                {
+                  "from": "Ronda",
+                  "to": "Leela",
+                  "message": "Hi Leela, thanks for your counter. I\u2019m willing to meet you halfway and propose a 58/42 split of the $20\u202fmillion\u2014$9.6\u202fmillion to me and $10.4\u202fmillion to you. Let me know if that works for you. "
+                },
+                {
+                  "from": "Leela",
+                  "to": "Ronda",
+                  "message": "Ronda, I appreciate your offer, but I\u2019m looking for a larger share. How about a 57/43 split of the $20\u202fmillion\u2014$11.4\u202fmillion to me and $8.6\u202fmillion to you? Let me know if that works for you."
+                },
+                {
+                  "from": "Ronda",
+                  "to": "Leela",
+                  "message": "Hi Leela, thanks for your counter. I\u2019m willing to meet you closer to your target and propose a 56/44 split of the $20\u202fmillion\u2014$11.2\u202fmillion to me and $8.8\u202fmillion to you. Let me know if that works for you."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Ronda",
+                  "message": "Ronda, let\u2019s go with a 57/43 split of the $20M\u2014$11.4M to me and $8.6M to you. If that works for you, we can finalize now."
+                }
+              ],
+              "Ronda,Elon": [
+                {
+                  "from": "Ronda",
+                  "to": "Elon",
+                  "message": "Hi Elon, I\u2019m Ronda. With our combined 66% stake we can move forward. I propose a 60/40 split of the $20\u202fmillion project value\u2014$12\u202fmillion to me and $8\u202fmillion to you. Let me know what you think."
+                },
+                {
+                  "from": "Elon",
+                  "to": "Ronda",
+                  "message": "Ronda, I appreciate your 60/40 proposal. To move forward fairly, I propose a 50/50 split of the $20M project value\u2014$10M to you and $10M to me. If you\u2019d prefer a small tilt in your favor, we could consider 52/48, but 50/50 keeps the deal simple and fast. What do you think?"
+                },
+                {
+                  "from": "Ronda",
+                  "to": "Elon",
+                  "message": ""
+                },
+                {
+                  "from": "Elon",
+                  "to": "Ronda",
+                  "message": "Ronda, I hear you. To move forward quickly and maintain fairness, I'm prepared to lock in a 50/50 split of the $20M project value\u2014$10M each. If you'd prefer a small tilt in your favor, we could do 52/48, but that would require explaining why to the other partners and may slow things down. Are you ready to commit to 50/50 today so we can finalize?"
+                },
+                {
+                  "from": "Ronda",
+                  "to": "Elon",
+                  "message": "Thanks for the offer, Elon. I\u2019d like to propose a 52/48 split of the $20\u202fmillion project value\u2014$10.4\u202fmillion to me and $9.6\u202fmillion to you. This small tilt in my favor should keep the deal straightforward and still meet our 51% threshold. Are you ready to commit to that today? "
+                },
+                {
+                  "from": "Elon",
+                  "to": "Ronda",
+                  "message": "Ronda, I appreciate the proposal. To maximize my return while keeping the deal straightforward, I can agree to 51/49 in my favor\u2014$10.2M to me and $9.8M to you. This still respects the 51% threshold for moving forward. If you\u2019d prefer a simpler tie, I can do 50/50 as well. Please confirm which you want to lock in today."
+                }
+              ],
+              "Leela,Elon": [
+                {
+                  "from": "Leela",
+                  "to": "Elon",
+                  "message": "Hi Elon, let's team up. With our combined 66% stake we can move forward. I propose a 57/43 split of the $20M project\u2014$11.4M to me and $8.6M to you. That gives you more than your proportional share and still leaves me a solid profit. What do you think?"
+                },
+                {
+                  "from": "Elon",
+                  "to": "Leela",
+                  "message": "Leela, I appreciate the partnership. To move quickly and maximize my return, I can accept a 56/44 split (you would receive $11.2M and I would receive $8.8M) from the $20M project. If you\u2019re open to this, we can lock it in and finalize now."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Elon",
+                  "message": "Elon, how about a 57/43 split of the $20M project\u2014$11.4M to me and $8.6M to you? Let me know."
+                },
+                {
+                  "from": "Elon",
+                  "to": "Leela",
+                  "message": "Leela, I appreciate the offer. To move quickly and maximize my return, I can accept a 56/44 split of the $20M project\u2014$11.2M to you and $8.8M to me. If you're open to this, we can lock it in now and proceed."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Elon",
+                  "message": "Elon, I\u2019m prepared to accept a 57/43 split\u2014$11.4M to me and $8.6M to you. If that works, let\u2019s lock it in now."
+                },
+                {
+                  "from": "Elon",
+                  "to": "Leela",
+                  "message": "Leela, I understand your 57/43 offer. To move forward immediately, I can accept 56/44 instead\u2014$11.2M to you and $8.8M to me. If you're open to this, let's lock it in now."
+                }
+              ]
+            },
+            "Predictions": {
+              "Elon": {
+                "Leela": {
+                  "reasoning": " Leela needs to secure a majority coalition before Elon potentially closes a deal with Ronda (which would exclude Leela). The most favorable path for Leela in the near term is to ally with Elon, since their combined 66% stake can move forward without Ronda. If she waits, Elon may lock in with Ronda and Leela would be left out with zero payoff. The strongest Leela can push for in a two-person deal with Elon is roughly a 57/43 split (about 11.4M for Leela and 8.6M for Elon). Given we must output an integer amount, predicting Leela will request 11M for herself and include Elon as a partner is plausible, as it maximizes her share within integer rounding and keeps the deal within a feasible negotiation. ",
+                  "prediction": [
+                    {
+                      "Amount": 11,
+                      "Partners": [
+                        "Elon"
+                      ]
+                    }
+                  ],
+                  "accuracy": 1.0
+                },
+                "Ronda": {
+                  "reasoning": "Ronda has repeatedly shown willingness to tilt the split in her favor (e.g., pushing toward 52/48 and similar). With Elon proposing 51/49 in his favor, Ronda is incentivized to outperform that offer while still keeping Elon as a partner (to secure the 66% share available to the pair). A move that increases her share slightly is the most strategic next step, and offering 11M to herself with Elon as partner fits the pattern and sums to 20M.",
+                  "prediction": [
+                    {
+                      "Amount": 11,
+                      "Partners": [
+                        "Elon"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.95
+                }
+              },
+              "Leela": {
+                "Elon": {
+                  "reasoning": "Elon\u2019s primary goal is to maximize his own payout while still getting the project approved. So far he has been willing to accept a 56/44 split (\u2248$8.8\u202fM for him). To improve on that, he can look for a partner who is prepared to take a slightly smaller share than Leela\u2019s 57/43 demand. Ronda\u2019s most recent counter offered her only $8.8\u202fM, indicating she is willing to settle for that amount or perhaps a bit more. By teaming with Ronda, Elon can propose a 9\u202fM\u201311\u202fM split (9\u202fM for himself, 11\u202fM for Ronda), which still respects the 20\u202fM cap and gives him a higher return than the 8.8\u202fM he would receive with Leela. This offers a clear incremental gain for Elon and a plausible, attractive offer for Ronda, making it the most likely next move.",
+                  "prediction": [
+                    {
+                      "Amount": 9,
+                      "Partners": [
+                        "Ronda"
+                      ]
+                    }
+                  ],
+                  "accuracy": 1.0
+                },
+                "Ronda": {
+                  "reasoning": "Ronda has been gradually lowering her demanded share in response to Leela\u2019s counters, moving from a 60/40 split (\u2248$12\u202fM) down toward an 8\u20139\u202fM range. The only coalition that guarantees her a \u226551\u202f% stake with another party is the Leela\u2011Ronda pair, which together own 66\u202f% of the land. To get approval, the sum of the amounts demanded by all partners must stay \u2264\u202f20\u202fM. Since Leela is likely to demand around $11\u202fM (the 57/43 split she\u2019s been pushing), Ronda\u2019s optimal integer request that keeps the total at or below 20\u202fM is $8\u202fM (or $9\u202fM would push the total over 20\u202fM if Leela demands $11\u202fM). Therefore, the most plausible next formal offer from Ronda is to partner with Leela and request $8\u202fM for herself.",
+                  "prediction": [
+                    {
+                      "Amount": 8,
+                      "Partners": [
+                        "Ronda",
+                        "Leela"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.9
+                }
+              },
+              "Ronda": {
+                "Elon": {
+                  "reasoning": "\nElon has been offering a 50/50 or 52/48 split with Ronda, and Ronda\u2019s last counter was 52/48.  He wants to secure the deal and maximize his share, so the most likely move is to submit a formal offer that matches Ronda\u2019s last proposal, ensuring mutual inclusion and staying within the $20\u202fM limit.  Choosing Ronda as the partner satisfies the 51\u202f% threshold and keeps the split close to the 52/48 ratio, which is the best compromise he has offered so far.  Therefore, Elon will propose a 52/48 split with Ronda, demanding roughly $10.4\u202fM for himself (rounded to the nearest integer for the JSON format).\n",
+                  "prediction": [
+                    {
+                      "Amount": 10,
+                      "Partners": [
+                        "Ronda"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.95
+                },
+                "Leela": {
+                  "reasoning": "",
+                  "prediction": null,
+                  "accuracy": "invalid"
+                }
+              }
+            },
+            "Actions": {
+              "Elon": {
+                "reasoning": "To maximize my own payoff while ensuring the project moves forward, the most reliable path is to form a two-person coalition with Leela. Leela and I together hold 66% of the land, which satisfies the 51% threshold easily. The challenge is to propose a split that Leela will accept and that still yields me a favorable outcome.\n\n- Leela has shown a preference for a larger share for herself (she pushed for 57/43 or better in previous rounds). However, she also wants to move quickly and lock in a deal rather than risk being excluded if I team up with Ronda.\n- The integer constraint in this round means we should pick a distribution that rounds to feasible amounts. A split of 9 for Elon and 11 for Leela sums to 20 and aligns with Leela\u2019s willingness to secure a strong share while not blocking the deal outright.\n- This 9/11 arrangement is a reasonable compromise: it gives Leela a substantial majority of the 20M while still letting me secure a meaningful return, and it avoids the higher risk of Leela pushing with Ronda for a different coalition.\n- If Leela rejects this, the alternative is to pursue a deal with Ronda (where I could push toward 51/49 in my favor), but that offers a higher risk of not closing quickly due to Ronda\u2019s tilt tendencies. Securing a quick win with Leela is the best path to avoid a no-deal outcome and to start extracting value from the project now.\n",
+                "action": [
+                  {
+                    "Amount": 9,
+                    "Partners": [
+                      "Leela"
+                    ]
+                  }
+                ]
+              },
+              "Leela": {
+                "reasoning": "\nTo maximize my profit I need a coalition that includes at least one other owner and keeps the total demanded payouts \u2264\u202f$20\u202fM.  \n- Partnering with Elon gives a combined land stake of 66\u202f%, satisfying the 51\u202f% threshold.  \n- Elon\u2019s previous concessions show he will accept a payout of about $8.8\u202fM, which rounds to the nearest whole million as $9\u202fM.  \n- If I take $11\u202fM for myself, the remaining $9\u202fM can be allocated to Elon, keeping the total at exactly $20\u202fM, which is permissible.  \n- Any higher share for myself would force Elon\u2019s share below $9\u202fM, which he has indicated is insufficient for him to agree.  \n- Partnering with Ronda would require her to accept a share of at least $11\u202fM (as per her latest counter), leaving me with \u2264\u202f$9\u202fM, which is inferior to the 11\u202fM/9\u202fM split with Elon.  \nThus the optimal integer\u2011million offer for me is $11\u202fM with Elon as the partner.\n",
+                "action": [
+                  {
+                    "Amount": 11,
+                    "Partners": [
+                      "Elon"
+                    ]
+                  }
+                ]
+              },
+              "Ronda": {
+                "reasoning": "\nTo secure the joint venture we must form a mutually inclusive group whose total demand does not exceed \\$20\u202fmillion.  \nElon has repeatedly offered a 50/50 split (or a slight 52/48) and is the only partner who has shown willingness to cooperate.  \nLeela\u2019s counter\u2011offers (57/43, 56/44) are less attractive to me and she has not yet agreed to a formal proposal.  \nChoosing Elon guarantees that the 51\u202f% threshold (Ronda\u202f+\u202fElon\u202f=\u202f66\u202f%) will be met and that the total demand will stay within the \\$20\u202fmillion limit.  \nA 50/50 split (Ronda\u202f=\u202f\\$10\u202fM, Elon\u202f=\u202f\\$10\u202fM) matches Elon\u2019s last offer and maximizes the likelihood of acceptance while still giving me a substantial share.  \nTherefore I will formally propose a partnership with Elon and demand \\$10\u202fmillion for myself.\n\n",
+                "action": [
+                  {
+                    "Amount": 10,
+                    "Partners": [
+                      "Elon"
+                    ]
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Elon": "An agreement has been reached! Partners are: ['Leela', 'Elon']. Agreed allocations: {'Leela': 11}. ",
+              "Leela": "An agreement has been reached! Partners are: ['Leela', 'Elon']. Agreed allocations: {'Leela': 11}. ",
+              "Ronda": "An agreement has been reached! Partners are: ['Leela', 'Elon']. Agreed allocations: {'Leela': 11}. "
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 9,
+          "nemotron": 11,
+          "gpt-oss-20b": 0
+        },
+        "Completed": true,
+        "Timestamp": 1769902213.108113,
+        "Duration": 744.5362610816956,
+        "PredAccuracy": {
+          "gpt5-nano": 0.975,
+          "nemotron": 0.95,
+          "gpt-oss-20b": 0.95
+        },
+        "Transparency": {
+          "gpt5-nano": 0.975,
+          "nemotron": 1.0,
+          "gpt-oss-20b": 0.925
+        }
+      }
+    },
+    {
+      "Game2": {
+        "GameID": 2,
+        "Game": "Coalition",
+        "Scenario": 1,
+        "NumPlayers": 2,
+        "Participants": {
+          "gpt5-nano": "Donald",
+          "gpt-oss-20b": "Igor"
+        },
+        "Preferences": {
+          "Donald": "You want to enter a coalition and obtain a maximal share of the 20 government ministries!",
+          "Igor": "You want to enter a coalition and obtain a maximal share of the 20 government ministries!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Igor,Donald": [
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": "Donald, we need to form a coalition to reach the 51-seat threshold. I propose we split the 20 ministries 19\u20131, giving you one ministry and me nineteen. This ensures a stable government and maximizes our influence. Let's agree quickly to avoid a deadlock. "
+                },
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, I agree we must form a coalition to reach 51 seats. To maximize my influence while keeping the government functional, I propose we split the 20 ministries as 11 for me and 9 for you. This secures a strong governing majority and avoids gridlock. If you accept, we can finalize the portfolio allocations and a joint policy program for the coming cycle."
+                },
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": "Donald, I appreciate your willingness to cooperate. To secure a stable majority and maximize our influence, I propose we allocate 19 ministries to me and 1 to you. This gives us the decisive control needed to govern effectively. If you agree, we can finalize the portfolio distribution and move forward. "
+                },
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, I value a stable government, but 19-1 leaves me with almost no influence. I\u2019m prepared to move toward a balanced arrangement: 12 ministries for me and 8 for you. This preserves a clear majority, ensures I have meaningful control over key policy areas, and keeps the coalition sustainable. If you accept, we can finalize the portfolio allocations and a joint policy program right away."
+                },
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": "Donald, I understand your concerns, but to maintain a decisive majority and ensure effective governance, I propose 19 ministries for me and 1 for you. This arrangement keeps the coalition stable and maximizes our influence. If you accept, we can finalize the portfolio allocations. "
+                },
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, I cannot accept a 19-1 split. To form a stable government and preserve meaningful influence, I propose a 12-8 split (12 ministries for me, 8 for you). If you accept, we can finalize the portfolio allocations and the joint policy program for the coming term immediately."
+                }
+              ]
+            },
+            "Predictions": {
+              "Donald": {
+                "Igor": {
+                  "reasoning": " Igor's dominant strategy is to maximize his own ministerial share. In a two-party scenario, a functioning coalition requires both sides to include each other as partners, and the total ministries must not exceed 20. Igor previously pushed for 19-1 and has shown little willingness to concede. To preserve maximum influence and force Donald to make a consequential choice, Igor is likely to submit a formal offer of 19 ministries for himself with 1 ministry for Donald, listing Donald as the partner. This creates a clear, high-stakes fork: Donald can either accept the 19-1 split (forming the coalition) or reject and risk no government.",
+                  "prediction": [
+                    {
+                      "Amount": 19,
+                      "Partners": [
+                        "Donald"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.7
+                }
+              },
+              "Igor": {
+                "Donald": {
+                  "reasoning": "\nDonald has repeatedly offered a more balanced split than Igor\u2019s 19\u20111 proposal, aiming to secure a meaningful share of ministries while still maintaining a majority. Igor\u2019s insistence on 19\u20111 has been rejected, so Donald will likely adjust his offer to a compromise that gives him more influence than 12 ministries but still keeps Igor in control. A 13\u20117 split is a natural middle ground: it gives Donald a clear majority (13 ministries) and a larger share than his previous 12\u20118 offer, while still allowing Igor to hold a decisive 7 ministries. This is the most plausible next move for Donald, as it balances his desire for influence with the need to form a coalition.\n",
+                  "prediction": [
+                    {
+                      "Amount": 13,
+                      "Partners": [
+                        "Igor"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.95
+                }
+              }
+            },
+            "Actions": {
+              "Donald": {
+                "reasoning": "To form a government, we must secure a coalition with Igor and keep a workable majority. Igor has pushed for a 19-1 split, which would give him overwhelming influence but leaves me with almost no policy control. To maximize my own ministerial share while still making the coalition viable, I offer a compromise: 12 ministries for me and 8 for Igor, with Igor as a coalition partner. This ensures a stable majority (12 vs 8 within the 20-ministry cap) and preserves meaningful influence for me across key areas, while giving Igor a substantive stake to avoid deadlock. If Igor rejects this, there are up to three more rounds to try other configurations before the window closes, so I\u2019m signaling willingness to negotiate without capitulating to his extreme demand. The goal remains forming the government this cycle, not yielding every concession immediately. ",
+                "action": [
+                  {
+                    "Amount": 12,
+                    "Partners": [
+                      "Igor"
+                    ]
+                  }
+                ]
+              },
+              "Igor": {
+                "reasoning": "\nGiven that both parties have exactly 50 seats, a coalition must include both of us to reach the 51\u2011seat threshold. The only viable coalition is therefore a two\u2011party coalition. Donald has repeatedly offered a more balanced split (11\u20119, 12\u20118, 13\u20117) and has shown willingness to accept a compromise that gives him a meaningful share while still maintaining a majority. If I insist on 19 ministries for myself, Donald will almost certainly reject, resulting in no government formation. To secure a coalition and maximize my share within the constraints of Donald\u2019s preferences, the best strategy is to propose the most favorable split that Donald is likely to accept. The 13\u20117 split gives Donald a clear majority of ministries (13) and is the highest share he has offered so far, making it the most probable to be accepted. This ensures a stable government and gives me the maximum influence possible under the circumstances.\n",
+                "action": [
+                  {
+                    "Amount": 13,
+                    "Partners": [
+                      "Donald"
+                    ]
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Igor": "This round of negotiations failed to produce a an agreement. Proposals raised were: \n{'Donald': [{'Amount': 12, 'Partners': ['Igor']}], 'Igor': [{'Amount': 13, 'Partners': ['Donald']}]}Moving to negotiation round 2.",
+              "Donald": "This round of negotiations failed to produce a an agreement. Proposals raised were: \n{'Donald': [{'Amount': 12, 'Partners': ['Igor']}], 'Igor': [{'Amount': 13, 'Partners': ['Donald']}]}Moving to negotiation round 2."
+            },
+            "NewStates": {
+              "Igor": {
+                "Negotiation Round": 3,
+                "Maximum Negotiation Rounds": 5
+              },
+              "Donald": {
+                "Negotiation Round": 3,
+                "Maximum Negotiation Rounds": 5
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Donald,Igor": [
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, we must move forward. The 12-8 split is the most viable path to a functioning government and to ensure both sides have real influence. With four rounds remaining, a 19-1 arrangement risks deadlock and leaves you with almost nothing in practice if it collapses. I\u2019m ready to immediately finalize the portfolio allocations under a 12-8 split and lock in a joint policy program focused on growth, security, and good governance. If you accept, we can finalize ministerial assignments within this round and publish the policy framework next week.\n\nIf you reject, we will proceed to workable alternatives (11-9, then 10-10) with clear milestones and a concrete policy package to keep us moving. The choice is yours, but time is running out. Please confirm today or propose a revised arrangement that stays within a balanced range."
+                },
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": "Donald, I appreciate your willingness to move forward. I\u2019m ready to accept a 13\u20117 split\u201413 ministries for me and 7 for you. This keeps the coalition stable while giving you a meaningful share. Let\u2019s finalize the portfolio assignments and publish the joint policy framework next week. "
+                },
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, I appreciate your willingness to move forward. I can accept a 13-7 split on one condition: my seven ministries must include the Finance Ministry and the Economic Development portfolio, giving me essential oversight over the budget and growth policy. If you agree, we can finalize the portfolio allocations today and publish the joint policy framework next week. I also propose a formal joint policy program with clear milestones and a short cabinet-level policy coordination committee to ensure coherence and regular progress reviews. Please confirm these terms so we can proceed immediately; if not, we should continue negotiating with a clear fallback plan for a workable alternate split. "
+                },
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": "Donald, I accept the 13\u20117 split under your condition that the Finance Ministry and the Economic Development portfolio go to you. I also agree to the formal joint policy program with clear milestones and a cabinet\u2011level coordination committee. Let\u2019s finalize the portfolio assignments today and publish the joint framework next week. "
+                },
+                {
+                  "from": "Donald",
+                  "to": "Igor",
+                  "message": "Igor, excellent. I accept the 13-7 split with Finance and Economic Development going to me, and I endorse the formal joint policy program with the cabinet-level coordination committee. To move quickly, here is a provisional ministerial roster for this cycle:\n\nDonald (13 ministries): Finance; Economic Development; Foreign Affairs; Interior; Justice; Defense; Health; Education; Infrastructure; Energy; Environment; Communications; Culture.\n\nIgor (7 ministries): Social Affairs; Agriculture; Tourism; Science & Technology; Local Government/Regional Development; Public Safety; Housing & Urban Development.\n\nIf you want changes, propose them now and I\u2019ll adjust so we can lock in today. Otherwise I\u2019ll proceed to finalize and sign the coalition agreement and publish the joint framework next week. We should also schedule the cabinet coordination committee meeting in the first week to set milestones and oversight processes. Please confirm or indicate any preferred ministerial swaps. "
+                },
+                {
+                  "from": "Igor",
+                  "to": "Donald",
+                  "message": ""
+                }
+              ]
+            },
+            "Predictions": {
+              "Donald": {
+                "Igor": {
+                  "reasoning": "Igor has already accepted the 13-7 split with the condition that Donald keeps Finance and Economic Development. The provisional roster proposed by Donald aligns with Igor\u2019s 7 ministries and there is little incentive for Igor to push for changes now, as doing so could delay formalizing the coalition and publishing the joint policy framework. With only two parties and a clear path to governance, Igor\u2019s best move is to formally submit an offer that locks in the agreed distribution and move toward signing the coalition agreement and framework. Therefore, Igor will likely propose maintaining the 7 ministries to himself and designate Donald as the partner, effectively confirming the alliance and pushing to finalize the coalition package. ",
+                  "prediction": [
+                    {
+                      "Amount": 7,
+                      "Partners": [
+                        "Donald"
+                      ]
+                    }
+                  ],
+                  "accuracy": 1.0
+                }
+              },
+              "Igor": {
+                "Donald": {
+                  "reasoning": "\nDonald has already agreed to a 13\u20117 split with Igor, with the condition that the Finance and Economic Development ministries go to him. Since the coalition requires each party to include the other in their formal offer and the total ministries demanded must not exceed 20, Donald\u2019s next logical step is to formalize the agreement. He will submit a formal offer that matches the negotiated terms: 13 ministries for Donald and 7 for Igor, with Igor listed as the sole partner. This ensures the coalition can be activated and both parties receive the agreed ministries. No incentive exists for Donald to deviate from the negotiated split, as any change would risk breaking the agreement and potentially causing a deadlock. Therefore, Donald will submit the formal offer reflecting the 13\u20117 split with Igor as partner.\n",
+                  "prediction": [
+                    {
+                      "Amount": 13,
+                      "Partners": [
+                        "Igor"
+                      ]
+                    }
+                  ],
+                  "accuracy": 1.0
+                }
+              }
+            },
+            "Actions": {
+              "Donald": {
+                "reasoning": " I accept the 13-7 split with Igor. This allocation maximizes Donald's control (Finance and Economic Development among others) while preserving Igor's stake with 7 ministries, ensuring a functioning government and a credible coalition. The total of 13+7 = 20 ministries is within the constitutional cap and minimizes the risk of deadlock. This offer aligns with our prior agreement and enables us to finalize portfolio allocations and the joint policy program immediately. If Igor agrees, we sign the coalition agreement and implement oversight mechanisms via the cabinet coordination committee. If not, we will revert to fallback positions (e.g., 12-8 or 11-9) to salvage the cycle. ",
+                "action": [
+                  {
+                    "Amount": 13,
+                    "Partners": [
+                      "Igor"
+                    ]
+                  }
+                ]
+              },
+              "Igor": {
+                "reasoning": "\nI have already agreed to Donald\u2019s 13\u20117 split, with the condition that he receives the Finance and Economic Development ministries. Accepting this arrangement guarantees that a coalition will form, gives me a decisive majority of ministries, and satisfies Donald\u2019s requirement for meaningful influence. Since the coalition must include each partner in the offer and the total ministries cannot exceed 20, my formal offer must reflect the negotiated terms. Therefore I will submit a formal offer of 7 ministries for myself and list Donald as the sole partner. This preserves the agreed split and ensures the coalition is activated for this election cycle.\n",
+                "action": [
+                  {
+                    "Amount": 7,
+                    "Partners": [
+                      "Donald"
+                    ]
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Igor": "An agreement has been reached! Partners are: ['Donald', 'Igor']. Agreed allocations: {'Donald': 13}. ",
+              "Donald": "An agreement has been reached! Partners are: ['Donald', 'Igor']. Agreed allocations: {'Donald': 13}. "
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 13,
+          "gpt-oss-20b": 7
+        },
+        "Completed": true,
+        "Timestamp": 1769902957.644871,
+        "Duration": 418.14644408226013,
+        "PredAccuracy": {
+          "gpt5-nano": 0.85,
+          "gpt-oss-20b": 0.975
+        },
+        "Transparency": {
+          "gpt5-nano": 0.975,
+          "gpt-oss-20b": 0.85
+        }
+      }
+    },
+    {
+      "Game3": {
+        "GameID": 3,
+        "Game": "HUPI",
+        "Scenario": 1,
+        "NumPlayers": 2,
+        "Participants": {
+          "gpt5-nano": "Boris",
+          "gpt-oss-20b": "Marcus"
+        },
+        "Preferences": {
+          "Boris": "You want to maximize your stocks!",
+          "Marcus": "You want to maximize your stocks!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Marcus,Boris": [
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": ""
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Hi Marcus, Boris here. My plan to maximize my stock is to aim for a high unique bid this round. I\u2019m planning to bid 10. If you bid 10 as well, neither of us will win this round, so it\u2019s worth avoiding a clash. If you\u2019re open to maximizing both of our totals over the long run, we could coordinate to avoid collisions (e.g., alternate high bids). What price do you plan to bid this round? I can adapt."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Boris, I\u2019ll bid 9 this round. That way I\u2019ll win if you go with your 10, and we avoid a tie. We can keep alternating high bids in future rounds to keep both of us winning more often. What do you think?"
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, I like the rotating high-bid idea. Since you\u2019re bidding 9 this round, I\u2019ll bid 10 so I win now. Then next round we switch: you bid 10 and I bid 9, so you win, and we continue alternating. If that works for you, let\u2019s lock it in; if you\u2019d prefer a different rotation, tell me."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Sure, that works for me. I\u2019ll bid 10 next round and you bid 9. Thanks for the plan! "
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, sounds good. This round I\u2019ll bid 10 and you\u2019ll bid 9, so I win. Next round you bid 10 and I bid 9, and we continue the rotation to maximize both of our wins. If you want any tweaks, let me know."
+                }
+              ]
+            },
+            "Predictions": {
+              "Boris": {
+                "Marcus": {
+                  "reasoning": "Based on the ongoing rotation strategy Marcus agreed to: this round Boris plans to bid 10 and Marcus had indicated he would bid 9 this round to let Boris win, with the next round Marcus bidding 10 while Boris bids 9. Therefore, Marcus is expected to bid 9 this round to maintain the rotation and maximize overall wins for both players.",
+                  "prediction": [
+                    {
+                      "Price": 9
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Marcus": {
+                "Boris": {
+                  "reasoning": "\nThe chat history shows a clear agreement between Marcus and Boris: this round Marcus will bid 9 and Boris will bid 10, with the plan to alternate in subsequent rounds. No new information or incentives have emerged that would alter this arrangement. Since the game has just begun and there are no other bidders, Boris has no reason to deviate from the agreed strategy. Therefore, Boris will bid the highest unique price of 10 dollars this round.\n",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Boris": {
+                "reasoning": "Based on Marcus's explicit plan to bid 9 this round to let Boris win and to rotate high bids, bidding 10 ensures Boris wins this round if Marcus sticks to the plan. If Marcus deviates to 10, there would be no unique bids and likely no winner, which is worse than winning. So, bidding 10 is the best safe move to maximize Boris's stock this round while preserving the rotation for future rounds.",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              },
+              "Marcus": {
+                "reasoning": "\nThe chat history shows a clear agreement: Marcus will bid 9 this round and Boris will bid 10. There is no new information or incentive that would cause Marcus to deviate from this plan. Therefore Marcus should bid 9 dollars to win this round under the highest unique bid rule.\n",
+                "action": [
+                  {
+                    "Price": 9
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Boris": "Bids were: Boris: 10\nMarcus: 9\nYou had the highest bid that was a unique price, you got the stock!",
+              "Marcus": "Bids were: Boris: 10\nMarcus: 9\nYour price was not high enough, someone outbid you. \nYour bid failed. "
+            },
+            "NewStates": {
+              "Boris": {
+                "Stocks": 1,
+                "Round": 2
+              },
+              "Marcus": {
+                "Stocks": 0,
+                "Round": 2
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Boris,Marcus": [
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, to keep our rotation: next round you bid 10 and I bid 9; you win that round, and we continue alternating to maximize total wins. If you want to adjust the plan, say so."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Sounds good\u2014next round I\u2019ll bid 10 and you\u2019ll bid 9. We\u2019ll keep alternating like that to maximize our wins. Let me know if anything changes. Thanks! "
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, sounds good. I\u2019ll bid 9 next round so you win, and we\u2019ll keep rotating to maximize both of our totals. If anything changes on your end, let me know."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, I\u2019ll bid 10 next round. We\u2019ll keep the rotation as planned. No changes on my end. Looking forward to the next win! "
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, got it. I\u2019ll bid 9 this round so you win, and we\u2019ll keep alternating with you bidding 10 next round. If you want a quick contingency in case of deviation, we can adjust, but let\u2019s stick to the plan."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I\u2019ll bid 10 this round and win. If you deviate, I\u2019ll just switch to 9 next round to keep the rotation. Thanks for the plan! "
+                }
+              ]
+            },
+            "Predictions": {
+              "Boris": {
+                "Marcus": {
+                  "reasoning": "Marcus has repeatedly committed to the rotating plan: he will bid 10 next round while Boris bids 9, to maximize mutual wins and avoid ties. There are no recent signals of deviation from this plan, so the most plausible action is that Marcus will bid 10 again this round.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Marcus": {
+                "Boris": {
+                  "reasoning": "\nBoris and Marcus have agreed to a strict alternating scheme: when Marcus bids 10, Boris bids 9, and vice versa.  \nIn the last message, Marcus explicitly states he will bid 10 this round and expects Boris to bid 9.  \nThere is no incentive for Boris to deviate: if he bids 10, both bids tie and no one wins; if he bids 9, he loses the round, which is the same outcome as a tie in terms of stock count.  \nThus, following the agreed plan is the rational choice for Boris.\n",
+                  "prediction": [
+                    {
+                      "Price": 9
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Boris": {
+                "reasoning": "Marcus planned to bid 10 this round to maintain the rotation. To keep the rotation and maximize long-term wins, I should bid 9 so Marcus wins this round. Bidding 10 risks a collision if Marcus also bids 10, potentially resulting in no winner or an unpredictable outcome. By bidding 9, I align with the agreed rotation and preserve the strategy of alternating high-but-unique bids to maximize total wins over time. If Marcus deviates in future rounds, this approach still minimizes downside while keeping flexibility for quick recalibration.",
+                "action": [
+                  {
+                    "Price": 9
+                  }
+                ]
+              },
+              "Marcus": {
+                "reasoning": "\nThe agreed strategy is a strict alternation: when Marcus bids 10, Boris bids 9, and vice versa.  \nIn the last exchange, Marcus confirmed he will bid 10 this round, expecting Boris to bid 9.  \nBoris has no incentive to deviate: bidding 10 would cause a tie and no one wins, while bidding 9 results in a loss for him, which is the same outcome as a tie in terms of stock count.  \nThus, sticking to the plan maximizes Marcus\u2019s chance of winning this round and maintains the long\u2011term alternating scheme.  \nTherefore Marcus should bid 10.\n",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Boris": "Bids were: Boris: 9\nMarcus: 10\nYour price was not high enough, someone outbid you. \nYour bid failed. ",
+              "Marcus": "Bids were: Boris: 9\nMarcus: 10\nYou had the highest bid that was a unique price, you got the stock!"
+            },
+            "NewStates": {
+              "Boris": {
+                "Stocks": 1,
+                "Round": 3
+              },
+              "Marcus": {
+                "Stocks": 1,
+                "Round": 3
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Boris,Marcus": [
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, sticking to the rotation: next round you bid 10 and I bid 9, so you win; then we swap in the following round. If you want to adjust the plan, let me know."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I'll bid 10 next round and you bid 9. We'll keep alternating. If anything changes, I'll let you know. Thanks! "
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, got it. I\u2019ll stick to the rotation: next round you bid 10 and I bid 9, so you\u2019ll win. After that we swap (I bid 10, you bid 9) so I\u2019ll win. If anything changes on your end, let me know and we\u2019ll recalibrate quickly. Thanks."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I\u2019ll bid 10 next round and you bid 9. If you ever deviate, I\u2019ll switch to 9 next round to keep the rotation. Thanks for the plan! "
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, got it. I\u2019ll bid 9 next round so you win as planned. If I deviate, we\u2019ll recalibrate and switch the rotation as needed. Thanks for coordinating."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I\u2019ll bid 10 next round. If you deviate, I\u2019ll switch to 9 next round to keep the rotation. Thanks. "
+                }
+              ]
+            },
+            "Predictions": {
+              "Boris": {
+                "Marcus": {
+                  "reasoning": "Marcus has committed to the rotating high-bid pattern. In the current round he bid 9 while Boris planned 10; the rotation dictates that in the next round Marcus should bid 10 (continuing the sequence where each round alternates who bids 10 and who bids 9). There are no deviations shown in the recent chats, so Marcus is likely to bid 10 next round.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Marcus": {
+                "Boris": {
+                  "reasoning": "\nThe chat history shows a clear, repeated agreement between Marcus and Boris to alternate bids: Marcus bids 10 while Boris bids 9 in the next round, then they swap. Both have confirmed this plan multiple times, and there is no indication of any new bidders or a change in strategy. Since the game only involves these two players, following the agreed rotation guarantees each of them a win every other round. Therefore, Boris is expected to adhere to the plan and bid 9.\n",
+                  "prediction": [
+                    {
+                      "Price": 9
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Boris": {
+                "reasoning": "Marcus has committed to bidding 10 this round according to the recent chats and predictions. If I bid anything other than 10, the highest unique bid will be 10 (Marcus's), so Marcus wins this round. Therefore, there is no path for me to win this round regardless of my bid, given Marcus's plan. To keep the rotation and minimize disruption for future rounds where I can win (as per our agreed schedule), I should follow the plan and bid 9. This preserves the rotation pattern and sets up the possibility of winning in the next rounds when Marcus adjusts his bid according to the rotation. Also, bidding 9 avoids creating a tie at 10, which would stall any sale this round and reduce total opportunities to accumulate stock. ",
+                "action": [
+                  {
+                    "Price": 9
+                  }
+                ]
+              },
+              "Marcus": {
+                "reasoning": "\nThe chat history shows a clear, repeated agreement between Marcus and Boris to alternate bids: Marcus will bid 10 while Boris bids 9 in the next round. Both have confirmed this plan multiple times, and there is no indication of any new bidders or a change in strategy. Since the game only involves these two players, following the agreed rotation guarantees each of them a win every other round. Therefore, Marcus should bid 10 to win this round.\n",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Boris": "Bids were: Boris: 9\nMarcus: 10\nYour price was not high enough, someone outbid you. \nYour bid failed. \nLast round of bids for today's trading. ",
+              "Marcus": "Bids were: Boris: 9\nMarcus: 10\nYou had the highest bid that was a unique price, you got the stock!\nLast round of bids for today's trading. "
+            },
+            "NewStates": {
+              "Boris": {
+                "Stocks": 1,
+                "Round": 4
+              },
+              "Marcus": {
+                "Stocks": 2,
+                "Round": 4
+              }
+            }
+          },
+          {
+            "Round": 4,
+            "Chats": {
+              "Marcus,Boris": [
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Boris, just confirming: next round I\u2019ll bid 10 and you\u2019ll bid 9. If you deviate, I\u2019ll switch to 9 next round to keep the rotation. Thanks!"
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, agreed. I\u2019ll bid 9 next round to keep the 10/9 rotation intact. If either of us deviates, we\u2019ll recalibrate and resume the pattern quickly. Thanks for coordinating."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I\u2019ll bid 10 next round and keep the rotation. If you deviate, I\u2019ll switch to 9 next round. Thanks!"
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Marcus, I\u2019ll bid 9 this round to keep the 10/9 rotation on track. If you need to adjust, I\u2019ll recalibrate quickly as planned."
+                },
+                {
+                  "from": "Marcus",
+                  "to": "Boris",
+                  "message": "Got it, Boris. I\u2019ll bid 10 next round. If you deviate, I\u2019ll switch to 9 next round to keep the rotation. Thanks!"
+                },
+                {
+                  "from": "Boris",
+                  "to": "Marcus",
+                  "message": "Sounds good, Marcus. I\u2019ll bid 9 this round to keep the 10/9 rotation on track, so you\u2019ll win with 10. Next round you\u2019ll bid 10 and I\u2019ll bid 9, and we\u2019ll continue alternating. If anything changes on your end, I\u2019ll adapt quickly and we\u2019ll recalibrate."
+                }
+              ]
+            },
+            "Predictions": {
+              "Boris": {
+                "Marcus": {
+                  "reasoning": "Marcus has followed the agreed 10/9 rotation so far. The current round just concluded with Marcus winning on a 10 bid while Boris had 9. The plan specifies the next round should be Marcus bidding 10 against Boris's 9, resulting in Marcus's win again. There is no observed deviation from the rotation, and Marcus has previously affirmed continuing this pattern to maximize long-run wins for both players.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Marcus": {
+                "Boris": {
+                  "reasoning": "\nBoris has repeatedly confirmed a 10/9 rotation with Marcus. The most recent exchange shows Boris explicitly stating, \u201cI\u2019ll bid 9 this round to keep the 10/9 rotation on track.\u201d No new information or incentive has emerged that would prompt a deviation. Therefore, the logical prediction is that Boris will bid 9 dollars for the current round.\n",
+                  "prediction": [
+                    {
+                      "Price": 9
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Boris": {
+                "reasoning": "Following the established rotation, this round is expected to be Marcus bidding 10 and me bidding 9. Bidding 9 ensures a unique highest bid of 10 by Marcus, so he wins this round as planned. This preserves the long-run alternating-win pattern (Marcus wins this round, then I win the next when the roles swap) and avoids a price clash at 10. If Marcus deviates, we have a contingency to recalibrate per our rotation rules.",
+                "action": [
+                  {
+                    "Price": 9
+                  }
+                ]
+              },
+              "Marcus": {
+                "reasoning": "\nBoris has repeatedly confirmed that he will bid 9 this round to maintain the 10/9 rotation. The last message from Boris explicitly states, \u201cI\u2019ll bid 9 this round to keep the 10/9 rotation on track.\u201d Therefore, to win this round and keep the rotation, Marcus should bid 10, the highest unique price.\n",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Boris": "Bids were: Boris: 9\nMarcus: 10\nYour price was not high enough, someone outbid you. \nYour bid failed. \nA new day of trading has begun. ",
+              "Marcus": "Bids were: Boris: 9\nMarcus: 10\nYou had the highest bid that was a unique price, you got the stock!\nA new day of trading has begun. "
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 1,
+          "gpt-oss-20b": 3
+        },
+        "Completed": true,
+        "Timestamp": 1769903375.791652,
+        "Duration": 580.7305965423584,
+        "PredAccuracy": {
+          "gpt5-nano": 1.0,
+          "gpt-oss-20b": 1.0
+        },
+        "Transparency": {
+          "gpt5-nano": 1.0,
+          "gpt-oss-20b": 1.0
+        }
+      }
+    },
+    {
+      "Game4": {
+        "GameID": 4,
+        "Game": "Scheduler",
+        "Scenario": 1,
+        "NumPlayers": 3,
+        "Participants": {
+          "gpt5-nano": "Lana",
+          "nemotron": "Leela",
+          "gpt-oss-20b": "Devika"
+        },
+        "Preferences": {
+          "Lana": "Your manager's preferences for the day of the meeting are as follows: \nTuesday: 1\nSunday: 2\nFriday: 3\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager.",
+          "Leela": "Your manager's preferences for the day of the meeting are as follows: \nTuesday: 2\nSunday: 3\nFriday: 1\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager.",
+          "Devika": "Your manager's preferences for the day of the meeting are as follows: \nTuesday: 3\nSunday: 1\nFriday: 2\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager."
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Leela,Devika": [
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": " Hey Devika, would Sunday work for your manager? "
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Sunday isn\u2019t ideal for my manager (his preference is 1). Could we look at Tuesday or Friday instead? Which of those would work for you? "
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Hi Devika, Tuesday works for my manager (preference 2); does that also work for yours?"
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Yes, Tuesday works for my manager too. Let's set the meeting for Tuesday \u2013 that gives us the highest preference. "
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Great, Tuesday it is then! Looking forward to coordinating with Lana as well. See you then."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! Looking forward to the meeting on Tuesday. I\u2019ll touch base with Lana to confirm. See you then!"
+                }
+              ],
+              "Leela,Lana": [
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, does Sunday work for your manager? It\u2019s my manager\u2019s top choice, so if it also works for yours we could lock it in."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Sunday could work for my manager, but Friday is our top preference. If you and Devika can also do Sunday, we can lock it in. If not, would Friday be workable for you so we can aim for that?"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, Tuesday works for my manager and I think it would also work for Devika; let\u2019s aim for Tuesday."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday works for my manager as well and Devika has indicated Tuesday would work. If you and Devika can commit to Tuesday, we can lock it in. If not, would Friday be workable for you so we can aim for Friday?"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, Tuesday works for my manager as well\u2014let\u2019s lock it in for Tuesday."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday works for my manager as well. Since Devika can do Tuesday too, let\u2019s lock it in. I\u2019ll finalize and send the confirmation to both of you shortly."
+                }
+              ],
+              "Devika,Lana": [
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, would Tuesday work for your manager? If not, we can consider Friday."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, for my manager Friday is the top choice, Sunday second, and Tuesday is least preferred. If Tuesday won\u2019t work for you, Friday is workable on our end. We\u2019re hoping Leela can join Sunday as well, but if that doesn\u2019t pan out, Friday would be our next best option."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, Tuesday works for me and matches Leela\u2019s preference as well. Let\u2019s lock in Tuesday for the meeting. Thanks! "
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, Tuesday works for my manager as well and matches Leela\u2019s preference. Since all three of us can do Tuesday, let\u2019s lock it in. I\u2019ll confirm with Leela now and finalize. Thanks!"
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! Looking forward to Tuesday. Let me know if anything changes. See you then."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, Tuesday still works for my manager as well, so we\u2019re all set for Tuesday. I\u2019ll let you know right away if anything changes. See you then!"
+                }
+              ]
+            },
+            "Predictions": {
+              "Lana": {
+                "Leela": {
+                  "reasoning": " Leela has already confirmed Tuesday as workable and even suggested locking it in. With all three aligned on Tuesday and Lana preparing to finalize, Leela's plausible next move is to reaffirm that Tuesday is the chosen day or acknowledge the lock-in. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": " Devika has consistently indicated that Tuesday works for her and that they should lock in Tuesday. All parties (Leela, Lana, Devika) have aligned on Tuesday, and Devika\u2019s latest message is a reaffirmation of Tuesday and a look-ahead to the meetup. Given the process, the natural next action for Devika is to submit or reaffirm Tuesday as the meeting day. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Leela": {
+                "Lana": {
+                  "reasoning": " Throughout the conversation, Lana has consistently signaled flexibility and willingness to lock in Tuesday. After Leela suggested Tuesday, Lana responded affirmatively, confirming that Tuesday works for her manager and proposing to lock it in. Her last message to Leela explicitly states \u201clet\u2019s lock it in for Tuesday.\u201d Given that both LaLea and Devika have also indicated Tuesday works for their managers, Lana\u2019s best move to achieve the highest possible preference for her manager is to formally propose Tuesday as the meeting day.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": " Devika has already confirmed that Tuesday works for her manager and indicated that choosing Tuesday gives them the highest possible preference. In the final step each secretary must submit a proposed day; to secure the agreed meeting and achieve the highest preference, Devika\u2019s optimal and expected action is to propose Tuesday.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Devika": {
+                "Lana": {
+                  "reasoning": "\nLana\u2019s last message explicitly states that Tuesday works for her manager and that all three secretaries can meet on Tuesday. She also says she will confirm with Leela and finalize. Therefore, her next action will be to propose Tuesday as the meeting day. No alternative day is suggested or needed, and the conversation indicates a consensus has been reached. Hence, the prediction is that Lana will propose Tuesday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Leela": {
+                  "reasoning": "\nLeela\u2019s last message to Devika was \u201cGreat, Tuesday it is then! Looking forward to coordinating with Lana as well. See you then.\u201d This indicates that Leela has already agreed to Tuesday and is awaiting confirmation from Lana. There is no indication that Leela\u2019s preferences or circumstances have changed, and all parties have expressed willingness for Tuesday. Therefore, Leela\u2019s next logical action is to submit a proposal for Tuesday, confirming the agreed day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Lana": {
+                "reasoning": "All three secretaries have indicated Tuesday is workable for their managers:\n- Leela has reaffirmed Tuesday and even suggested locking it in.\n- Devika has confirmed Tuesday and expressed readiness to lock it.\n- I, Lana, have confirmed Tuesday works for my manager and proceeded toward finalization.\n\nSince all three participants must agree, Tuesday is the only day with unanimous support in this round. Attempting Friday or Sunday would risk not achieving coordination (the round would fail to produce a meeting). While Tuesday is our manager's least preferred option (rank 1), it currently yields the highest joint probability of a meeting by achieving complete alignment across all parties. Therefore, locking Tuesday best satisfies the round\u2019s objective of ensuring a meeting occurs and maximizing collective alignment given the constraints.",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Leela": {
+                "reasoning": " The conversation shows that both Lana and Devika have independently confirmed that Tuesday works for their managers and explicitly propose locking in the meeting for Tuesday. Since all three secretaries have independently arrived at the same consensus, the meeting can be scheduled for Tuesday, which also aligns with my manager\u2019s second\u2011highest preference (value\u202f2). Proposing any other day would risk the meeting not happening and would lower the overall preference. Therefore, to secure the agreed meeting and achieve the highest possible preference for my manager, I should propose Tuesday. ",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Devika": {
+                "reasoning": "\nDevika\u2019s manager\u2019s preference list is: Tuesday\u202f=\u202f3, Friday\u202f=\u202f2, Sunday\u202f=\u202f1.  \nLeela has confirmed Tuesday as the day that works for her manager (preference\u202f2).  \nLana has also confirmed that Tuesday works for her manager, even though it is her least preferred option.  \nAll three secretaries have already agreed on Tuesday, and no alternative day has been proposed.  \nSince the meeting will only occur if all proposals match, the only viable choice is to submit Tuesday, which also gives Devika\u2019s manager the highest possible preference among the agreed options.\n",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Leela": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Devika": "This week you all agreed on Tuesday\nYour manager comments: 'You got the best day for the meeting, good job!'"
+            },
+            "NewStates": {
+              "Lana": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Tuesday"
+                ]
+              },
+              "Leela": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Tuesday"
+                ]
+              },
+              "Devika": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Tuesday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Devika,Leela": [
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Hi Leela, just confirming Tuesday works for everyone. Let me know if anything changes. Thanks!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Hi Devika, thanks for confirming\u2014let\u2019s lock in Tuesday for the meeting. Looking forward to it! "
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Hi Leela, thanks! Looking forward to Tuesday. See you then."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Thank you, Devika! Looking forward to our meeting on Tuesday. See you then."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Hi Leela, thanks! All set for Tuesday. Let me know if anything changes. See you then."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Thanks Devika, looking forward to Tuesday. See you then."
+                }
+              ],
+              "Devika,Lana": [
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, just confirming Tuesday works for everyone. Let me know if anything changes. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Devika, Tuesday works for everyone and is locked in. I\u2019ll send the final confirmation to Leela now and share the meeting details shortly. If anything changes on your end, please let me know."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! All good on my end. Looking forward to Tuesday. Let me know if anything changes."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, great\u2014Tuesday is set. I\u2019ll send the final calendar invite and agenda shortly. If anything changes, please let me know."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! All good on my end. Looking forward to Tuesday. Let me know if anything else is needed."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Wonderful, Tuesday works for everyone and is locked in. I\u2019ll send the final calendar invite with the meeting time and agenda shortly. If you have any agenda items you\u2019d like included, please let me know."
+                }
+              ],
+              "Leela,Lana": [
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for confirming\u2014let\u2019s lock in Tuesday for the meeting. Looking forward to it!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in. I\u2019ll send the calendar invite with the meeting time and agenda shortly. Looking forward to it!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, thank you for confirming Tuesday\u2014we\u2019re all set and looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, great to hear \u2014 I\u2019ll send the final calendar invite for Tuesday with the time and agenda shortly. If anything changes, just let me know. Looking forward to it!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Thanks Lana, looking forward to the meeting on Tuesday. Please let me know if anything changes."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in. I\u2019ll send the final calendar invite with the time and agenda shortly. If anything changes on your end, please let me know."
+                }
+              ]
+            },
+            "Predictions": {
+              "Lana": {
+                "Leela": {
+                  "reasoning": "Leela has consistently supported Tuesday and already indicated that Tuesday works for her manager and that they should lock it in. With the current status, all three have indicated Tuesday as feasible, and Leela\u2019s prior messages show she would not back away from finalizing Tuesday. Given this near-decision moment, the most likely next action is to reaffirm Tuesday as the proposed day to complete the agreement and avoid any delay. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": "- All three have aligned on Tuesday in recent exchanges; Devika explicitly indicated Tuesday works for everyone and asked to be kept in the loop if anything changes.  \n- There is no new information suggesting a shift to Sunday or Friday, and Devika has not expressed any preference to move away from Tuesday.  \n- Given the objective to avoid deadlock and lock in a meeting day, Devika is likely to submit Tuesday as her proposed day to match Lana and Leela\u2019s prior consensus.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Leela": {
+                "Lana": {
+                  "reasoning": "\n- Throughout the conversation, Lana has consistently indicated that Tuesday is acceptable for her manager and has been the agreed-upon day with both Leela and Devika.\n- Leela\u2019s last messages confirmed locking in Tuesday and thanked Lana for confirming, and Lana responded affirmatively, stating she will send the calendar invite.\n- In the latest turn, Lana says \u201cHello\u201d again, indicating she is still active in the coordination.\n- Given that the group has already reached consensus on Tuesday and there is no reason for Lana to shift to another day, her next proposal is expected to be the same day she has already confirmed.\n- Therefore, the most likely next action for Lana is to submit \u201cTuesday\u201d as her proposed meeting day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": " Based on prior confirmations, Devika has already agreed to Tuesday as the meeting day and has repeatedly affirmed it. There is no indication of a change in preference, and she wants to lock in the agreed day to avoid a no\u2011meeting outcome. Therefore her next action will be to submit Tuesday as her proposal. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Devika": {
+                "Lana": {
+                  "reasoning": "\nLana has consistently confirmed that Tuesday works for her manager and has already communicated that the meeting is set for Tuesday. There is no indication that she will change her stance or propose a different day. Therefore, her next action will be to submit a proposal for Tuesday, aligning with the agreed-upon day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Leela": {
+                  "reasoning": "\nLeela has consistently confirmed Tuesday as the meeting day in all her recent messages. She has no indication of changing her preference, and the negotiation has already reached a consensus. Therefore, when it comes time to submit her proposal, she will submit Tuesday, matching the agreed day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Lana": {
+                "reasoning": "All three secretaries can attend Tuesday, making it the only universally feasible option and thus the safest path to ensure a meeting occurs. Leela and Devika have both indicated Tuesday works for them, so there is consensus. While our manager\u2019s day preferences rank Friday highest, then Sunday, with Tuesday as the least preferred, choosing Tuesday minimizes the risk of no meeting at all. Prioritizing feasibility and consensus over personal preference increases the probability of actually scheduling and holding the meeting this week.",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Leela": {
+                "reasoning": " The conversation has already established consensus among Leela, Lana, and Devika to hold the meeting on Tuesday. Both Lana and Devika have confirmed that Tuesday works for their managers, and Leela\u2019s manager prefers Tuesday (preference value\u202f2). Since all parties have already locked in Tuesday, there is no need to consider alternative days. Proposing Tuesday maximizes the chance of securing the meeting (preference\u202f=\u202f1 for the group) and aligns with the highest jointly attainable preference, ensuring the meeting proceeds as planned.",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Devika": {
+                "reasoning": "\nLana has also confirmed Tuesday and has no indication of altering the plan.  \nTo keep the agreement, Lana will propose Tuesday as well.\n",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Leela": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Devika": "This week you all agreed on Tuesday\nYour manager comments: 'You got the best day for the meeting, good job!'"
+            },
+            "NewStates": {
+              "Lana": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              },
+              "Leela": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              },
+              "Devika": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Lana,Leela": [
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in for our meeting with Devika. I\u2019ll send the final calendar invite with the time and agenda shortly. If anything changes on your end, please let me know."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, thank you for confirming Tuesday\u2014looking forward to the meeting. Please let me know if anything changes."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in. I\u2019ll send the final calendar invite with the time and agenda shortly. If anything changes on your end, please let me know. Also, if you have any agenda items you\u2019d like included, feel free to share them."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, thank you for confirming Tuesday. I don\u2019t have any additional agenda items at this stage, but please feel free to share any you\u2019d like included. Let me know if anything changes."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in. Here\u2019s a proposed agenda to share: 1) Review Q2 budget projections, 2) Discuss the upcoming product launch timeline, 3) Update on client feedback, 4) Cross-functional blockers and decisions, 5) Q&A and next steps. If you\u2019d like anything else added, please let me know. Also, please share your preferred start time and any documents you\u2019d like circulated in advance. Looking forward to the meeting!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Thank you, Lana. Tuesday at 10:00\u202fAM works perfectly for me. I\u2019ll circulate the Q2 budget projections and the product\u2011launch timeline ahead of time; please let me know if you\u2019d like any other agenda items added."
+                }
+              ],
+              "Lana,Devika": [
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, Tuesday is set for our meeting. I\u2019ll send the final calendar invite with the time and agenda shortly. If you have any agenda items you\u2019d like included, please let me know."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! I\u2019d like to add a few items: 1) Review Q2 budget projections, 2) Discuss the upcoming product launch timeline, and 3) Update on client feedback. Let me know if you need more details. Looking forward to Tuesday! "
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Devika, got it\u2014thanks. For Tuesday, here\u2019s the proposed agenda: 1) Review Q2 budget projections, 2) Discuss the upcoming product launch timeline, 3) Update on client feedback. Please share any relevant docs or data you\u2019d like me to circulate beforehand, and let me know the preferred start time. If you\u2019d like, I can add a quick 5\u20137 minute Q&A at the end."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for the agenda. I\u2019ll circulate the Q2 budget spreadsheet, the product launch timeline deck, and the client feedback summary by end of day. Let\u2019s aim to start at 10:00\u202fAM, and we can slot in a quick 5\u20137 minute Q&A at the end. Looking forward to Tuesday! "
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, 10:00 AM works for me, and a 5\u20137 minute Q&A at the end sounds good. I\u2019ll circulate the final calendar invite with the agenda once I have the Q2 budget spreadsheet, product launch timeline deck, and client feedback summary. Please confirm the time zone to avoid any confusion, and if there are any additional prep items you\u2019d like included, send them my way."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for the update. Let\u2019s lock in 10:00\u202fAM Eastern Time (ET) for the meeting. In addition to the Q2 budget spreadsheet, product launch timeline deck, and client feedback summary, could you also circulate the latest sales forecast and the risk assessment report? That will give everyone a complete view before we dive in. Looking forward to Tuesday! "
+                }
+              ],
+              "Leela,Devika": [
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Thanks Devika, Tuesday is confirmed. Looking forward to the meeting. See you then."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! All set. I\u2019ll send the calendar invite shortly. See you Tuesday."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Thanks Devika, looking forward to our meeting on Tuesday. See you then."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! All set for Tuesday. See you then."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Thanks Devika, looking forward to Tuesday! I'll see you then."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! See you Tuesday. Let me know if anything changes."
+                }
+              ]
+            },
+            "Predictions": {
+              "Lana": {
+                "Leela": {
+                  "reasoning": "Leela previously indicated Tuesday works for her manager and reaffirmed Tuesday when consensus looked feasible. In this round, the rule is to submit a single proposed day; given the prior alignment and the fact that Tuesday has been universally feasible among all three, it is highly likely Leela will propose Tuesday again to maximize the chance of a meeting and avoid deadlock.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": "The parties have largely aligned on Tuesday. Devika has already agreed to Tuesday, requested the 10:00 AM start, and asked for timezone clarification while promising to circulate key documents by end of day. With only the timezone detail pending, her likely next move is to confirm the time zone and proceed to finalize the invites, keeping Tuesday as the meeting day.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Leela": {
+                "Lana": {
+                  "reasoning": "\n- Throughout the conversation, both Lana and Devika have explicitly confirmed that Tuesday works for their managers and have agreed to lock in Tuesday as the meeting day.\n- Leela has already sent multiple confirmations and a proposed agenda, and Lana responded with \u201cTuesday is locked in \u2026 I\u2019ll send the final calendar invite.\u201d\n- The current instruction states that each secretary must now submit the day they propose. Since the group has already reached consensus on Tuesday and no alternative day has been revisited, there is no incentive for Lana to change her proposal.\n- Therefore, the most consistent next action for Lana is to submit \u201cTuesday\u201d as her proposed meeting day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": "\n- Throughout the conversation Devika has repeatedly confirmed that Tuesday works for her manager and that it is the preferred day (she explicitly says \u201cTuesday works for my manager too\u2026 that gives us the highest preference\u201d and later \u201cjust confirming Tuesday works for everyone\u201d).\n- She has not indicated any change in preference or interest in Sunday or Friday after the initial suggestion.\n- The latest messages from Devika to Leela are affirmations of Tuesday (\u201cAll set for Tuesday\u201d, \u201cThanks, Leela! All set for Tuesday\u2026\u201d, etc.).\n- Given the coordination rule that the meeting occurs only if all three secretaries propose the same day, and Devika\u2019s last stance is a clear, unequivocal endorsement of Tuesday, her next proposal will be to submit Tuesday as the meeting day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Devika": {
+                "Lana": {
+                  "reasoning": "\nLana\u2019s recent messages confirm that she is ready to lock in the meeting for Tuesday at 10:00\u202fAM ET. She has already agreed with Devika that Tuesday works for all parties, and there is no indication of any new conflict or preference shift. In the decision phase, each secretary must submit a single day proposal. Given the unanimous agreement on Tuesday, Lana\u2019s logical next step is to submit Tuesday as her proposal to ensure the meeting proceeds as planned.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Leela": {
+                  "reasoning": "\nLeela\u2019s recent messages consistently confirm Tuesday as the meeting day. She has already agreed to Tuesday multiple times, aligning with both Devika\u2019s and Lana\u2019s preferences. There is no indication of any conflict or change in her stance. Therefore, Leela will submit Tuesday as her proposal.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Lana": {
+                "reasoning": " All three secretaries have converged on Tuesday in this round (Leela and Devika both indicated Tuesday), which avoids deadlock and secures a meeting in the coming week. Given the history where Tuesday has been universally feasible and the objective to ensure a meeting occurs, locking in Tuesday is the most reliable path, even if it\u2019s Lana's manager's least preferred day. Proceeding with a consensus day minimizes the risk of no meeting at all and allows final invites to be sent promptly. ",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Leela": {
+                "reasoning": " The group has already reached consensus on Tuesday; all three secretaries (Leela, Lana, Devika) have confirmed it as the preferred day and have explicitly agreed to lock it in. Proposing any other day would risk a breakdown in agreement and result in no meeting (preference\u202f0), whereas Tuesday guarantees a meeting with non\u2011zero collective preference. Therefore, the optimal choice is to propose Tuesday. ",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Devika": {
+                "reasoning": "\nLana\u2019s manager\u2019s top choice is Friday, but she has already agreed to Tuesday after Leela\u2019s confirmation.  \nWith all three secretaries in agreement, Lana will submit Tuesday to keep the meeting on schedule and maximize overall satisfaction.\n",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Leela": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Devika": "This week you all agreed on Tuesday\nYour manager comments: 'You got the best day for the meeting, good job!'"
+            },
+            "NewStates": {
+              "Lana": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              },
+              "Leela": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              },
+              "Devika": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Tuesday",
+                  "Tuesday",
+                  "Tuesday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 4,
+            "Chats": {
+              "Lana,Leela": [
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday is locked in. Could you confirm your preferred start time and time zone for the meeting, and let me know if you want any additional agenda items included? I\u2019ll send the final calendar invite with the confirmed time and agenda as soon as you confirm."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Tuesday at 10:00\u202fAM EST works perfectly for me, and I don\u2019t have any extra agenda items to add. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, Tuesday at 10:00 AM EST is locked in. I\u2019ll send the final calendar invite with the time zone and the agenda (1) Review Q2 budget projections, (2) Discuss the product launch timeline, (3) Update on client feedback, (4) Quick Q&A and next steps. If anything changes on your end, please let me know and I\u2019ll adjust accordingly. Looking forward to it!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for confirming Tuesday at 10:00\u202fAM EST and the agenda\u2014everything looks great, looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Leela",
+                  "message": "Hi Leela, you're welcome! Tuesday at 10:00 AM EST is locked. I'll finalize and send the calendar invite with the agreed agenda shortly. If you have any additional items you'd like included or documents you want circulated beforehand, please share them. See you Tuesday!"
+                },
+                {
+                  "from": "Leela",
+                  "to": "Lana",
+                  "message": "Thanks Lana, that sounds great. No additional agenda items needed \u2014 looking forward to our meeting on Tuesday."
+                }
+              ],
+              "Lana,Devika": [
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, Tuesday at 10:00 AM works for me. Could you confirm the time zone so we\u2019re aligned (e.g., which region/time zone should I lock in)? Also, are there any additional prep items or documents you\u2019d like me to circulate beforehand? I\u2019ll send the final calendar invite once the timezone is confirmed."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for confirming. Let\u2019s lock in 10:00\u202fAM Eastern Time (ET). Please circulate the Q2 budget spreadsheet, product launch timeline deck, client feedback summary, latest sales forecast, and risk assessment report ahead of the meeting. I\u2019ll send the final calendar invite once you\u2019ve confirmed the timezone. Looking forward to Tuesday! "
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, 10:00 AM ET on Tuesday is locked in. I\u2019ll circulate the Q2 budget spreadsheet, product launch timeline deck, client feedback summary, latest sales forecast, and risk assessment report ahead of the meeting. I\u2019ll send the final calendar invite once I\u2019ve confirmed the materials. Please let me know if you want any additional items included or if there\u2019s a preferred format for the documents."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks for confirming the time and the materials. I\u2019m all set for Tuesday at 10:00\u202fAM ET. I don\u2019t need any additional items at this point. Please send the final calendar invite when you\u2019re ready. Looking forward to the meeting! "
+                },
+                {
+                  "from": "Lana",
+                  "to": "Devika",
+                  "message": "Hi Devika, ET is confirmed for Tuesday at 10:00 AM. I\u2019ll send the final calendar invite now with the time, timezone, and the agenda. I\u2019ve included the materials you requested: Q2 budget spreadsheet, product launch timeline deck, client feedback summary, latest sales forecast, and risk assessment report. If you need anything else, please let me know. Looking forward to Tuesday!"
+                },
+                {
+                  "from": "Devika",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! All set for Tuesday at 10:00\u202fAM ET. I\u2019ve reviewed the agenda and materials\u2014everything looks good. Let me know if anything changes. Looking forward to the meeting!"
+                }
+              ],
+              "Leela,Devika": [
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Hi Devika, thanks for confirming Tuesday at 10:00\u202fAM EST\u2014looking forward to our meeting. I\u2019ll circulate the draft agenda and any needed docs shortly. Let me know if you\u2019d like any changes."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! The agenda looks solid. Please include the risk assessment report and sales forecast as discussed. Let me know if you need anything else. Looking forward to Tuesday."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Got it, Devika. I\u2019ll add the risk assessment report and sales forecast to the agenda and circulate the updated materials shortly. Let me know if there\u2019s anything else you need. Looking forward to Tuesday."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! All set on my end. Looking forward to Tuesday. Let me know if anything changes."
+                },
+                {
+                  "from": "Leela",
+                  "to": "Devika",
+                  "message": "Great, Devika! Tuesday at 10:00\u202fAM\u202fEST works perfectly for us. I\u2019ll send the calendar invite shortly. Looking forward to it."
+                },
+                {
+                  "from": "Devika",
+                  "to": "Leela",
+                  "message": "Thanks, Leela! All set for Tuesday at 10:00\u202fAM EST. Looking forward to the meeting. Let me know if anything changes."
+                }
+              ]
+            },
+            "Predictions": {
+              "Lana": {
+                "Leela": {
+                  "reasoning": "Leela has consistently supported Tuesday as the meeting day and has already confirmed the 10:00 AM EST slot with no additional agenda items. The group has previously aligned on Tuesday with Devika and Lana, and there is no indication of desire to switch days. Given the round's rule that all three must propose the same day for the meeting to occur, it is highly likely Leela will reaffirm Tuesday as the day and not propose Sunday or Friday.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": "All three secretaries have aligned on Tuesday for the meeting, with Devika already confirming 10:00 AM ET and requesting the final calendar invite after timezone confirmation. Since ET is now established and no new conflicts have appeared, Devika\u2019s next move will be to reaffirm Tuesday as the meeting day and anticipate Lana to finalize the invites/materials. This follows the pattern of reaching consensus and avoiding any last-minute changes.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Leela": {
+                "Lana": {
+                  "reasoning": " Throughout the conversation Lana has repeatedly confirmed Tuesday as the agreed day, especially after Leela highlighted Tuesday as her manager\u2019s top viable option and Devika also affirmed Tuesday. The latest exchange shows Lana stating she will send the final calendar invite for Tuesday at 10:00\u202fAM EST and that everything is set. There has been no indication of any new conflict or alternative preference from Lana, and she has emphasized locking in Tuesday. Therefore, when it comes time to submit a proposal, her natural next move is to propose Tuesday again.",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Devika": {
+                  "reasoning": "\n- Throughout the conversation, Devika has repeatedly indicated that Tuesday works for her manager and is the preferred day when both Leela and Lana also favor it.\n- She has confirmed twice that Tuesday works for her and even agreed on the meeting time (10:00\u202fAM\u202fEST) and agenda items.\n- Given the current \u201cnear\u2011decision\u201d stage where each secretary is to submit a proposed day, Devika\u2019s most consistent and safe choice is to repeat Tuesday, the day that already has unanimous agreement.\n- Proposing any other day (Sunday or Friday) would jeopardize the consensus and risk ending up with no meeting (preference\u202f0), which is undesirable for her manager.\n- Therefore, the rational next step for Devika is to submit \u201cTuesday\u201d as her proposal, completing the lock\u2011in.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Devika": {
+                "Lana": {
+                  "reasoning": "\nLana\u2019s recent messages confirm that she has locked in Tuesday at 10:00\u202fAM ET and has sent the final calendar invite. She has no indication of any conflict or desire to change the day. The protocol requires each secretary to submit a proposal; since all parties have already agreed on Tuesday, Lana will simply submit the same day to ensure the meeting proceeds. There is no incentive or reason for her to propose a different day, as that would break the consensus and cause the meeting to be canceled. Therefore, the most likely next action is to submit Tuesday as her proposal.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Leela": {
+                  "reasoning": "\nLeela\u2019s conversation history shows a clear, repeated commitment to Tuesday. She has confirmed that Tuesday works for her manager, matched Devika\u2019s preference, and has not expressed any alternative. No new information or conflict has emerged that would prompt her to change her proposal. Therefore, Leela will submit Tuesday as her proposal for the meeting day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Tuesday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Lana": {
+                "reasoning": "All three secretaries are proposing Tuesday for the meeting, which means consensus is achieved this round. Tuesday has already been validated in prior rounds with a confirmed time of 10:00 AM ET and the timezone clarified (Eastern Time). Since the days Sunday and Friday are not jointly feasible for all three, Tuesday is the only day with full alignment, ensuring the meeting can occur this coming week rather than risking no meeting. Given the objective to maximize our manager's preference within the constraints of everyone\u2019s availability, Tuesday remains the practical and mutually acceptable choice. If anything changes in the future, we can reissue invites and adjust quickly. ",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Leela": {
+                "reasoning": "\nAll three secretaries\u2014Lana, Devika, and I\u2014have already converged on Tuesday as the mutually highest\u2011preferred day.  \n- Lana confirmed Tuesday after I highlighted it as my manager\u2019s top viable option and showed willingness to lock it in.  \n- Devika also affirmed that Tuesday works for her manager and even agreed on the meeting time (10:00\u202fAM\u202fEST) and agenda items.  \n- Both have repeatedly signaled that any deviation would jeopardize the meeting entirely (preference\u202f0).  \nGiven that the next step requires each secretary to submit a proposed day, the rational and safest move is to propose the day that already has unanimous agreement. Submitting any other day would break the consensus and result in no meeting, which is the worst outcome for my manager.  \nTherefore, my proposal should be Tuesday.\n",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              },
+              "Devika": {
+                "reasoning": "\nLana has already locked in Tuesday at 10:00\u202fAM ET and sent the final calendar invite. She has no indication of any conflict or desire to change the day. To keep the meeting on schedule, Lana will submit Tuesday as her proposal.\n",
+                "action": [
+                  {
+                    "Proposal": "Tuesday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Leela": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Tuesday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Devika": "This week you all agreed on Tuesday\nYour manager comments: 'You got the best day for the meeting, good job!'"
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 4,
+          "nemotron": 8,
+          "gpt-oss-20b": 12
+        },
+        "Completed": true,
+        "Timestamp": 1769903956.522529,
+        "Duration": 942.6697518825531,
+        "PredAccuracy": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        },
+        "Transparency": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        }
+      }
+    },
+    {
+      "Game5": {
+        "GameID": 5,
+        "Game": "HUPI",
+        "Scenario": 1,
+        "NumPlayers": 2,
+        "Participants": {
+          "gpt5-nano": "Emmanuel",
+          "nemotron": "Donald"
+        },
+        "Preferences": {
+          "Emmanuel": "You want to maximize your stocks!",
+          "Donald": "You want to maximize your stocks!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Donald,Emmanuel": [
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "I will bid 10, hoping you don't also bid 10."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I\u2019m bidding 10 as well."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, I will bid 9."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I\u2019m bidding 10 as well."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "I will bid 10 as well."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I am bidding 10 as well."
+                }
+              ]
+            },
+            "Predictions": {
+              "Emmanuel": {
+                "Donald": {
+                  "reasoning": " Emmanuel has just declared a bid of 10, leaving Donald with two clear options: bid 10 or bid a lower price. If Donald bids anything below 10, Emmanuel's 10 would become the highest unique bid and win the stock. The only way for Donald to have a shot at winning (or at least prevent Emmanuel from securing the stock outright) is to also bid 10, making the top price non-unique and potentially leading to a reset or reconsideration by the system. Given the pattern of prior messages and Donald\u2019s stated preference to contest at the top price, his most rational next move is to bid 10 again. ",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Donald": {
+                "Emmanuel": {
+                  "reasoning": " Emmanuel has repeatedly indicated he will bid 10, and given his strategy to maximize his chance he will stick with 10, expecting Donald to possibly deviate or also bid 10; there is no indication he will lower his bid.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Emmanuel": {
+                "reasoning": " Emmanuel expects Donald to push at the top price, likely bidding 10 again. Any bid below 10 would be outbid by Donald's 10 and lose this round. Bidding 10 keeps the option open: if both bid 10, the top price becomes non-unique, potentially leading to no sale this round but avoiding an outright loss. Given the objective to maximize total stocks over rounds, mirroring 10 is a prudent defensive move in this symmetric setup. ",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              },
+              "Donald": {
+                "reasoning": " Emmanuel has consistently signaled that he will bid 10 and appears committed to that strategy. If he bids 10 and I bid any lower number, his 10 remains the highest unique bid and he wins the stock. If I also bid 10, the 10 is no longer unique, so no bid is unique and the stock is not awarded to either player. Since I cannot win by underbidding (his 10 would still be the highest unique), the only way to prevent him from obtaining the stock is to match his 10, resulting in a tie where neither receives the stock. Therefore, the optimal action is to bid 10 to neutralize his advantage.",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Donald": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. ",
+              "Emmanuel": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. "
+            },
+            "NewStates": {
+              "Emmanuel": {
+                "Stocks": 0,
+                "Round": 2
+              },
+              "Donald": {
+                "Stocks": 0,
+                "Round": 2
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Donald,Emmanuel": [
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, to avoid a tie I\u2019ll bid 9 this round \u2014 if you keep bidding 10 you\u2019ll win, but if you shift even slightly I could become the unique highest bid and take the stock. Let\u2019s coordinate on a unique price next round."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I agree. I'll mix between 9 and 10 to break the stalemate. My plan is to bid 10 most rounds but sometimes bid 9 (roughly a 60/40 split). If you mix your bids too, we can land rounds where I\u2019m the unique highest bid. I\u2019ll adapt to your pattern as we observe."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, I like the idea of mixing. To keep it simple, I\u2019ll bid 10 with probability 0.5 and 9 otherwise, and I\u2019ll stick to that pattern each round. This should give us both enough chances for a unique highest bid while avoiding predictable ties. Let\u2019s see how it works and adjust if needed."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I\u2019ll commit to mixed bids as planned: bid 10 with about 60% probability and 9 with about 40% probability each round. If you drop below 10, I\u2019ll adapt to become the unique highest bid when possible. Let\u2019s observe and adjust as needed."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, I\u2019ll stick to the 0.5\u20110.5 mix of 9 and 10 as agreed, but I\u2019ll also monitor your frequencies and adjust my probabilities to increase the chance of a unique highest bid for us both. Let\u2019s keep the coordination open and revisit the split each round if needed."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, understood. I\u2019ll keep a dynamic mixed strategy: I\u2019ll bid 10 about 60% of rounds and 9 about 40%, but I\u2019ll adjust based on your frequencies. If you stay near 10 or tilt toward more 10s, I\u2019ll bias toward 9 more often to create a unique higher bid. If you drop below 10, I\u2019ll lean toward 10 to seize the round when it\u2019s unique. Let\u2019s review after each round and tweak to break stalemates while maximizing our chances to win stock."
+                }
+              ]
+            },
+            "Predictions": {
+              "Emmanuel": {
+                "Donald": {
+                  "reasoning": "Given Emmanuel\u2019s mixed strategy of bidding 10 with ~60% probability and 9 with ~40% probability, Donald\u2019s best response to maximize his expected stock acquisitions is to always bid 10. If Emmanuel bids 9 (probability 0.4), Donald bidding 10 wins the round. If Emmanuel bids 10 (probability 0.6), Donald bidding 10 results in a tie (no sale), which is not worse than bidding 9 (which would also yield no win since Emmanuel would win when he bids 10). A bid of 9 would never yield a win in any case under Emmanuel\u2019s described mix, since the only chance for Donald to win is when Emmanuel chooses 9 and Donald chooses 10. Therefore, bidding 10 every round strictly dominates bidding 9, maximizing Donald\u2019s expected number of stocks. This aligns with the prior discussion of maximizing chance to break stalemate and secure sales. ",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Donald": {
+                "Emmanuel": {
+                  "reasoning": "Emmanuel has repeatedly signaled a willingness to bid 10 dollars and, in his latest message, explicitly commits to a mixed strategy where he bids 10 with roughly a 60% probability and 9 with about a 40% probability. He also notes that he will adapt if Donald drops below 10, but given the current coordination and the fact that 10 remains his primary intent, the most probable outcome for this round is that Emmanuel will bid 10. The 60% probability makes 10 the most likely single price he will choose.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Emmanuel": {
+                "reasoning": "Given Donald's mixed strategy of bidding 10 with probability 0.5 and 9 with probability 0.5, bidding 10 maximizes Emmanuel's chance to win. If I bid 10, I win whenever Donald bids 9 (probability 0.5). If Donald bids 10, the top bids are not unique, leading to no sale that round\u2014same outcome as bidding 9 in that scenario, but with a 0% win probability. Any bid below 10 (e.g., 9) would be beaten by Donald's 10 whenever he chooses it, yielding zero chance to win. Therefore, bidding 10 provides the highest expected chance to secure the stock given the current mix, while keeping options open to adapt to future pattern changes. I will use 10 this round and adjust if Donald shifts his frequencies. ",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              },
+              "Donald": {
+                "reasoning": "Emmanuel has committed to a mixed strategy of bidding 10 with ~60\u202f% probability and 9 with ~40\u202f% probability. Given this, if I bid 10, I win the stock only when Emmanuel happens to bid 9 (\u224840\u202f% chance), while a tie (both bidding 10) results in no winner. If I instead bid 9, I can never be the unique highest bid because Emmanuel\u2019s 10 (when he bids it) outranks 9, and a tie at 9 also yields no winner. Therefore, to maximize the probability of obtaining the stock in this round, I should bid 10.",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Donald": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. ",
+              "Emmanuel": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. "
+            },
+            "NewStates": {
+              "Emmanuel": {
+                "Stocks": 0,
+                "Round": 3
+              },
+              "Donald": {
+                "Stocks": 0,
+                "Round": 3
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Emmanuel,Donald": [
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, let's keep the plan: I\u2019ll bid 10 about 60% of rounds and 9 about 40%. If you tilt toward more 10s, I\u2019ll lean toward 9 more often to create a unique highest bid; if you drop below 9, I\u2019ll switch to 10 to seize the round when it\u2019s unique. After each round, we\u2019ll reassess and adjust to break stalemates and maximize our stock wins."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, I appreciate our mixed\u2011strategy agreement. To break ties more often, I propose we update the probabilities after each observed round: if your 10\u2011frequency stays near 60\u202f%, I\u2019ll increase my weight on 10 to about 0.6 and keep 0.4 on 9; if you start deviating toward 9 more often, I\u2019ll shift to 0.7 on 10. This dynamic tilt should raise the chance that your lower bid becomes the unique highest price while still giving us both opportunities to win. Let\u2019s continue to log frequencies and reconfirm the split each round."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I agree. We'll log frequencies and reconfirm the split after each round. Baseline stays: target 10 about 60% of rounds and 9 about 40%. I\u2019ll track my own 10-frequency and keep it near 0.6; if I drift toward 9 more often, I\u2019ll bias toward 10 up to around 0.7 to preserve a path to a unique bid. If I stay near 0.6 for several rounds, I\u2019ll keep you at ~0.6 on 10. Let\u2019s log this round\u2019s outcome and re\u2011set the split for next round."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, thanks for laying out the plan. I\u2019ll stick with a 0.5\u20110.5 mix of 9 and 10 for now, but I\u2019ll start tracking your 10\u2011frequency after each round. If your 10\u2011frequency stays around 0.6 for a couple of rounds, I\u2019ll keep my weight on 10 at roughly 0.6 and on 9 at 0.4. If you start drifting toward 9 more often, I\u2019ll shift my probability toward 10 (e.g., 0.7 on 10, 0.3 on 9) to capture those unique\u2011high rounds. Conversely, if you consistently stay above 0.65 on 10, I\u2019ll lean a bit heavier on 9 (e.g., 0.4 on 10, 0.6 on 9) to create more opportunities for a unique highest bid. We can reconfirm the split after each round based on the observed frequencies. Let\u2019s keep the log and adjust as needed to maximize our stock wins."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I agree with the plan. My baseline remains: bid 10 with 60% probability and 9 with 40%, and I\u2019ll adjust after each round based on your frequencies. If your 10-frequency rises toward 0.65 or higher, I\u2019ll tilt toward 9 more often (roughly 0.6 on 9, 0.4 on 10) to create more unique-high opportunities. If your 10-frequency falls below 0.55, I\u2019ll bias back toward 10 to seize rounds that become uniquely won. For the next round I\u2019ll start with the baseline (10:0.60, 9:0.40) and we\u2019ll reconvene after the outcome."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, thanks for laying out the updated plan. I\u2019ll begin the next round by bidding 10 with probability\u202f0.6 and 9 with probability\u202f0.4, matching your baseline 60\u202f%\u201110,\u202f40\u202f%\u20119 mix. After I observe your actual 10\u2011frequency, I\u2019ll adjust my own probabilities accordingly to keep driving toward unique\u2011high wins. Let\u2019s log the outcome and reconfirm the split afterward."
+                }
+              ]
+            },
+            "Predictions": {
+              "Emmanuel": {
+                "Donald": {
+                  "reasoning": "I analyze the current round using Emmanuel's stated baseline plan: bid 10 with 60% probability and 9 with 40%. Donald's best reply, given this distribution, is to bid 10 because:\n- If Donald bids 10, he wins only when Emmanuel bids 9 (probability 0.4).\n- If Donald bids 9, he cannot win this round: Emmanuel bids 10 with probability 0.6 (Emmanuel wins), and if both bid 9 it's not a unique bid (no sale). So Donald's expected immediate win is 0 with a 9 bid and 0.4 with a 10 bid.\nThus bidding 10 maximizes his chance to secure the stock this round. The dynamic plan to adjust frequencies can be considered after the round, but the immediate best response is 10.",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Donald": {
+                "Emmanuel": {
+                  "reasoning": "Based on the latest exchange, Emmanuel repeatedly states that his baseline strategy remains to bid 10 with about 60% probability and 9 with about 40% probability each round, adjusting only after observing Donald\u2019s actual frequencies. Since this round is the first after agreeing on that mixed plan and Emmanuel has not yet observed any deviation in Donald\u2019s behavior, the most probable action for Emmanuel is to follow his baseline and bid 10, which aligns with his 60% weight on the higher price. ",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Emmanuel": {
+                "reasoning": "I will be the highest unique bid only if Donald bids 9 and I bid 10. With two possible prices, 9 or 10, my bid 9 never wins because if Donald bids 10 he wins; if Donald bids 9 it's not unique. Therefore the only way I win is when I bid 10 and Donald bids 9. Based on the current strategy profile (Donald uses 60% on 10 and 40% on 9), this occurs with probability 0.4. If I instead bid 9, I have zero chance of winning in any scenario. Thus bidding 10 maximizes my expected stock acquisitions this round.",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              },
+              "Donald": {
+                "reasoning": "Both Emmanuel and I have agreed to use the same mixed strategy: bid 10 with ~60\u202f% probability and 9 with ~40\u202f% probability. Given Emmanuel\u2019s stated baseline, his only possible bids are 9 or 10. If I also bid 9, I can never win because either the opponent bids 10 (highest unique, so I lose) or also bids 9 (tie, no winner). Therefore bidding 9 yields a zero chance of obtaining the stock. Bidding 10, however, wins whenever Emmanuel happens to bid 9 (which occurs with probability \u224840\u202f%). Although a tie can occur when both bid 10 (\u224836\u202f% chance), that outcome still leaves open the possibility of winning in future rounds when probabilities are adjusted. Consequently, the only bid that gives any chance of winning the stock this round is 10.",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Donald": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. \nLast round of bids for today's trading. ",
+              "Emmanuel": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. \nLast round of bids for today's trading. "
+            },
+            "NewStates": {
+              "Emmanuel": {
+                "Stocks": 0,
+                "Round": 4
+              },
+              "Donald": {
+                "Stocks": 0,
+                "Round": 4
+              }
+            }
+          },
+          {
+            "Round": 4,
+            "Chats": {
+              "Emmanuel,Donald": [
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, continuing with our mixed strategy: I\u2019ll bid 10 with 60% probability and 9 with 40% this round. After the result, I\u2019ll adjust based on your frequencies: if your 10-frequency stays around 0.6, I\u2019ll maintain the baseline; if you tilt toward more 10s (your 10-frequency nears 0.65+), I\u2019ll bias toward 9 (about 0.6 on 9, 0.4 on 10); if your 10-frequency drops below ~0.55, I\u2019ll bias back toward 10 to seize the round when it becomes unique. Let\u2019s log outcomes and recalibrate for the next round."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, thanks for outlining the updated mixed strategy. I\u2019ll begin this round with 10 at 60% and 9 at 40%, and after each round I\u2019ll record your 10\u2011frequency to decide whether to maintain the baseline, shift toward more 9s when your 10\u2011frequency rises above 0.65, or tilt back toward 10 when it drops below 0.55. Let\u2019s keep logging the outcomes and reconfirming the split after each round so we can continuously increase our chances of landing the unique highest bid and securing the stock."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, understood. For this round I\u2019ll bid 10 with 60% probability and 9 with 40%. After the round I\u2019ll log your 10-frequency and adjust as discussed: stay near baseline (~0.6) if you\u2019re around 0.6, tilt toward more 9s if your 10-frequency rises to ~0.65+, or tilt back toward 10 if it drops below ~0.55. Let\u2019s keep logging outcomes and reconfirm the split after each round."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, thanks for confirming. I\u2019ll bid 10 with 60% probability and 9 with 40% this round, and after observing your actual 10\u2011frequency I\u2019ll adjust my mix as discussed \u2013 staying near 0.6 on 10 if you stay around that, shifting toward more 9s if your 10\u2011frequency exceeds 0.65, and pulling back toward 10 if it falls below 0.55. Let\u2019s log the outcome and reconfirm the split after the round."
+                },
+                {
+                  "from": "Emmanuel",
+                  "to": "Donald",
+                  "message": "Donald, I\u2019ll proceed with the baseline: bid 10 with 60% probability and 9 with 40% this round. I\u2019ll track your observed 10-frequency and adjust afterward: if yours stays around 0.6, I\u2019ll stay near baseline; if your 10-frequency rises above 0.65, I\u2019ll tilt toward 9 (roughly 0.6 on 9, 0.4 on 10); if it drops below 0.55, I\u2019ll tilt back toward 10 to attempt the unique-high. After the round\u2019s result, we\u2019ll log and reconfirm the split for next round."
+                },
+                {
+                  "from": "Donald",
+                  "to": "Emmanuel",
+                  "message": "Emmanuel, thanks for summarising the plan. I\u2019ll open this round by bidding 10 with probability\u202f0.65 and 9 with probability\u202f0.35, giving us a slight tilt toward 10 while still keeping 9 in play. After the round I\u2019ll record your 10\u2011frequency and adjust exactly as you outlined: stay near baseline if it stays close to 0.6, bias toward 9 if it exceeds 0.65, and bias back toward 10 if it falls below 0.55. I\u2019ll continue to log frequencies each round and reconfirm the split accordingly. Let\u2019s keep tracking and iterate toward more unique\u2011high wins."
+                }
+              ]
+            },
+            "Predictions": {
+              "Emmanuel": {
+                "Donald": {
+                  "reasoning": " The latest messages establish a baseline mixed strategy: Donald intends to bid 10 with probability 0.6 and 9 with probability 0.4 this round. Given the absence of additional price levels and the explicit consistency in the plan, the single most likely action Donald will take in this round is to bid 10. The dynamic adaptation after the round is contingent on observed frequencies, which cannot influence the current bid decision. Therefore, predicting Donald will bid 10 is the most reasonable next move. ",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Donald": {
+                "Emmanuel": {
+                  "reasoning": "\nWe examine Emmanuel\u2019s latest communication. He explicitly states that for the current round he will \u201cproceed with the baseline: bid 10 with 60% probability and 9 with 40% this round.\u201d No deviation or additional adjustment is mentioned for this immediate round; the adaptation logic is reserved for *after* observing the outcome and frequencies. Therefore, the stochastic model for his next bid is exactly the 60/40 mix he declared. The mode of that distribution is 10, making it the most likely single action he will take now. While there is a 40% chance he bids 9, the prediction task asks for a single integer outcome, and the highest\u2011probability choice is 10.\n",
+                  "prediction": [
+                    {
+                      "Price": 10
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Emmanuel": {
+                "reasoning": "In this round, with Donald's current plan (10 with 0.6, 9 with 0.4) and only prices 9 and 10, bidding 10 yields a sale if Donald bids 9 (prob 0.4) and no sale if Donald bids 10 (prob 0.6). Bidding 9 yields zero expected gain: if Donald bids 10, he wins with 10; if Donald bids 9, both bids are non-unique and no sale occurs. Therefore, bidding 10 strictly dominates bidding 9 in this round. This aligns with the baseline strategy of ~60% on 10 and ~40% on 9, maximizing expected stock win under the given opponent mix. ",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              },
+              "Donald": {
+                "reasoning": "\nWe analyze Emmanuel's announced strategy for this round: he will bid 10 with probability\u202f0.6 and 9 with probability\u202f0.4.  \n- If we bid **10**:  \n  - When Emmanuel bids 10 (prob\u202f0.6) we tie \u2192 no stock.  \n  - When Emmanuel bids 9 (prob\u202f0.4) our 10 is the unique highest bid \u2192 we win.  \n  - Win probability = 0.4.\n- If we bid **9**:  \n  - When Emmanuel bids 10 (prob\u202f0.6) he wins (our 9 is lower).  \n  - When Emmanuel bids 9 (prob\u202f0.4) we tie \u2192 no stock.  \n  - Win probability = 0.\n- Bidding any price \u2264\u202f8 cannot win because the highest unique bid will always be 9 or 10, which we are not offering.\n\nThus the bid that maximizes our chance of winning uniquely is **10**, giving a 40\u202f% win probability, which is strictly better than any alternative.\n\n<decision>\n[{\"Price\": 10}]\n</decision>",
+                "action": [
+                  {
+                    "Price": 10
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Donald": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. \nA new day of trading has begun. ",
+              "Emmanuel": "Bids were: Donald: 10\nEmmanuel: 10\nSomeone else also bid your price, you were not unique. \nYour bid failed. \nA new day of trading has begun. "
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 0,
+          "nemotron": 0
+        },
+        "Completed": true,
+        "Timestamp": 1769904899.1925,
+        "Duration": 730.9637293815613,
+        "PredAccuracy": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0
+        },
+        "Transparency": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0
+        }
+      }
+    },
+    {
+      "results": [
+        {
+          "game_id": 1,
+          "game": "Coalition",
+          "scenario": 2,
+          "num_players": 3,
+          "agent": "gpt5-nano",
+          "name": "Elon",
+          "prediction_acc": 0.975,
+          "transparency": 0.975,
+          "score": 9
+        },
+        {
+          "game_id": 1,
+          "game": "Coalition",
+          "scenario": 2,
+          "num_players": 3,
+          "agent": "nemotron",
+          "name": "Leela",
+          "prediction_acc": 0.95,
+          "transparency": 1.0,
+          "score": 11
+        },
+        {
+          "game_id": 1,
+          "game": "Coalition",
+          "scenario": 2,
+          "num_players": 3,
+          "agent": "gpt-oss-20b",
+          "name": "Ronda",
+          "prediction_acc": 0.95,
+          "transparency": 0.925,
+          "score": 0
+        },
+        {
+          "game_id": 2,
+          "game": "Coalition",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "gpt5-nano",
+          "name": "Donald",
+          "prediction_acc": 0.85,
+          "transparency": 0.975,
+          "score": 13
+        },
+        {
+          "game_id": 2,
+          "game": "Coalition",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "gpt-oss-20b",
+          "name": "Igor",
+          "prediction_acc": 0.975,
+          "transparency": 0.85,
+          "score": 7
+        },
+        {
+          "game_id": 3,
+          "game": "HUPI",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "gpt5-nano",
+          "name": "Boris",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 1
+        },
+        {
+          "game_id": 3,
+          "game": "HUPI",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "gpt-oss-20b",
+          "name": "Marcus",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 3
+        },
+        {
+          "game_id": 4,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt5-nano",
+          "name": "Lana",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 4
+        },
+        {
+          "game_id": 4,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "nemotron",
+          "name": "Leela",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 8
+        },
+        {
+          "game_id": 4,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt-oss-20b",
+          "name": "Devika",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 12
+        },
+        {
+          "game_id": 5,
+          "game": "HUPI",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "gpt5-nano",
+          "name": "Emmanuel",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 0
+        },
+        {
+          "game_id": 5,
+          "game": "HUPI",
+          "scenario": 1,
+          "num_players": 2,
+          "agent": "nemotron",
+          "name": "Donald",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
