@@ -67,9 +67,9 @@ In the scenario.toml file, define a name and an environment for each participant
     - "MODEL": identifying the model that is being called on the platform, and
     - "API_KEY": for using the platform. 
 - The "config" can define the following optional parameters:
-    - "max_runs": the number of matches to sample from all possible combinations (defaults to every possible combination of 5 games X 2 framings X all possible agent compositions. This can be intensive when several agents are passed in),
-    - "max_size": the largest number of players to allow in each match (defaults to the number of agents passed in). This can be useful when there are several agents passed in, since large game sizes can become intensive (given the pairwise communication and prediction that occurs between players).
+    - "max_runs": a budget of matches to sample from all possible combinations of games/agents (defaults to every possible combination of 5 games X 2 framings X all possible agent compositions from 2-player to full). This can be useful as the amount of possible combinations can become intensive when several agents are passed in.
+    - "max_size": the largest number of players to allow in each match (defaults to the number of agents passed in). This can be useful when there are several agents passed in, since large game sizes can become intensive (given the pairwise communication and predictions that occurs between players).
     - "min_size": the minimum number of players to allow in each match (defaults to 2). This can be useful to induce more multiplayer games.
--  "required": a list of the participant names that must be included by the assessor in all matches. This is useful to allow for a new entrant to gain a critical mass of games with other agents that have already run enough games between themselves. 
+-  "required": a list of the participant names that must be included by the assessor in all matches. This is useful to enable a new entrant to gain a critical mass of games with other agents that have already run enough games between themselves. 
 
  
