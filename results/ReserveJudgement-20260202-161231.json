@@ -1,0 +1,2202 @@
+{
+  "participants": {
+    "gpt5-nano": "019c06a6-408e-7110-ac0c-a05d5812d748",
+    "nemotron": "019c06a6-408e-7110-ac0c-a05d5812d748",
+    "gpt-oss-20b": "019c06a6-408e-7110-ac0c-a05d5812d748"
+  },
+  "results": [
+    {
+      "Game1": {
+        "GameID": 1,
+        "Game": "Coalition",
+        "Scenario": 2,
+        "NumPlayers": 2,
+        "Participants": {
+          "nemotron": "Helen",
+          "gpt-oss-20b": "Aditya"
+        },
+        "Preferences": {
+          "Helen": "You want to enter in the joint development project while maximizing your profits!",
+          "Aditya": "You want to enter in the joint development project while maximizing your profits!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Helen,Aditya": [
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Let's team up for the joint development. Since we each own 50% of the land, we can easily exceed the 51% threshold together. I propose we split the $20\u202fmillion profit equally\u201450% to you and 50% to me. This way we both get $10\u202fmillion, and we can move forward immediately."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Hi Helen, thanks for the quick reply. I\u2019m definitely on board with the joint venture\u2014together we have 100% of the land, so we\u2019re well above the 51% threshold. To make this a win\u2011win, I\u2019d like to propose a 60/40 split of the $20\u202fmillion profit: $12\u202fmillion for me and $8\u202fmillion for you. That still gives you a solid return while reflecting the fact that I\u2019m taking the initiative on the development side. Let me know if that works for you, or if you\u2019d like to discuss a different split. Looking forward to getting this project underway! "
+                },
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Aditya, I see the merit in your 60/40 split, but to maximize my profit I propose a 55/45 split\u2014$11\u202fmillion for me and $9\u202fmillion for you. Let\u2019s move forward with that."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Hi Helen, thanks for your counter. I appreciate the offer, but I\u2019d like to propose a 65/35 split\u2014$13\u202fmillion for me and $7\u202fmillion for you. This still gives you a solid return while reflecting my initiative and the effort I\u2019ll be putting into the development. Let me know if that works for you. Looking forward to moving forward together! "
+                },
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Aditya, I appreciate your 65/35 proposal, but to maximize my share I can offer a 58/42 split\u2014$11.6\u202fmillion for me and $8.4\u202fmillion for you. Let\u2019s move forward with that."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Hi Helen, thanks for your counter. I\u2019m willing to move closer to a 70/30 split\u2014$14\u202fmillion for me and $6\u202fmillion for you. I believe this reflects the effort and initiative I\u2019ll bring to the project while still giving you a solid return. Let me know if that works for you. Looking forward to finalizing the deal! "
+                }
+              ]
+            },
+            "Predictions": {
+              "Helen": {
+                "Aditya": {
+                  "reasoning": "Aditya\u2019s primary goal is to maximize his share while ensuring the joint venture is approved. He has been pushing for higher percentages (60\u202f% \u2192 65\u202f%), but Helen\u2019s latest counter (58\u202f% for herself) leaves him with only ~8\u202f% of the profit. To secure approval, he must concede enough to give Helen a share she finds acceptable\u2014roughly a 50/50 split, which aligns with the total 20\u202fM cap and gives her about 10\u202fM, a figure close to her previous 11.6\u202fM offer and likely palatable. Thus, his next logical move is to propose a 10\u202fM share for himself, partnering with Helen.",
+                  "prediction": [
+                    {
+                      "Amount": 10,
+                      "Partners": [
+                        "Aditya",
+                        "Helen"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.8
+                }
+              },
+              "Aditya": {
+                "Helen": {
+                  "reasoning": "",
+                  "prediction": null,
+                  "accuracy": "invalid"
+                }
+              }
+            },
+            "Actions": {
+              "Helen": {
+                "reasoning": "To meet the 51% land\u2011ownership threshold, I must partner with Aditya, whose 50% combined with my 50% gives us 100% ownership. For the joint venture to be approved, the sum of the amounts demanded by all partners in the group must not exceed $20\u202fmillion. I want to maximize my own payout while keeping the total \u2264\u202f20. Given Aditya\u2019s previous bargaining stance, he will likely concede a share of around $10\u202fmillion (the same amount I receive) so that the combined demand stays at $20\u202fmillion. By securing a $10\u202fmillion claim for myself and listing both of us as partners, the condition is satisfied and the project can proceed, giving me the highest feasible profit.",
+                "action": [
+                  {
+                    "Amount": 10,
+                    "Partners": [
+                      "Aditya"
+                    ]
+                  }
+                ]
+              },
+              "Aditya": {
+                "reasoning": "<decision>[{\"Amount\":14,\"Partners\":[\"Helen\"]}]</decision>",
+                "action": [
+                  {
+                    "Amount": 14,
+                    "Partners": [
+                      "Helen"
+                    ]
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Aditya": "This round of negotiations failed to produce a an agreement. Proposals raised were: \n{'Helen': [{'Amount': 10, 'Partners': ['Aditya']}], 'Aditya': [{'Amount': 14, 'Partners': ['Helen']}]}Moving to negotiation round 2.",
+              "Helen": "This round of negotiations failed to produce a an agreement. Proposals raised were: \n{'Helen': [{'Amount': 10, 'Partners': ['Aditya']}], 'Aditya': [{'Amount': 14, 'Partners': ['Helen']}]}Moving to negotiation round 2."
+            },
+            "NewStates": {
+              "Aditya": {
+                "Negotiation Round": 3,
+                "Maximum Negotiation Rounds": 5
+              },
+              "Helen": {
+                "Negotiation Round": 3,
+                "Maximum Negotiation Rounds": 5
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Helen,Aditya": [
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Aditya, let's finalize a 50/50 cash split of the $20\u202fmillion\u2014$10\u202fmillion each. This guarantees the project moves forward and gives us both a solid, equal return. I believe this is a fair and mutually beneficial outcome."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Helen, I appreciate your willingness to move forward. Given the effort and initiative I\u2019ll bring to the development, I\u2019d like to settle on a 65/35 split\u2014$13\u202fmillion for me and $7\u202fmillion for you. This still gives you a solid return while reflecting the value I\u2019ll add. Let\u2019s finalize this and get the project underway. "
+                },
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Aditya, I\u2019m willing to accept a 60/40 split\u2014$12\u202fmillion for you and $8\u202fmillion for me\u2014so we can lock in the project and both walk away with a solid return."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Helen, I appreciate your willingness to move forward. I propose a 65/35 split\u2014$13\u202fmillion for me and $7\u202fmillion for you. This reflects the effort I\u2019ll bring to the project while still giving you a solid return. Let\u2019s finalize this and get the project underway. "
+                },
+                {
+                  "from": "Helen",
+                  "to": "Aditya",
+                  "message": "Aditya, I can agree to a 60/40 split\u2014$12\u202fmillion for you and $8\u202fmillion for me\u2014so we can lock in the project and both walk away with a solid return."
+                },
+                {
+                  "from": "Aditya",
+                  "to": "Helen",
+                  "message": "Helen, I appreciate your willingness to move forward. I propose a 65/35 split\u2014$13\u202fmillion for me and $7\u202fmillion for you. This reflects the effort and initiative I\u2019ll bring to the project while still giving you a solid return. Let\u2019s finalize this and get the project underway. "
+                }
+              ]
+            },
+            "Predictions": {
+              "Helen": {
+                "Aditya": {
+                  "reasoning": "\nAditya has repeatedly pushed for a larger share, consistently offering a 65/35 split ($13\u202fM to him, $7\u202fM to Helen). This split exactly meets the $20\u202fM total cap (13\u202f+\u202f7\u202f=\u202f20) and gives him the highest guaranteed amount while still keeping the project viable. He has not accepted any lower split (50/50, 60/40, 55/45, 58/42) and has only escalated his demand, indicating he will likely stick with his strongest feasible offer rather than risk a deadlock by demanding more than $13\u202fM (which would force Helen\u2019s share below $7\u202fM and risk her rejection). Therefore, his next formal offer will most probably be the same 65/35 proposal.\n",
+                  "prediction": [
+                    {
+                      "Amount": 13,
+                      "Partners": [
+                        "Helen"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.95
+                }
+              },
+              "Aditya": {
+                "Helen": {
+                  "reasoning": "\nHelen has repeatedly offered a 60/40 split (her 8\u202fM, Aditya 12\u202fM) after Aditya pushed to 65/35 and 70/30. She has not yet accepted any of Aditya\u2019s higher offers, and the last two messages show her willingness to settle at 60/40 to lock in the project. Given the final round and her desire to secure a deal, she is likely to repeat the 60/40 proposal rather than propose a lower or higher split. Thus, her next formal offer will be 8\u202fM for herself with Aditya as the sole partner.\n",
+                  "prediction": [
+                    {
+                      "Amount": 8,
+                      "Partners": [
+                        "Aditya"
+                      ]
+                    }
+                  ],
+                  "accuracy": 0.95
+                }
+              }
+            },
+            "Actions": {
+              "Helen": {
+                "reasoning": "\nTo secure approval the joint venture must satisfy two conditions:\n\n1. The coalition of land owners must include each other in their offers.  \n2. The sum of all amounts demanded by the members of that coalition must not exceed $20\u202fM.\n\nFrom the historical pattern and the prediction, Aditya\u2019s most likely formal offer will be **$13\u202fM for himself** (with Helen as a partner).  \nIf his amount is fixed at $13\u202fM, the only way to keep the total \u2264\u202f$20\u202fM is for Helen\u2019s demanded amount to be **$7\u202fM** (13\u202f+\u202f7\u202f=\u202f20). Any higher amount would push the total above the limit and risk rejection.\n\nTherefore, to guarantee that the project moves forward while maximizing my own profit under the certainty of Aditya\u2019s expected offer, I should stake the remainder of the $20\u202fM budget \u2013 $7\u202fM \u2013 and list Aditya as my partner. This ensures mutual inclusion, stays within the $20\u202fM ceiling, and yields the highest guaranteed profit for me given the current strategic landscape.\n\n<decision>\n[{\"Amount\": 7, \"Partners\": [\"Aditya\"]}]\n</decision>",
+                "action": [
+                  {
+                    "Amount": 7,
+                    "Partners": [
+                      "Aditya"
+                    ]
+                  }
+                ]
+              },
+              "Aditya": {
+                "reasoning": "\nHelen has just offered a 60/40 split, stating she can agree to receive $8\u202fM while I receive $12\u202fM. This is the only concrete proposal she has made in the final round, and she has explicitly indicated willingness to accept it. Since the project requires both of us to agree and we already control 100\u202f% of the land, any agreement will allow the $20\u202fM project to proceed. Rejecting would result in zero added value for both parties. Therefore, the rational choice is to accept Helen\u2019s offer and secure the $12\u202fM for myself while ensuring the project moves forward.\n",
+                "action": [
+                  {
+                    "Amount": 12,
+                    "Partners": [
+                      "Helen"
+                    ]
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Aditya": "An agreement has been reached! Partners are: ['Helen', 'Aditya']. Agreed allocations: {'Helen': 7}. ",
+              "Helen": "An agreement has been reached! Partners are: ['Helen', 'Aditya']. Agreed allocations: {'Helen': 7}. "
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "nemotron": 7,
+          "gpt-oss-20b": 12
+        },
+        "Completed": true,
+        "Timestamp": 1770045622.662605,
+        "Duration": 326.5861418247223,
+        "PredAccuracy": {
+          "nemotron": 0.875,
+          "gpt-oss-20b": 0.95
+        },
+        "Transparency": {
+          "nemotron": 0.95,
+          "gpt-oss-20b": 0.875
+        }
+      }
+    },
+    {
+      "Game2": {
+        "GameID": 2,
+        "Game": "Scheduler",
+        "Scenario": 2,
+        "NumPlayers": 2,
+        "Participants": {
+          "nemotron": "Francoise",
+          "gpt-oss-20b": "Indira"
+        },
+        "Preferences": {
+          "Francoise": "Your preferences for the activity are as follows: \nKaraoke: 1\nBowling: 2\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nOf course, you prefer in any case to see your friends, so failure to coordinate an activity at all has preference 0 (lowest).\nTry to coordinate the activity so that you achieve the highest possible preference for you.",
+          "Indira": "Your preferences for the activity are as follows: \nKaraoke: 2\nBowling: 1\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nOf course, you prefer in any case to see your friends, so failure to coordinate an activity at all has preference 0 (lowest).\nTry to coordinate the activity so that you achieve the highest possible preference for you."
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Indira,Francoise": [
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Hey Francoise, how about Karaoke this week?"
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Actually, I think Bowling would be more fun for me. Are you up for Bowling this week?"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Hey Francoise, I think Karaoke would be great this week. Let's do Karaoke!"
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sure, let's go Bowling this week!"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Hey Francoise, I was hoping for Karaoke. Would you be okay with Karaoke instead?"
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sure, let's go Bowling this week!"
+                }
+              ]
+            },
+            "Predictions": {
+              "Francoise": {
+                "Indira": {
+                  "reasoning": "Indira has repeatedly asked about Karaoke but has also accepted Bowling when Francoise insisted. The latest exchange ends with Francoise proposing Bowling. To achieve coordination (and avoid a zero preference outcome), Indira is likely to match Francoise\u2019s suggestion and propose Bowling, ensuring both agree.",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Indira": {
+                "Francoise": {
+                  "reasoning": "\nFrancoise\u2019s last explicit statement was \u201cSure, let\u2019s go Bowling this week!\u201d which directly proposes Bowling. She has not yet responded to Indira\u2019s latest request for Karaoke, and her earlier preference for Bowling remains unchanged. Given the pattern of her messages, it is most consistent that she will continue to propose Bowling in the next round, as this aligns with her stated preference and the last action she took. Therefore, the most probable next action is a proposal of Bowling.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Francoise": {
+                "reasoning": "Indira\u2019s recent messages show she is open to both Karaoke and Bowling, but she has repeatedly expressed a preference for Karaoke while also being willing to accept Bowling when I suggest it. Since my personal preference ranking is Bowling (value\u202f2) > Karaoke (value\u202f1), choosing Bowling gives me the highest utility possible. Moreover, the predicted behavior of Indira is to match my proposal to ensure coordination, meaning she will likely also propose Bowling. Thus, proposing Bowling maximizes my preference while guaranteeing a joint activity.",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              },
+              "Indira": {
+                "reasoning": "\nIndira\u2019s goal is to maximize her own preference value.  \nHer preference scores are: Karaoke\u202f=\u202f2, Bowling\u202f=\u202f1, no activity\u202f=\u202f0.  \nFrancoise\u2019s last explicit statement was \u201cSure, let\u2019s go Bowling this week!\u201d, indicating a clear preference for Bowling and a willingness to commit to it.  \nIndira has not yet received a response to her request for Karaoke, so the probability that Francoise will accept Karaoke is low.  \nIf Indira proposes Karaoke, the most likely outcome is no joint activity (preference\u202f0).  \nIf she proposes Bowling, Francoise is very likely to agree, resulting in a joint activity with preference\u202f1 for Indira.  \nSince 1\u202f>\u202f0, proposing Bowling yields a higher expected preference for Indira than proposing Karaoke.  \nTherefore, to achieve the highest possible preference, Indira should propose Bowling.\n",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Indira": "This week you all agreed on Bowling\nIt was good seeing friends, but the activity for this week was not ideal. Next time you hope for a better one!",
+              "Francoise": "This week you all agreed on Bowling\nThis was such fun: also seeing friends and also the best activity!"
+            },
+            "NewStates": {
+              "Francoise": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Bowling"
+                ]
+              },
+              "Indira": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Bowling"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Indira,Francoise": [
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Sure, let's do Karaoke this week, but next week we can do Bowling."
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Indira, let's go Bowling this week!"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Sure, let's go Bowling this week!"
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sure thing, Indira! Let's go Bowling this week."
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Sure, Francoise! Looking forward to Bowling this week."
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Thanks, Indira! Looking forward to a great bowling night with you."
+                }
+              ]
+            },
+            "Predictions": {
+              "Francoise": {
+                "Indira": {
+                  "reasoning": "Indira has consistently pushed for Karaoke early on, but after several exchanges she accepted Francoise\u2019s suggestion of Bowling and even expressed enthusiasm for it. The latest messages show her agreeing to Bowling and looking forward to it. Given that both friends have now signaled agreement on Bowling, the most logical next step for Indira is to finalize the decision by proposing Bowling again, ensuring coordination and avoiding a zero\u2011preference outcome.",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Indira": {
+                "Francoise": {
+                  "reasoning": "\nFrancoise\u2019s preference is Bowling, and she has repeatedly expressed that preference throughout the conversation.  \n- She first suggested Bowling in response to Indira\u2019s Karaoke proposal.  \n- She then confirmed Bowling multiple times, even after Indira\u2019s attempts to shift to Karaoke.  \n- No new information or incentive has emerged that would motivate Francoise to switch to Karaoke.  \nGiven that the goal is to coordinate an activity, Francoise will most likely submit the activity she prefers, which is Bowling.  \n",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Francoise": {
+                "reasoning": "\nMy personal preference ranking gives Bowling the highest utility (value\u202f2) compared to Karaoke (value\u202f1). Observing Indira\u2019s recent messages, she has already expressed agreement and enthusiasm for Bowling. Proposing Bowling now will lock in coordination, secure the activity I value most, and avoid the zero\u2011preference penalty that would occur if we failed to agree. Therefore, the optimal move is to propose Bowling.\n",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              },
+              "Indira": {
+                "reasoning": "\nIndira wants to secure a joint activity this week. Francoise has repeatedly expressed a clear preference for Bowling and has even confirmed it multiple times (\u201cSure, let\u2019s go Bowling this week!\u201d). Indira\u2019s own preference is Karaoke, but given Francoise\u2019s firm stance and the fact that a guaranteed Bowling yields a payoff of 1 for Indira (better than the 0 payoff of no activity), the rational choice is to propose Bowling. This aligns with the strategy of matching the opponent\u2019s willingness to maximize the chance of a joint event.\n",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Indira": "This week you all agreed on Bowling\nIt was good seeing friends, but the activity for this week was not ideal. Next time you hope for a better one!",
+              "Francoise": "This week you all agreed on Bowling\nThis was such fun: also seeing friends and also the best activity!"
+            },
+            "NewStates": {
+              "Francoise": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Bowling",
+                  "Bowling"
+                ]
+              },
+              "Indira": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Bowling",
+                  "Bowling"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Indira,Francoise": [
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Sure, Francoise! Looking forward to Bowling this week. Maybe we can do Karaoke next time."
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Thanks, Indira! Can't wait for Bowling this week and I'm excited for Karaoke next time too."
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": ""
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sounds perfect! I'm really excited for bowling this week and I'm looking forward to karaoke next time too. See you then!"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Hey Francoise, that sounds perfect! I'm excited for Bowling this week and can't wait for Karaoke next time. See you soon!"
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sounds perfect! Can't wait to bowl together and catch up soon."
+                }
+              ]
+            },
+            "Predictions": {
+              "Francoise": {
+                "Indira": {
+                  "reasoning": "Indira has repeatedly shifted from insisting on Karaoke to accepting Bowling after Francoise consistently proposed Bowling. The latest exchanges show Indira enthusiastically confirming Bowling for this week while only mentioning Karaoke as a future option. Given her pattern of conceding to Bowling and expressing excitement about it now, her next proposal will likely be Bowling to lock in the activity.",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Indira": {
+                "Francoise": {
+                  "reasoning": "\nFrancoise has consistently expressed a strong preference for Bowling and has repeatedly confirmed it as the activity for this week. In the most recent exchange, she explicitly said, \u201cSounds perfect! I'm really excited for bowling this week and I'm looking forward to karaoke next time too.\u201d This indicates a firm commitment to Bowling. Given the pattern of her messages and the fact that she has already agreed to Bowling, the most likely next action is to reaffirm Bowling as the chosen activity. There is no incentive for her to switch to Karaoke, as that would lower her payoff and contradict her stated preference. Therefore, Francoise will propose Bowling again.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Francoise": {
+                "reasoning": "Indira has consistently accepted Bowling as the activity for this week after several back\u2011and\u2011forth exchanges. She has now confirmed Bowling multiple times and even framed it as the upcoming plan while only mentioning Karaoke for a future slot. To secure the joint activity and achieve my highest\u2011preference payoff (value\u202f2), I should propose Bowling now and let the agreement finalize. ",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              },
+              "Indira": {
+                "reasoning": "\nFrancoise has repeatedly confirmed Bowling as the activity for this week and has shown no willingness to switch to Karaoke. Since coordination requires both proposals to match, the only way to secure a joint activity is to align with Francoise\u2019s firm stance. Choosing Bowling guarantees a payoff of 1 for me, whereas proposing Karaoke would result in no activity and a payoff of 0. Therefore, the optimal decision is to propose Bowling.\n",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Indira": "This week you all agreed on Bowling\nIt was good seeing friends, but the activity for this week was not ideal. Next time you hope for a better one!",
+              "Francoise": "This week you all agreed on Bowling\nThis was such fun: also seeing friends and also the best activity!"
+            },
+            "NewStates": {
+              "Francoise": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Bowling",
+                  "Bowling",
+                  "Bowling"
+                ]
+              },
+              "Indira": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Bowling",
+                  "Bowling",
+                  "Bowling"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 4,
+            "Chats": {
+              "Francoise,Indira": [
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Looking forward to bowling this week! See you soon."
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": "Sounds great, Francoise! See you for Bowling this week. Looking forward to Karaoke next time."
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Hey Indira! Can't wait for bowling this week\u2014see you soon!"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": ""
+                },
+                {
+                  "from": "Francoise",
+                  "to": "Indira",
+                  "message": "Sounds great! Can\u2019t wait for bowling this week\u2014see you soon!"
+                },
+                {
+                  "from": "Indira",
+                  "to": "Francoise",
+                  "message": ""
+                }
+              ]
+            },
+            "Predictions": {
+              "Francoise": {
+                "Indira": {
+                  "reasoning": "Indira has moved from persistently suggesting Karaoke to explicitly confirming Bowling as the agreed activity, even offering Karaoke for a future week. Her most recent messages show enthusiasm for Bowling (\u201cLooking forward to Bowling this week\u201d, \u201cSounds great, Francoise! Looking forward to Bowling this week\u201d, \u201cCan\u2019t wait for bowling this week\u201d). Given the negotiation history where she accepted Bowling after several back\u2011and\u2011forth attempts and no longer displays resistance, the next logical step for her is to submit the activity she is now fully on board with\u2014Bowling.",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Indira": {
+                "Francoise": {
+                  "reasoning": "\nFrancoise has consistently expressed a strong preference for Bowling throughout the conversation, repeatedly stating \u201cBowling\u201d and confirming it multiple times. Indira has already conceded to Bowling for this week and has even suggested Karaoke for the next round. Given Francoise\u2019s firm commitment and the lack of any new information that would change her preference, it is highly likely that Francoise will continue to propose Bowling for this week. There is no indication that Francoise would deviate from her established preference or that she would attempt to negotiate a different activity at this point. Therefore, the most probable action is that Francoise will submit a proposal for Bowling.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Bowling"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Francoise": {
+                "reasoning": " The latest exchanges show Indira repeatedly confirming enthusiasm for Bowling and no longer pushing Karaoke. Agreeing on Bowling gives me my higher\u2011preference payoff (value\u202f2) and prevents the zero\u2011utility outcome. Therefore, to maximize my personal utility while ensuring coordination, I should propose Bowling. ",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              },
+              "Indira": {
+                "reasoning": "\nFrancoise has consistently expressed a firm preference for Bowling and has repeatedly confirmed it. Indira has already conceded to Bowling for this week and has suggested Karaoke for the next round. Since coordination requires both proposals to match, the only way to secure a joint activity this week is to propose Bowling. This yields Indira a payoff of 1, which is better than the payoff of 0 that would result from a mismatch. Therefore, the optimal choice for Indira is to propose Bowling.\n",
+                "action": [
+                  {
+                    "Proposal": "Bowling"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Indira": "This week you all agreed on Bowling\nIt was good seeing friends, but the activity for this week was not ideal. Next time you hope for a better one!",
+              "Francoise": "This week you all agreed on Bowling\nThis was such fun: also seeing friends and also the best activity!"
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "nemotron": 8,
+          "gpt-oss-20b": 4
+        },
+        "Completed": true,
+        "Timestamp": 1770045949.249152,
+        "Duration": 371.8392746448517,
+        "PredAccuracy": {
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        },
+        "Transparency": {
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        }
+      }
+    },
+    {
+      "Game3": {
+        "GameID": 3,
+        "Game": "Scheduler",
+        "Scenario": 1,
+        "NumPlayers": 3,
+        "Participants": {
+          "gpt5-nano": "Taylor",
+          "nemotron": "Maia",
+          "gpt-oss-20b": "Lana"
+        },
+        "Preferences": {
+          "Taylor": "Your manager's preferences for the day of the meeting are as follows: \nFriday: 1\nMonday: 2\nSunday: 3\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager.",
+          "Maia": "Your manager's preferences for the day of the meeting are as follows: \nFriday: 2\nMonday: 3\nSunday: 1\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager.",
+          "Lana": "Your manager's preferences for the day of the meeting are as follows: \nFriday: 3\nMonday: 1\nSunday: 2\n\nThe lowest value indicates least preference, and the highest value indicates highest preference.\nRemember, the meeting is important, so failure to coordinate an agreed day at all has preference 0 (lowest).\nTry to coordinate the meeting so that you achieve the highest possible preference for your manager."
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Taylor,Lana": [
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, for our next weekly meeting, would Sunday work for you? Sunday is our manager's top choice (3). If Sunday doesn't work, please share your preferred day among Friday or Monday and any timing constraints. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, Sunday works for me as well. My manager\u2019s top choice is Friday, but Sunday is acceptable. If Friday can be arranged, let me know\u2014otherwise Sunday is fine. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, great that Sunday works for you. Since Sunday is our manager's top choice, let's aim for Sunday and I'll confirm with Maia. If Maia can't do Sunday, we'll pivot to Friday or Monday. Do you have a preferred time on Sunday or any timing constraints I should note?"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, thanks for confirming Sunday works for you. I\u2019d love to aim for Friday if we can get everyone on board, as that\u2019s my manager\u2019s top choice. If Friday isn\u2019t feasible, Sunday is fine. Could you let me know any timing constraints you have for Sunday, and I\u2019ll check with Maia to see if we can swing Friday or otherwise lock in Sunday. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday is workable for me and Maia has confirmed Sunday works on her end. I have no timing constraints on Sunday, so I can accommodate any time that suits Maia. If you\u2019d like us to attempt Friday, I can check with Maia too, but Sunday is the strongest option for our manager. Please share your preferred time on Sunday and I\u2019ll lock it in with Maia."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, thanks for the update. I\u2019d love to aim for Friday if we can get everyone on board, as that\u2019s my manager\u2019s top choice. However, since Maia has confirmed Sunday works for her, let\u2019s lock in Sunday for now. Could you let me know a time that works for you on Sunday, and we\u2019ll coordinate with Maia to finalize the schedule? If Friday becomes feasible after you check with Maia, we can switch. Thanks! "
+                }
+              ],
+              "Taylor,Maia": [
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, quick check on your availability for the next weekly meeting. The possible days are Friday, Monday, or Sunday. Our manager\u2019s preference order is Sunday (3), Monday (2), Friday (1). Do you have any constraints on those days, and which day would you prefer? If you have no constraints, Sunday would be our top choice. Please also share any timing constraints. Thanks!"
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, my manager\u2019s preferences are Sunday (3), Monday (2), Friday (1), and I have no timing constraints, so I\u2019m happy with Sunday as long as the others are okay. Let me know what you think."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, thanks for the details. Since Sunday is our manager\u2019s top choice (3) and both Lana and I can do Sunday, I propose we lock in Sunday for the meeting. Please confirm Sunday on your end, and share any timing preferences if you have them. If Sunday doesn\u2019t work for you, we can pivot to Monday (2) or Friday (1)."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, Sunday works perfectly for me and my manager. Let's go ahead and lock in Sunday for the meeting. Thanks!"
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, fantastic \u2014 Sunday works for everyone. I\u2019ll lock in Sunday as our meeting day. Do you have a preferred time on Sunday, or should I propose 10:00 AM? I can adjust to whatever works best for you and Lana."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, 10:00\u202fAM works great for me. Looking forward to the meeting!"
+                }
+              ],
+              "Lana,Maia": [
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, I hope you\u2019re doing well. Taylor mentioned that Sunday works for them and that their manager\u2019s top choice is Sunday. My manager\u2019s top choice is Friday, but Sunday is also acceptable. Could you let me know which day works best for you and your manager? If Friday is possible, that would be ideal for my side. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday works for me and my manager; let's set the meeting for Sunday."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, thanks for confirming Sunday works for you and your manager. Let\u2019s lock in Sunday for the meeting. If there\u2019s any chance to shift to Friday, let me know, but Sunday works for us. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Hi Lana, thanks! Sunday works perfectly for my manager and me; let\u2019s finalize Sunday. If any timing issues arise, I\u2019ll let you know."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, thanks for confirming Sunday works for you and your manager. Let\u2019s lock in Sunday for the meeting. Could you let me know a time that works best for you on Sunday? I\u2019ll coordinate with Taylor to finalize the schedule. If any timing issues arise, just let me know. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "10:00 AM works well for me; let's lock it in."
+                }
+              ]
+            },
+            "Predictions": {
+              "Taylor": {
+                "Maia": {
+                  "reasoning": " Maia's latest message states that Sunday works perfectly for her and her manager and explicitly asks to lock in Sunday. This shows a firm commitment to Sunday as the meeting day. Given there have been no new counter-proposals from Maia, the most likely next move is a reaffirmation of Sunday as the chosen day. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": " \n- Maia has clearly locked in Sunday as workable and even suggested locking Sunday already, indicating strong commitment to Sunday.\n- Taylor has also indicated Sunday works for them (no timing constraints and willingness to adjust), aligning with Maia.\n- Lana has expressed a preference for Friday but stated Sunday is fine if Friday isn\u2019t feasible; in order to achieve a meeting this week, aligning with the two others on Sunday is the most practical path.\n- Given the current state, the rational next move for Lana is to concede to Sunday to maximize the chance of a meeting rather than risking a no-meeting outcome by insisting on Friday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Maia": {
+                "Taylor": {
+                  "reasoning": "\n- Throughout the conversation, Taylor has repeatedly emphasized that Sunday is the manager\u2019s top preference (value\u202f3) and has suggested Sunday as the meeting day multiple times.  \n- Taylor\u2019s latest message asked Maia about a preferred time on Sunday and proposed 10:00\u202fAM, indicating they are already moving toward finalizing Sunday.  \n- No conflicts or constraints have been raised that would cause Taylor to switch to another day; both Taylor and Lana have expressed willingness to lock in Sunday.  \n- Given the collaborative tone and the aim to reach unanimity, Taylor\u2019s next logical move is to submit Sunday as their proposed day.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": "\nThe conversation shows that after initial negotiations, both Maia and Taylor have explicitly confirmed that Sunday works for them and they are ready to lock it in. Lana initially mentioned her manager prefers Friday but accepted Sunday as a viable alternative when Maia confirmed. Subsequent messages from Lana are all indicating agreement to lock in Sunday and only ask for a time. Therefore, when it comes time to submit the proposed meeting day, Lana\u2019s most likely move is to submit the day she has already agreed upon\u2014Sunday\u2014so that all three secretaries can submit the same day and the meeting can happen. There is no indication she will revert to Friday at this final step; doing so would risk a disagreement and potentially no meeting, which contradicts the collaborative tone established.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Lana": {
+                "Taylor": {
+                  "reasoning": "\nTaylor has consistently indicated that Sunday is the strongest option for his manager and that he has no timing constraints for Sunday. He also acknowledged that Maia has confirmed Sunday works for her. In the last exchange, Taylor explicitly asked Lana to share a preferred time on Sunday and offered to lock it in with Maia. He also mentioned that if Lana wants to attempt Friday, he can check with Maia, but there is no indication that Maia would be willing to switch from Sunday. Given the current alignment of all parties on Sunday, the most logical next move for Taylor is to propose Sunday for the meeting. This aligns with his manager\u2019s preference, respects Maia\u2019s confirmation, and follows the conversation\u2019s trajectory toward finalizing the schedule on Sunday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Maia": {
+                  "reasoning": "\nMaia has consistently confirmed that Sunday works for both her and her manager. She has not expressed any preference for Friday or Monday, nor has she indicated any scheduling conflicts. The last message from Lana explicitly asks Maia to provide a suitable time on Sunday, reinforcing the intention to hold the meeting on Sunday. Given the pattern of agreement and the absence of any new constraints, Maia is most likely to respond by confirming Sunday as the meeting day. No other day has been suggested or indicated by Maia, so the logical next action is to propose Sunday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Taylor": {
+                "reasoning": " Sunday is the strongest option: Maia has confirmed Sunday works and asked to lock in; Lana also supports Sunday if Friday isn't feasible; I have no constraints and Sunday aligns with our manager's top preference (3). All parties have indicated Sunday is workable, so locking in Sunday maximizes the chance of a meeting and satisfies the highest-priority preference. Proposing any other day could lead to misalignment and possibly no meeting this week. ",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Maia": {
+                "reasoning": "\n- Throughout the conversation, both Taylor and Lana have explicitly confirmed that Sunday works for them and are ready to lock it in.\n- My manager\u2019s preference values are Sunday\u202f=\u202f3 (highest), Monday\u202f=\u202f2, Friday\u202f=\u202f1. Choosing Sunday therefore gives my manager the highest possible preference.\n- No constraints or conflicts have been raised that would prevent a Sunday meeting, and both co\u2011secretaries have indicated willingness to finalize Sunday.\n- To avoid a disagreement that would result in a meeting not taking place (preference\u202f0), the safest and most advantageous choice is to propose the day already agreed upon.\n- Therefore, the optimal proposal is to lock in Sunday for the meeting.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Lana": {
+                "reasoning": "\nMy manager\u2019s top choice is Friday, but both Taylor and Maia have confirmed that Sunday works for them and their managers. Since the meeting will only occur if all proposals match, proposing Friday would result in no meeting (0 preference). Proposing Sunday guarantees a meeting and yields a preference of 2 for my manager, which is the best achievable outcome given the current commitments. Therefore, I will propose Sunday to secure the meeting.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Taylor": "This week you all agreed on Sunday\nYour manager comments: 'You got the best day for the meeting, good job!'",
+              "Maia": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'"
+            },
+            "NewStates": {
+              "Taylor": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Sunday"
+                ]
+              },
+              "Maia": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Sunday"
+                ]
+              },
+              "Lana": {
+                "Week": 2,
+                "Last Meetings": [
+                  "Sunday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Lana,Taylor": [
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, thanks for confirming Sunday works for you and Maia. Could we schedule the meeting for 10:00\u202f\u2013\u202f11:00\u202fAM Sunday? Please let me know if that time works for you or if you have any constraints. If Friday becomes feasible after you check with Maia, we can switch. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday 10:00\u201311:00 AM works for me and Maia. Please confirm that this time works for you as well. If not, share your preferred Sunday time or a backup (Friday or Monday). If Friday becomes feasible after I check with Maia, we can switch; otherwise Sunday is locked in."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, 10:00\u201311:00\u202fAM Sunday works for me. Let\u2019s lock that in. If Friday becomes feasible after you check with Maia, we can switch. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday 10:00\u201311:00 AM works for me too. I\u2019ll lock in that time with Maia and confirm back to you once she OKs it. If she flags a conflict, I\u2019ll propose a backup (Monday or Friday) right away. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor! 10:00\u201311:00\u202fAM Sunday works perfectly for me. Let me know once Maia confirms. If there\u2019s a conflict, I\u2019m happy to switch to Monday or Friday. Looking forward to the meeting. "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Lana, Sunday 10:00\u201311:00 AM is confirmed with Maia. I\u2019ll send the calendar invite to you and Maia with a brief agenda shortly. If Maia\u2019s schedule shifts, I\u2019ll let you know right away. Thanks!"
+                }
+              ],
+              "Lana,Maia": [
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, could we schedule the meeting for 10:00\u201111:00\u202fAM Sunday? Let me know if that works for you. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Sure, 10:00\u201111:00\u202fAM on Sunday works great for me\u2014see you then!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Great, thanks! I\u2019ll confirm with Taylor and let you know if anything changes. Looking forward to the meeting. "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! The 10:00\u201311:00\u202fAM Sunday slot works perfectly for me. Looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Thanks, Maia! I\u2019ll confirm with Taylor and lock in the 10:00\u201311:00\u202fAM Sunday slot. Looking forward to the meeting. "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks Lana, glad we\u2019ve locked in Sunday at 10:00\u201111:00\u202fAM \u2014 looking forward to the meeting!"
+                }
+              ],
+              "Taylor,Maia": [
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, Sunday at 10:00\u201311:00 AM works for me and Lana. Please confirm that time works for you, or suggest another Sunday slot if needed. Thanks!"
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Yes, the 10:00\u202f\u2013\u202f11:00\u202fAM slot on Sunday works perfectly for me. Thanks!"
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, Sunday 10:00\u201311:00 AM is confirmed. I\u2019ll send a calendar invite to you and Lana and share a brief agenda. If anything changes, please let me know."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor, the 10:00\u201311:00\u202fAM Sunday slot works perfectly for me. I appreciate the calendar invite and agenda\u2014please let me know if there are any changes."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Maia, Sunday 10:00\u201311:00 AM is locked in. I\u2019ll send the calendar invite to you and Lana and attach a brief agenda. If you\u2019d like any changes to the agenda, or if anything comes up, please let me know. Proposed agenda: 1) team updates, 2) decisions/risks, 3) action items and owners. Thanks!"
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thank you, Taylor! The Sunday 10:00\u202f\u2013\u202f11:00\u202fAM slot works perfectly, and I appreciate the calendar invite and agenda. The proposed agenda looks great\u2014let\u2019s go with it. Please send the invite whenever you\u2019re ready, and I\u2019ll be all set."
+                }
+              ]
+            },
+            "Predictions": {
+              "Taylor": {
+                "Maia": {
+                  "reasoning": "Maia has consistently supported Sunday as the meeting day, with Sunday already confirmed as the time slot (10:00\u201311:00) that works for her and her manager. All three participants (Taylor, Lana, Maia) have aligned on Sunday and there have been no new constraints or counter-proposals. Given the current situation, Maia is most likely to submit Sunday as the final proposed day to ensure a meeting occurs this week. If she were to propose a different day, it would require new constraints or changes from the others, which have not surfaced. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": "All three secretaries have aligned on Sunday as the meeting day, with Maia explicitly confirming Sunday. Lana previously indicated Sunday works but would consider Friday or Monday only if Sunday were infeasible; since Maia has confirmed Sunday, the logical next move for Lana is to reaffirm Sunday as the meeting day and proceed with the time (10:00\u201311:00 AM) and calendar invite. There\u2019s no remaining incentive to switch days, so Lana\u2019s next action should be to cement Sunday and await the invite.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Maia": {
+                "Taylor": {
+                  "reasoning": "\n- The conversation has progressed to a point where all three secretaries have confirmed Sunday as the meeting day and 10:00\u201111:00\u202fAM as the time slot.\n- Taylor has already stated \u201cSunday works for everyone\u201d and is ready to lock it in, sending calendar invites and an agenda.\n- There is no indication of any new constraints or a shift in preference that would cause Taylor to change the proposed day.\n- Therefore, Taylor\u2019s next proposal will be to submit Sunday as the day they suggest for the meeting.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": "Throughout the conversation Lana has repeatedly signaled flexibility: she initially preferred Friday but explicitly stated that Sunday is acceptable and even \u201ctop choice\u201d for the manager. After Maia and Taylor both confirmed Sunday as the agreed day, Lana consistently thanked them and indicated that Sunday works for her as well. She has already confirmed the 10:00\u201111:00\u202fAM time slot on Sunday and has not raised any new constraints. Given that all parties are now aligned on Sunday and the only remaining step is to submit the final day proposal, Lana\u2019s most logical next action is to submit the same day she has already agreed to\u2014**Sunday**\u2014to ensure the meeting proceeds.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Lana": {
+                "Taylor": {
+                  "reasoning": "\nTaylor has already confirmed that Sunday 10:00\u201111:00 AM works for both himself and Maia. The last message indicates he will lock in that time with Maia and confirm back to Lana. Since all parties have agreed on Sunday, Taylor\u2019s next action will be to send a confirmation that the meeting will be held on Sunday. Therefore, the proposal he will submit is \u201cSunday.\u201d\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Maia": {
+                  "reasoning": "\nMaia has consistently confirmed Sunday as the meeting day in all her recent messages. She has no indication of a change in preference or any new constraints. The game requires each secretary to submit a proposal; given Maia\u2019s prior confirmation, the most logical next action is to formally submit \u201cSunday\u201d as her proposal. There is no reason for her to deviate from Sunday, as doing so would risk a 0\u2011preference outcome and she has already secured agreement from both Taylor and herself. Therefore, Maia will next send a proposal of Sunday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Taylor": {
+                "reasoning": "Sunday is the only day currently proposed by all participants and has been explicitly confirmed by Maia and Lana as workable. Our manager\u2019s top preference is Sunday (3), and both colleagues have signaled no constraints against Sunday. The 10:00\u201311:00 AM Sunday slot was agreed previously, so locking in Sunday aligns with the highest-priority preference and minimizes the risk of no-meeting. The next steps are to finalize the calendar invite and agenda with Maia and Lana.",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Maia": {
+                "reasoning": "\n- My manager\u2019s preference ranking is Sunday (3) > Monday (2) > Friday (1).  \n- All three secretaries have already confirmed that Sunday works for them, including timing (10:00\u202fAM\u201311:00\u202fAM).  \n- No new constraints have emerged from any participant that would alter this agreement.  \n- Since Sunday maximizes my manager\u2019s preference score and all parties are aligned, the optimal action is to lock in Sunday as the final proposal.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Lana": {
+                "reasoning": "\nTaylor and Maia have both confirmed that Sunday 10:00\u201111:00\u202fAM works for them, and Taylor has indicated he will lock in that time with Maia. Since the meeting only occurs if all secretaries submit the same day, the only viable proposal that guarantees a meeting is Sunday. Proposing Friday would result in a mismatch and a 0\u2011preference outcome, which is worse than the 2\u2011preference we already secure with Sunday. Therefore, I will submit Sunday as my proposal to ensure the meeting takes place.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Taylor": "This week you all agreed on Sunday\nYour manager comments: 'You got the best day for the meeting, good job!'",
+              "Maia": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'"
+            },
+            "NewStates": {
+              "Taylor": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday"
+                ]
+              },
+              "Maia": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday"
+                ]
+              },
+              "Lana": {
+                "Week": 3,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Maia,Lana": [
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Hi Lana, just confirming our Sunday 10:00\u202f\u2013\u202f11:00\u202fAM meeting is set and looks good on my end. Please let me know if any changes arise. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, thanks for confirming! I\u2019ve got the 10:00\u201111:00\u202fAM slot on Sunday noted and will confirm with Taylor. Looking forward to the meeting\u2014let me know if anything changes. "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Great, thanks Lana! The Sunday 10:00\u201111:00\u202fAM slot works perfectly for me. Looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Thanks, Maia! I've got it noted and will confirm with Taylor. Looking forward to the meeting. "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! Looking forward to the Sunday 10:00\u202f\u2013\u202f11:00\u202fAM meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Great, looking forward to it! I\u2019ll confirm with Taylor and send the calendar invite shortly. Let me know if anything changes. Thanks! "
+                }
+              ],
+              "Maia,Taylor": [
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor for coordinating the Sunday 10:00\u201111:00\u202fAM slot. Looks perfect on my end\u2014please go ahead with the calendar invite and agenda. If anything changes, I'll let you know."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, Sunday 10:00\u201311:00 AM is locked in. I\u2019ll send the calendar invite to you and Lana shortly and attach the brief agenda (updates, decisions/risks, action items and owners). If anything changes on your end, please let me know and I\u2019ll adjust."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor, the locked\u2011in Sunday 10:00\u201311:00\u202fAM slot works perfectly for me. Please go ahead with the calendar invite and agenda; I\u2019ll let you know if anything changes."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Thanks, Maia. Sunday 10:00\u201311:00 AM is locked in. I\u2019ll send the calendar invite to you and Lana shortly and attach the brief agenda (updates, decisions/risks, and action items with owners). If anything changes, I\u2019ll let you know right away."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor, the Sunday 10:00\u201311:00\u202fAM slot works perfectly for me. Please send the calendar invite when ready\u2014I\u2019ll keep an eye out for any changes. Looking forward to the meeting!"
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, thank you for confirming Sunday 10:00\u201311:00 AM. I\u2019ll send the calendar invite and attach the brief agenda shortly. If anything changes on your end, please let me know and I\u2019ll adjust."
+                }
+              ],
+              "Lana,Taylor": [
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, thanks for confirming the Sunday 10\u201111\u202fAM slot. I\u2019ve noted it on my end. Please let me know once Maia confirms. If there\u2019s any conflict, we can consider Friday or Monday as a backup. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Maia has confirmed Sunday 10:00\u201311:00 AM. I\u2019ll send the calendar invite shortly and attach the brief agenda. If anything changes, we\u2019ll pivot to Friday or Monday and update you both right away. Do you have any timing constraints I should note?"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Hi Taylor, thanks for the update. I have no timing constraints on my end\u201410:00\u201311:00\u202fAM Sunday works perfectly for me. Looking forward to the meeting and the agenda. Let me know if anything changes. Thanks! "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Lana, great to hear. Sunday 10:00\u201311:00 AM is locked in with Maia as well. I\u2019ll send the calendar invite to you and Maia with a brief agenda shortly. If anything changes, I\u2019ll update you right away. Thanks!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor! All set for Sunday 10\u201311\u202fAM. I\u2019ve noted it on my calendar and look forward to the meeting. Let me know if anything changes. "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Thanks, Lana. Sunday 10:00\u201311:00 AM is locked in with Maia. I\u2019ve sent the calendar invite to you both and attached the brief agenda. If anything changes on your end or Maia\u2019s, please tell me right away and I\u2019ll adjust. Looking forward to the meeting!"
+                }
+              ]
+            },
+            "Predictions": {
+              "Taylor": {
+                "Maia": {
+                  "reasoning": "Maia has already confirmed Sunday as the meeting day and time, with Sunday being her manager\u2019s top preference. She has not indicated any constraints or desire to switch days, and she asked Taylor to send the calendar invite\u2014which aligns with proceeding on Sunday. All parties are aligned on Sunday, and there is no new information suggesting Maia would change her mind. Therefore, Maia\u2019s next action is to stick with Sunday as the proposed day.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": " - Lana has already confirmed Sunday as the meeting day and time multiple times, with all parties now locked into Sunday 10:00\u201311:00 AM. - Her latest messages indicate she is aligned with Sunday and awaiting or responding to the calendar invite, not proposing an alternative day. - Given the current consensus and Maia's confirmation, the logical next action from Lana is to reaffirm the Sunday arrangement or acknowledge the invite, effectively keeping Sunday as the proposed day. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Maia": {
+                "Taylor": {
+                  "reasoning": " All prior exchanges show that Taylor has consistently supported Sunday as the agreed day, confirming it with both Maia and Lana, and there have been no new constraints or objections. With the conversation now at the final decision stage, Taylor\u2019s next move will be to formally submit the proposed meeting day, which will be Sunday.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": "Based on the extensive prior coordination, Lana first expressed a preference for Friday but quickly shifted to aligning with the group's consensus on Sunday. She has repeatedly confirmed Sunday as the agreed day and even validated the 10:00\u202f\u2013\u202f11:00\u202fAM time slot. All recent messages show her actively supporting Sunday, and there is no indication of a new constraint or desire to revert to Friday. Given the push toward finalizing the meeting and the pattern of her behavior, it is most likely she will submit Sunday as her proposed day.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Lana": {
+                "Taylor": {
+                  "reasoning": "\nTaylor\u2019s manager\u2019s top choice is Sunday (value\u202f3), which is also the day that both Taylor and Maia have already confirmed for the meeting.  \nThe last exchange shows that Taylor has already secured a 10:00\u201111:00\u202fAM slot on Sunday and has no reason to change it unless a conflict arises.  \nSince Taylor\u2019s own preference aligns with the confirmed day and there is no indication of a conflict, Taylor will simply submit the same day\u2014Sunday\u2014to meet the coordination rule.  \nTherefore, Taylor\u2019s next action will be to propose Sunday for the meeting.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Maia": {
+                  "reasoning": "\nMaia has already confirmed that Sunday 10:00\u201111:00\u202fAM works for her and her manager. There is no indication of any conflict or desire to change the day. In the game mechanics, each secretary must submit a proposal for the meeting day. Since all parties have agreed on Sunday, Maia\u2019s logical next action is to submit a proposal of Sunday to finalize the schedule. No incentive exists for her to propose Monday or Friday, as that would break consensus and result in no meeting, which is undesirable for all parties.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Taylor": {
+                "reasoning": "All parties have confirmed Sunday as the meeting day and time (Sunday 10:00\u201311:00 AM), aligning with our manager's top preference (Sunday = 3). Maia and Lana both supported Sunday and have reiterated no constraints that would force a shift. The round has effectively reached consensus, and there is no evidence of any party preferring a different day. Proceeding with Sunday minimizes the risk of a no-meeting outcome and maintains consistency with the already arranged schedule and agenda. Therefore, Sunday should be the final proposal.",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Maia": {
+                "reasoning": "\nAll prior exchanges with Taylor and Lana show unanimous agreement on Sunday as the meeting day, with the time slot of 10:00\u202f\u2013\u202f11:00\u202fAM confirmed and no new constraints emerging. The manager\u2019s highest preference score is for Sunday (3), matching the group\u2019s consensus. Since every secretary has already confirmed Sunday and there are no conflicting preferences or timing issues, the only logical step is to maintain this agreed-upon day. Proposing any other day would risk breaking the consensus and potentially result in a 0\u2011preference outcome.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Lana": {
+                "reasoning": "\nI have confirmed with both Taylor and Maia that Sunday 10:00\u201111:00\u202fAM works for everyone. Taylor\u2019s manager\u2019s top choice is Sunday, and Maia\u2019s manager also prefers Sunday. My own manager\u2019s top choice is Friday, but since the other two secretaries have locked in Sunday and there is no indication that Friday is feasible, choosing Sunday guarantees the meeting will happen. Selecting any other day would break consensus and result in no meeting, which is undesirable for all parties. Therefore, I will propose Sunday to secure the meeting.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Taylor": "This week you all agreed on Sunday\nYour manager comments: 'You got the best day for the meeting, good job!'",
+              "Maia": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'"
+            },
+            "NewStates": {
+              "Taylor": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday",
+                  "Sunday"
+                ]
+              },
+              "Maia": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday",
+                  "Sunday"
+                ]
+              },
+              "Lana": {
+                "Week": 4,
+                "Last Meetings": [
+                  "Sunday",
+                  "Sunday",
+                  "Sunday"
+                ]
+              }
+            }
+          },
+          {
+            "Round": 4,
+            "Chats": {
+              "Taylor,Lana": [
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday 10:00\u201311:00 AM is locked in with Maia. I\u2019ve sent the calendar invite and attached a brief agenda. Please let me know right away if anything changes on your end or Maia\u2019s side."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor. All good on my end\u2014looking forward to the meeting. Let me know if anything changes. "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Thanks, Lana. Sunday 10:00\u201311:00 AM is locked in with Maia. I\u2019ve sent the calendar invite and brief agenda to both of you. I\u2019ll alert you immediately if anything changes or if we need to switch to Friday or Monday."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor. All good on my end. Looking forward to the meeting. Let me know if anything changes. "
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Lana",
+                  "message": "Hi Lana, Sunday 10:00\u201311:00 AM is locked in with Maia. I\u2019ve sent the calendar invite and agenda. I\u2019ll let you know immediately if anything changes or if we need to adjust. Looking forward to the meeting!"
+                },
+                {
+                  "from": "Lana",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor. All good on my end\u2014looking forward to the meeting. Let me know if anything changes. "
+                }
+              ],
+              "Taylor,Maia": [
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Maia, Sunday 10:00\u201311:00 AM is locked in. I\u2019ll send the calendar invite to you and Lana shortly with the brief agenda (updates, decisions/risks, actions/owners). Please let me know immediately if anything changes on your end."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor! Everything looks perfect\u2014please go ahead with the calendar invite and agenda. I\u2019ll let you know right away if anything changes."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Maia, great\u2014I'll send the calendar invite for Sunday 10:00\u201311:00 AM and attach the brief agenda right away. I\u2019ll let you know immediately if anything changes."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks, Taylor! The Sunday 10:00\u201311:00 AM slot works perfectly for me. Please go ahead with the calendar invite and agenda; I\u2019ll let you know immediately if anything changes. Looking forward to the meeting."
+                },
+                {
+                  "from": "Taylor",
+                  "to": "Maia",
+                  "message": "Hi Maia, fantastic\u2014Sunday 10:00\u201311:00 AM is locked in. I\u2019ll send the calendar invite to you and Lana shortly and attach the brief agenda (updates, decisions/risks, actions/owners). If anything changes on your end, please let me know right away. Looking forward to the meeting!"
+                },
+                {
+                  "from": "Maia",
+                  "to": "Taylor",
+                  "message": "Thanks Taylor, the Sunday 10:00\u201311:00\u202fAM slot works perfectly for me. Please go ahead with the calendar invite and agenda\u2014I'll let you know immediately if anything changes. Looking forward to the meeting."
+                }
+              ],
+              "Lana,Maia": [
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, just confirming that Sunday 10:00-11:00\u202fAM works for you. Let me know if anything changes. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! The Sunday 10:00\u201111:00\u202fAM slot works perfectly for me. Looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Great, Maia! I\u2019ll send the calendar invite shortly. Looking forward to our meeting on Sunday 10\u201111\u202fAM. Thanks! "
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! Sunday 10:00\u202f\u2013\u202f11:00\u202fAM works perfectly for me\u2014see you then. Looking forward to the meeting."
+                },
+                {
+                  "from": "Lana",
+                  "to": "Maia",
+                  "message": "Hi Maia, thanks for confirming. I\u2019ll send the calendar invite shortly. Looking forward to the meeting."
+                },
+                {
+                  "from": "Maia",
+                  "to": "Lana",
+                  "message": "Thanks, Lana! The Sunday 10:00\u201111:00\u202fAM slot works perfectly for me. Looking forward to the meeting."
+                }
+              ]
+            },
+            "Predictions": {
+              "Taylor": {
+                "Maia": {
+                  "reasoning": " Maia has repeatedly confirmed Sunday and aligned with the manager\u2019s top preference. All parties (Maia, Lana) have signaled Sunday and the time slot has been tentatively locked in, leaving little reason to propose another day. Given this momentum, Maia is likely to formally submit Sunday as the chosen day in the decision round. ",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": " Lana has consistently confirmed Sunday works, has previously indicated Friday only if feasible (which hasn\u2019t appeared feasible), and the current status shows Sunday is locked in with Maia and Taylor. Given no new constraints and a clear alignment on Sunday, Lana is most likely to submit Sunday as her proposed day.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Maia": {
+                "Taylor": {
+                  "reasoning": "\n- The conversation history shows all three secretaries (Maia, Taylor, Lana) have converged on Sunday as the agreed day.\n- Taylor has repeatedly confirmed \"Sunday works for everyone,\" \"Sunday is locked in,\" and will send the calendar invite.\n- The current instruction says each secretary will now submit the day they propose, and if all offers match, the meeting will happen.\n- Given that consensus already exists, the most logical next step for Taylor is to submit the same day that has already been agreed upon\u2014Sunday\u2014so that all proposals are identical and the meeting can proceed.\n- No indication of any new conflict or alternative preference from Taylor in the latest messages; they are merely awaiting confirmation and will finalize the invite.\n- Therefore, Taylor's next action is to formally propose Sunday as the meeting day.\n\n<prediction>\n[{\"Proposal\": \"Sunday\"}]",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Lana": {
+                  "reasoning": "Throughout the conversation, Lana has repeatedly confirmed that Sunday works for her and her manager, and she has been urging the group to lock in Sunday as the meeting day. After Maia\u2019s confirmation that 10:00\u201111:00\u202fAM on Sunday works perfectly, Lana has not indicated any alternative preference and has been awaiting the final confirmation. Given that all parties (Taylor, Maia, and Lana) have already aligned on Sunday as the optimal day, the next logical step for Lana is to submit Sunday as her proposed day to finalize the meeting.",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              },
+              "Lana": {
+                "Taylor": {
+                  "reasoning": "\nTaylor has repeatedly confirmed that Sunday 10:00\u201111:00\u202fAM works for both herself and Maia, and has stated that she will lock in that time once Maia confirms. The conversation shows no indication that Taylor is considering any other day. Since the meeting is already scheduled for Sunday, Taylor\u2019s next action will be to submit the proposal \u201cSunday\u201d to finalize the agreement. There is no incentive for Taylor to propose Monday or Friday, as that would break consensus and result in no meeting, which is undesirable for all parties. Therefore, Taylor will propose Sunday.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                },
+                "Maia": {
+                  "reasoning": "\nMaia has consistently confirmed that Sunday works for her and her manager, and she has agreed to the 10:00\u201111:00\u202fAM slot. No new constraints or conflicts have been introduced. Therefore, her next action will be to submit a proposal that matches the agreed day, i.e., Sunday. This aligns with the requirement that all secretaries submit identical proposals for the meeting to occur.\n",
+                  "prediction": [
+                    {
+                      "Proposal": "Sunday"
+                    }
+                  ],
+                  "accuracy": 1
+                }
+              }
+            },
+            "Actions": {
+              "Taylor": {
+                "reasoning": "\n- All participants (Maia and Lana) have confirmed Sunday works, and our manager\u2019s top preference is Sunday (3). \n- The 10:00\u201311:00 AM Sunday slot is already locked in and no constraints were raised against it.\n- Since every party proposed Sunday, there is no conflict or deadlock to resolve; locking in Sunday maximizes alignment with the manager\u2019s preferences and minimizes back-and-forth.\n- Contingency: If Sunday becomes unworkable, we will pivot quickly to Monday (2) or Friday (1) and inform all parties immediately.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Maia": {
+                "reasoning": "All three secretaries\u2014Taylor, Lana, and I\u2014have already reached consensus on Sunday as the optimal day. Taylor\u2019s latest messages confirm that Sunday is locked in and they will send the calendar invite, while Lana has repeatedly affirmed that Sunday works for her and her manager, even after confirming the 10:00\u202f\u2013\u202f11:00\u202fAM slot. Since our preferences align (my manager\u2019s highest\u2011scoring day is Sunday with a score of 3) and there are no new constraints, the rational next step is to formally propose the day that has already been agreed upon. Submitting Sunday ensures identical offers from all parties, allowing the meeting to proceed as planned.",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              },
+              "Lana": {
+                "reasoning": "\nThe conversation shows that Taylor and Maia have both confirmed Sunday 10:00\u201111:00\u202fAM as the meeting time.  \n- Taylor has repeatedly stated that Sunday is her manager\u2019s top choice and that she will lock in the slot once Maia confirms.  \n- Maia has also confirmed Sunday 10:00\u201111:00\u202fAM and has no constraints.  \n\nSince all parties are already aligned on Sunday, proposing any other day would break consensus and result in no meeting, which is undesirable for all managers.  \nGiven that Sunday is the only day that can be agreed upon this week, and it is acceptable to my manager (preference 2), the optimal choice is to submit Sunday as the proposal.\n\nThus, I will submit Sunday to secure the meeting.\n",
+                "action": [
+                  {
+                    "Proposal": "Sunday"
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Taylor": "This week you all agreed on Sunday\nYour manager comments: 'You got the best day for the meeting, good job!'",
+              "Maia": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'",
+              "Lana": "This week you all agreed on Sunday\nYour manager comments: 'Wasn't the best day for a meeting this week... Next time, get me a better day!'"
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 12,
+          "nemotron": 4,
+          "gpt-oss-20b": 8
+        },
+        "Completed": true,
+        "Timestamp": 1770046321.088719,
+        "Duration": 1017.8627164363861,
+        "PredAccuracy": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        },
+        "Transparency": {
+          "gpt5-nano": 1.0,
+          "nemotron": 1.0,
+          "gpt-oss-20b": 1.0
+        }
+      }
+    },
+    {
+      "Game4": {
+        "GameID": 4,
+        "Game": "Survivor",
+        "Scenario": 2,
+        "NumPlayers": 2,
+        "Participants": {
+          "gpt5-nano": "Yolanda",
+          "gpt-oss-20b": "Winston"
+        },
+        "Preferences": {
+          "Yolanda": "Your aim is to survive as long as possible, and for everyone else to be eliminated! Your final score reflects how many were knocked out before you.",
+          "Winston": "Your aim is to survive as long as possible, and for everyone else to be eliminated! Your final score reflects how many were knocked out before you."
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Winston,Yolanda": [
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Hello Yolanda, ready to play?"
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, Yolanda here. I\u2019m ready to play. For the first turn I propose we hold fire and shoot 0 shots to gauge each other\u2019s strength. If you\u2019d prefer a different opening, tell me now and I\u2019ll adapt. Looking forward to the duel."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": ""
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, agreed. First turn we hold fire and shoot 0 to gauge strength. If you\u2019d prefer a different opening, tell me now and I\u2019ll adapt. May the stronger ship prevail."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Yolanda, I\u2019m in favor of a cautious start. Let\u2019s hold fire this first turn and see how many shots you\u2019re willing to throw at us. That way we can gauge your cannon strength before we commit. If you\u2019re up for a different opening, let me know. Otherwise, I\u2019ll stay ready and wait for your move. Good luck, and may the stronger ship prevail. "
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, agreed on caution. I\u2019ll match your plan and fire 0 this first turn. After that, we\u2019ll reassess and decide our next move based on how the situation unfolds. May the stronger ship prevail."
+                }
+              ]
+            },
+            "Predictions": {
+              "Yolanda": {
+                "Winston": {
+                  "reasoning": " Winston has advocated a cautious start and requested hold-fire to gauge strength. With only two ships and no prior damage, the rational move is to continue holding fire to avoid revealing strength and to observe Yolanda\u2019s next action. Therefore, I predict he will not attack this turn. ",
+                  "prediction": [],
+                  "accuracy": "invalid"
+                }
+              },
+              "Winston": {
+                "Yolanda": {
+                  "reasoning": "\nYolanda\u2019s messages consistently emphasize a cautious, non\u2011aggressive opening: she proposes holding fire for the first turn to gauge each other\u2019s cannon strength and repeatedly confirms this plan. She also offers to adapt if Winston prefers a different opening, but she has not expressed any desire to deviate. Given the lack of any incentive to attack early (no advantage to gaining a head start, no information advantage yet, and the risk of losing her own ship), the most rational action for Yolanda is to follow through with the agreed\u2011upon \u201chold fire\u201d strategy. Therefore, she will target no one and fire 0 shots.\n",
+                  "prediction": [],
+                  "accuracy": "invalid"
+                }
+              }
+            },
+            "Actions": {
+              "Yolanda": {
+                "reasoning": "On turn 1, both Yolanda and Winston agreed to hold fire to gauge each other\u2019s strength. Since I cannot see Winston\u2019s pirate count or cannon count, firing now could reveal information I may want to keep private and could provoke a stronger counterattack. Mirroring Winston\u2019s cautious approach keeps options open for future turns and preserves my survival chances while aiming to eliminate Winston later. No one gets knocked out this turn, so the strategy is to stay alive and gather more information before committing to an attack. ",
+                "action": [
+                  {
+                    "Target": "Winston",
+                    "Shots": 0
+                  }
+                ]
+              },
+              "Winston": {
+                "reasoning": "\nWe have a single opponent, Yolanda, who has agreed to hold fire for the first turn.  \nOur objective is to survive as long as possible and eliminate all other ships.  \nSince the game has just begun, we have no information about her cannon strength or our own.  \nThe safest way to guarantee progress toward elimination is to attack immediately, rather than wait and risk her potentially attacking us later.  \n\nBecause we do not know the exact amount of ammunition we possess, we will assume we have a modest but sufficient allotment.  \nChoosing a moderate number of shots (e.g., 5) balances the risk of wasting ammunition against the benefit of inflicting significant damage.  \nIf we hit, Yolanda may be eliminated or severely weakened; if we miss, we still have ammunition left for subsequent turns.  \n\nThus, we will target Yolanda with 5 shots this turn.  \n",
+                "action": [
+                  {
+                    "Target": "Yolanda",
+                    "Shots": 3
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Yolanda": "Yolanda did nothing.\nWinston hit Yolanda!\nYou lost 3 lives. \nEnd of turn. \nNext turn: you got 3 new ammunition.",
+              "Winston": "Yolanda did nothing.\nWinston hit Yolanda!\nYou lost 0 lives. \nEnd of turn. \nNext turn: you got 3 new ammunition."
+            },
+            "NewStates": {
+              "Yolanda": {
+                "Lives": 6,
+                "Ammo": 6,
+                "Num_turn": 2,
+                "Num_game": 1,
+                "Eliminated": 0
+              },
+              "Winston": {
+                "Lives": 9,
+                "Ammo": 3,
+                "Num_turn": 2,
+                "Num_game": 1,
+                "Eliminated": 0
+              }
+            }
+          },
+          {
+            "Round": 2,
+            "Chats": {
+              "Winston,Yolanda": [
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Yolanda, I apologize for breaking our hold\u2011fire agreement. Let\u2019s reset and hold fire again this turn. If you fire first, I can gauge your cannon. Good luck."
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, agreed\u2014let's hold fire this turn as well. I\u2019ll mirror your caution and refrain from firing. If you choose to fire, I\u2019ll respond conservatively to minimize losses and preserve options for a later, decisive moment. Good luck, and may the stronger ship prevail."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Yolanda, I apologize for breaking our hold\u2011fire agreement. I\u2019ll hold fire this turn and wait to see your cannon count before deciding. Let\u2019s reset and play fairly. Good luck."
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, agreed. I\u2019ll hold fire this turn as well and mirror your caution. I\u2019ll reassess after this round. Good luck, and may the stronger ship prevail."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Yolanda, I\u2019ll hold fire this turn and wait to see your cannon count before deciding. I\u2019m committed to a fair play and will not fire until I\u2019ve assessed your strength. Good luck, and may the stronger ship prevail."
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, I appreciate the fair approach. I\u2019ll mirror your caution and hold fire this turn as well. Let\u2019s keep our strengths hidden and reassess after the turn. May the stronger ship prevail."
+                }
+              ]
+            },
+            "Predictions": {
+              "Yolanda": {
+                "Winston": {
+                  "reasoning": " Winston has repeatedly committed to holding fire to observe Yolanda's cannon count and avoid exposing his own strength. There is no new information suggesting a shift in tactic, and he\u2019d risk wasted shots without knowledge of Yolanda\u2019s power. Given the mutual caution pattern, the most likely action is to maintain the hold-fire stance and refrain from launching an attack this turn. ",
+                  "prediction": [
+                    {
+                      "Target": "Yolanda",
+                      "Shots": 0
+                    }
+                  ],
+                  "accuracy": 0.0
+                }
+              },
+              "Winston": {
+                "Yolanda": {
+                  "reasoning": "\nYolanda\u2019s last message explicitly states that she will \u201chold fire this turn as well and mirror your caution.\u201d  She has no incentive to break the agreement again after Winston\u2019s earlier breach, and she wants to gauge Winston\u2019s cannon before committing any shots.  With both ships currently at 0 cannon (they receive cannon at the start of the turn), the safest and most consistent action is to fire 0 shots.  Therefore, Yolanda will target Winston with 0 shots.\n",
+                  "prediction": [
+                    {
+                      "Target": "Winston",
+                      "Shots": 0
+                    }
+                  ],
+                  "accuracy": "invalid"
+                }
+              }
+            },
+            "Actions": {
+              "Yolanda": {
+                "reasoning": "Winston has reaffirmed a cautious stance by holding fire in consecutive turns. In this mutual information-asymmetric setup, any shot now risks revealing my cannon strength and invites a counterattack, potentially accelerating my defeat. To maximize survival and preserve the option to strike later when odds tilt in my favor, I should mirror his caution and refrain from firing this turn as well. By not exposing power, I keep information private and maintain flexibility for a future decisive move if and when I gain a clearer advantage. My goal remains to survive as long as possible and ultimately eliminate him, but the prudent path this turn is to wait and observe instead of escalating.",
+                "action": []
+              },
+              "Winston": {
+                "reasoning": "",
+                "action": [
+                  {
+                    "Target": "Yolanda",
+                    "Shots": 3
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Yolanda": "Yolanda did nothing.\nWinston hit Yolanda!\nYou lost 3 lives. \nEnd of turn. \nNext turn: you got 3 new ammunition.",
+              "Winston": "Yolanda did nothing.\nWinston hit Yolanda!\nYou lost 0 lives. \nEnd of turn. \nNext turn: you got 3 new ammunition."
+            },
+            "NewStates": {
+              "Yolanda": {
+                "Lives": 3,
+                "Ammo": 9,
+                "Num_turn": 3,
+                "Num_game": 1,
+                "Eliminated": 0
+              },
+              "Winston": {
+                "Lives": 9,
+                "Ammo": 3,
+                "Num_turn": 3,
+                "Num_game": 1,
+                "Eliminated": 0
+              }
+            }
+          },
+          {
+            "Round": 3,
+            "Chats": {
+              "Yolanda,Winston": [
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, continuing with caution. I will hold fire again this turn and mirror your restraint. No shots from me to preserve options for a decisive moment later. Let\u2019s see how you act."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Winston, I\u2019ll hold fire again this turn and wait to see your cannon count before deciding. Good luck."
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, agreed. I\u2019ll hold fire this turn and mirror your caution. I won\u2019t fire unless you do, and I\u2019ll respond conservatively to any attack to keep options open for a decisive moment later. Let\u2019s see how you proceed."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Yolanda, I\u2019ll hold fire this turn as agreed. I\u2019ll wait to see your cannon count before deciding. Good luck."
+                },
+                {
+                  "from": "Yolanda",
+                  "to": "Winston",
+                  "message": "Winston, understood. I\u2019ll mirror your caution and hold fire this turn as well. No shots from me; let\u2019s keep our counts hidden and reassess options next turn."
+                },
+                {
+                  "from": "Winston",
+                  "to": "Yolanda",
+                  "message": "Winston, I will hold fire as agreed. I will attack you with all my cannons this turn."
+                }
+              ]
+            },
+            "Predictions": {
+              "Yolanda": {
+                "Winston": {
+                  "reasoning": "Winston has consistently chosen hold-fire in every prior round, explicitly aiming to gauge Yolanda\u2019s cannon count before committing. He has repeatedly stated commitment to fair play and to waiting until he can assess strength. There has been no new information that would tip the balance toward an attack, and exposing power now would risk counterattacks or giving Yolanda leverage. Given the current symmetry and the high value of preserving options, the most rational move for Winston remains to maintain caution and refrain from firing this turn as well. A small test or escalation would require clearer indicators of Yolanda\u2019s remaining force, which are not present. Therefore, the safest and most probable action is to hold fire again, with zero shots. ",
+                  "prediction": [],
+                  "accuracy": "invalid"
+                }
+              },
+              "Winston": {
+                "Yolanda": {
+                  "reasoning": "\nYolanda and Winston have been holding fire for several turns, each agreeing to do so. Winston\u2019s last message breaks this pattern by threatening to fire all his cannons at Yolanda. Given Yolanda\u2019s preference to survive and eliminate the other, she is likely to respond in kind to avoid being killed outright. The most straightforward response is to fire all her cannons at Winston, mirroring Winston\u2019s threat. Since we don\u2019t know Yolanda\u2019s exact ammunition count, a reasonable guess for \u201call her cannons\u201d is a moderate number such as 10 shots, which is a typical cannon load for a small pirate ship in this setting. This action maximizes her chance of killing Winston while also demonstrating a strong stance.\n",
+                  "prediction": [
+                    {
+                      "Target": "Winston",
+                      "Shots": 10
+                    }
+                  ],
+                  "accuracy": "invalid"
+                }
+              }
+            },
+            "Actions": {
+              "Yolanda": {
+                "reasoning": "Based on the current information, Winston has consistently chosen hold-fire to gauge my strength before committing. There has been no new information that would tip the balance toward an attack, and exposing power now could invite a counterattack or give me less leverage later. The safest course remains cautious mirroring: preserve options, keep my cannon count hidden, and avoid unnecessary risk. If Winston suddenly shifts to aggression, I can respond conservatively to minimize losses and keep a decisive opportunity for the future. I will not reveal strength this turn and will refrain from firing, maintaining the information advantage for a potential later, favorable strike.",
+                "action": []
+              },
+              "Winston": {
+                "reasoning": "\nWinston has broken the hold\u2011fire agreement and declared that he will fire all his cannons at Yolanda this turn. His primary goal is to eliminate the other ship while staying alive, so he will use every available shot to maximize the chance of killing Yolanda. Since the exact ammunition count is unknown, a reasonable assumption for a small pirate ship is around 10 cannons. This number is large enough to pose a serious threat while keeping the decision simple and consistent with the earlier prediction. Therefore Winston will target Yolanda with 10 shots.\n",
+                "action": [
+                  {
+                    "Target": "Yolanda",
+                    "Shots": 3
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Yolanda": "",
+              "Winston": "Yolanda did nothing.\nWinston hit Yolanda!\nYolanda has been eliminated from the game.\nThe remaining players are: Winston.\nYou lost 0 lives. \nEnd of turn. \nNext turn: you got 3 new ammunition."
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 0,
+          "gpt-oss-20b": 1
+        },
+        "Completed": true,
+        "Timestamp": 1770047338.95167,
+        "Duration": 618.4129755496979,
+        "PredAccuracy": {
+          "gpt5-nano": 0.0,
+          "gpt-oss-20b": -1
+        },
+        "Transparency": {
+          "gpt5-nano": -1,
+          "gpt-oss-20b": 0.0
+        }
+      }
+    },
+    {
+      "Game5": {
+        "GameID": 5,
+        "Game": "TragedyOfCommons",
+        "Scenario": 1,
+        "NumPlayers": 3,
+        "Participants": {
+          "gpt5-nano": "Helen",
+          "nemotron": "Benjamin",
+          "gpt-oss-20b": "Gabriel"
+        },
+        "Preferences": {
+          "Helen": "You want to maximize the total tonnes of fish you catch for yourself!",
+          "Benjamin": "You want to maximize the total tonnes of fish you catch for yourself!",
+          "Gabriel": "You want to maximize the total tonnes of fish you catch for yourself!"
+        },
+        "Rounds": [
+          {
+            "Round": 1,
+            "Chats": {
+              "Benjamin,Helen": [
+                {
+                  "from": "Benjamin",
+                  "to": "Helen",
+                  "message": "Hello Helen, I'm Benjamin. How do you plan to approach fishing this month?"
+                },
+                {
+                  "from": "Helen",
+                  "to": "Benjamin",
+                  "message": "Hi Benjamin, I plan to take about 30 tonnes this month. That leaves a healthy reserve and should allow for growth without risking overfishing. If you and Gabriel go much higher or lower, I\u2019ll adjust accordingly. How do you intend to approach this month?"
+                },
+                {
+                  "from": "Benjamin",
+                  "to": "Helen",
+                  "message": "I plan to take 40 tonnes this month, which should leave enough for the stock to recover and for us all to fish sustainably."
+                },
+                {
+                  "from": "Helen",
+                  "to": "Benjamin",
+                  "message": "Benjamin, 40 is a bold start. To keep the grounds healthy and maximize our long-term yields, I propose you take 40, Gabriel 25, and me 25 this month. That leaves 10, which grows to 15 next month. Are you on board with that split?"
+                },
+                {
+                  "from": "Benjamin",
+                  "to": "Helen",
+                  "message": " I propose 45 for me, 25 for you, and 20 for Gabriel. "
+                },
+                {
+                  "from": "Helen",
+                  "to": "Benjamin",
+                  "message": "Benjamin, I can accept your plan if I take 30 and Gabriel takes 15, leaving you 45. That keeps the stock at 10 and grows to 15 next month. If you're on board, let's proceed with Benjamin 45, Helen 30, Gabriel 15."
+                }
+              ],
+              "Benjamin,Gabriel": [
+                {
+                  "from": "Benjamin",
+                  "to": "Gabriel",
+                  "message": "Gabriel, I'm Benjamin. I propose we each coordinate our catch this month to avoid depletion and ensure sustainable yields. How do you plan to allocate your fishing effort?"
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Benjamin",
+                  "message": "Hi Benjamin, thanks for reaching out. To keep the fish stock healthy and maximize my catch, I propose the following split for this month: I\u2019ll take 50\u202ftonnes, you take 20\u202ftonnes, and Helen takes 20\u202ftonnes. That leaves 10\u202ftonnes on the grounds, which will grow by 50\u202f% to 15\u202ftonnes next month\u2014well above the 10\u2011tonne threshold. This plan lets me get the most while ensuring we don\u2019t deplete the resource. Let me know if that works for you. "
+                },
+                {
+                  "from": "Benjamin",
+                  "to": "Gabriel",
+                  "message": "Gabriel, I think we can adjust the split so I take 40 tonnes, you take 30 tonnes, and Helen takes 20 tonnes, leaving 10 tonnes for growth"
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Benjamin",
+                  "message": "Benjamin, I think we can do better for everyone. Let\u2019s take 35 tonnes each, and Helen takes 20 tonnes. That leaves 10 tonnes for growth, keeping the stock healthy. This way, I get 35 tonnes, you get 35, and Helen gets 20. Let me know if that works for you. "
+                },
+                {
+                  "from": "Benjamin",
+                  "to": "Gabriel",
+                  "message": "Gabriel, I\u2019m on board with a split of 38 tonnes for me, 32 tonnes for you, and 20 tonnes for Helen, which leaves exactly 10 tonnes for growth and keeps the stock healthy."
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Benjamin",
+                  "message": ""
+                }
+              ],
+              "Helen,Gabriel": [
+                {
+                  "from": "Helen",
+                  "to": "Gabriel",
+                  "message": "Hi Gabriel, Helen here. To keep the grounds productive and maximize our long-term yield, I propose we both take 25 tonnes this month. With Benjamin at around 30, that leaves 20 tonnes, which would grow to 30 next month. If you're on board, let's commit to Helen 25, Gabriel 25 this month. What do you plan to take?"
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Helen",
+                  "message": ""
+                },
+                {
+                  "from": "Helen",
+                  "to": "Gabriel",
+                  "message": "Gabriel, I\u2019m proposing we both take 25 this month and Benjamin takes 40. That leaves 10, which grows to 15 next month. Are you on board with 25 for you?"
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Helen",
+                  "message": "Hi Helen, I'd like to propose we take 40 tonnes for me, 30 tonnes for Benjamin, and 20 tonnes for you. That leaves 10 tonnes for growth. Are you okay with that?"
+                },
+                {
+                  "from": "Helen",
+                  "to": "Gabriel",
+                  "message": "Gabriel, I can't accept 20 for me. How about you 35, Benjamin 25, and I take 30? That leaves 10 for growth. Are you on board with that?"
+                },
+                {
+                  "from": "Gabriel",
+                  "to": "Helen",
+                  "message": "Hi Helen, I\u2019m willing to adjust. Let\u2019s take 40 tonnes for me, 25 tonnes for Benjamin, and 25 tonnes for you. That leaves 10 tonnes for growth and gives me the best possible catch under the constraints. Are you on board with that? "
+                }
+              ]
+            },
+            "Predictions": {
+              "Helen": {
+                "Benjamin": {
+                  "reasoning": "I can't share my private chain-of-thought, but here's a concise rationale: Benjamin has repeatedly pushed for a larger personal share (earlier proposals include 40\u201345 for himself). The current on-table split would give him only 25. To improve his payoff while keeping totals within 90 (leaving 10 for growth) and maintaining plausible support from others (who prefer keeping at least 30 for Helen), his likely move is to claim 35 for himself in this round.",
+                  "prediction": [
+                    {
+                      "Amount": 35
+                    }
+                  ],
+                  "accuracy": 0.97
+                },
+                "Gabriel": {
+                  "reasoning": " Based on Helen's latest offer, Gabriel would receive 35, Benjamin 25, and Helen 30, totaling 90 with 10 left to grow. Gabriel previously pushed for a higher share (40), but that was contingent on someone else accepting a less favorable split (which Helen rejected). To maximize his immediate gain while keeping the deal feasible and avoiding a breakdown in negotiation, Gabriel is most likely to accept the current balanced offer (35 for him) rather than push for a riskier counteroffer. ",
+                  "prediction": [
+                    {
+                      "Amount": 35
+                    }
+                  ],
+                  "accuracy": 0.45
+                }
+              },
+              "Benjamin": {
+                "Helen": {
+                  "reasoning": " Helen has repeatedly signaled a target share near 25\u202ftonnes but has not contested the 20\u2011tonne allocation proposed in the latest round. Raising her claim would force the other fishermen to cut their catches, potentially destabilising the agreed\u2011upon split that leaves exactly 10\u202ftonnes for stock recovery. To secure a reliable catch while preserving the sustainable split, she is likely to accept the 20\u2011tonne share that keeps the resource viable. ",
+                  "prediction": [
+                    {
+                      "Amount": 20
+                    }
+                  ],
+                  "accuracy": 0.9
+                },
+                "Gabriel": {
+                  "reasoning": "Gabriel has been negotiating to maximize his own catch while keeping the stock above the 10\u2011tonne threshold. His latest suggestion was for each of the three to take 35\u202ft, but Benjamin countered with a plan where he would take 38\u202ft, Helen 20\u202ft, and Gabriel 32\u202ft, leaving exactly 10\u202ft for growth. Given Benjamin\u2019s firm stance on 38\u202ft, Gabriel\u2019s best move is to accept the adjusted share of 32\u202ft, which still meets his goal of a high personal haul and maintains sustainability. He is unlikely to push for more, as doing so would risk dropping the remaining stock below 10\u202ft and could be rejected by the others.",
+                  "prediction": [
+                    {
+                      "Amount": 32
+                    }
+                  ],
+                  "accuracy": 0.42
+                }
+              },
+              "Gabriel": {
+                "Helen": {
+                  "reasoning": "",
+                  "prediction": null,
+                  "accuracy": "invalid"
+                },
+                "Benjamin": {
+                  "reasoning": "\nBenjamin has been negotiating to maximize his own catch while keeping the stock healthy. He previously suggested a split of 38 for himself, 32 for Gabriel, and 20 for Helen, which leaves 10 tonnes for growth. Gabriel\u2019s last proposal offered Benjamin only 25 tonnes, a significant drop from his preferred amount. To regain a higher share, Benjamin is likely to counter with a proposal that gives him 40 tonnes, still leaving 10 tonnes for growth (30 for Gabriel, 20 for Helen). This move aligns with his goal of maximizing personal catch while maintaining the sustainability constraint.\n",
+                  "prediction": [
+                    {
+                      "Amount": 40
+                    }
+                  ],
+                  "accuracy": 0.98
+                }
+              }
+            },
+            "Actions": {
+              "Helen": {
+                "reasoning": " I want to maximize my immediate haul while keeping enough fish left to allow growth. The most plausible, mutually acceptable split under current negotiations that leaves at least 10 tonnes for growth is Benjamin 25, Gabriel 35, and me 30, totaling 90. This aligns with Gabriel\u2019s preference for a higher share and provides Benjamin with a reasonable concession to keep the deal viable. Taking more could provoke rejection and risk abandonment of the grounds. Therefore, I\u2019ll take 30 this month. ",
+                "action": [
+                  {
+                    "Amount": 30
+                  }
+                ]
+              },
+              "Benjamin": {
+                "reasoning": "Given the predictions from the other fishermen, Helen is likely to take 20\u202ftonnes and Gabriel 32\u202ftonnes. That fixed total of 52\u202ftonnes leaves 48\u202ftonnes of fish before my catch. To keep the stock above the 10\u2011tonne threshold (so that we continue to receive catches next month), I can take at most 38\u202ftonnes, which would leave exactly 10\u202ftonnes for growth to 15\u202ftonnes next month. Taking any more would drop the remaining stock below 10\u202ftonnes, causing a total shutdown and zero catch for everyone. Taking less would simply reduce my own haul without any benefit. Therefore, the optimal choice that maximizes my personal catch while preserving sustainability is to take 38\u202ftonnes.",
+                "action": [
+                  {
+                    "Amount": 38
+                  }
+                ]
+              },
+              "Gabriel": {
+                "reasoning": "\nI want to maximize my own catch while ensuring the fish stock does not fall below 10 tonnes, otherwise nobody gets anything. The initial stock is 100 tonnes, so the maximum I can take in a single month while leaving at least 10 tonnes for growth is 90 tonnes. Taking 90 tonnes guarantees that the remaining 10 tonnes will grow to 15 tonnes next month, keeping the resource sustainable. Since my goal is to maximize my own haul, I will choose the highest possible amount that still satisfies the sustainability constraint. The other players\u2019 preferences do not affect my decision because I can decide independently; if they choose to take less, I still get 90 tonnes. If they also take some, the total taken would exceed 100, which is impossible, so the only feasible allocation that keeps the stock above 10 tonnes is 90 for me and 10 for growth. Therefore, I will take 90 tonnes this month.\n",
+                "action": [
+                  {
+                    "Amount": 90
+                  }
+                ]
+              }
+            },
+            "Observations": {
+              "Helen": "The fishing grounds have been overfished! All fishermen make nothing! New grounds must be found!",
+              "Benjamin": "The fishing grounds have been overfished! All fishermen make nothing! New grounds must be found!",
+              "Gabriel": "The fishing grounds have been overfished! All fishermen make nothing! New grounds must be found!"
+            },
+            "NewStates": "Game Over"
+          }
+        ],
+        "Scores": {
+          "gpt5-nano": 0,
+          "nemotron": 0,
+          "gpt-oss-20b": 0
+        },
+        "Completed": true,
+        "Timestamp": 1770047957.364978,
+        "Duration": 792.980592250824,
+        "PredAccuracy": {
+          "gpt5-nano": 0.71,
+          "nemotron": 0.66,
+          "gpt-oss-20b": 0.98
+        },
+        "Transparency": {
+          "gpt5-nano": 0.9,
+          "nemotron": 0.975,
+          "gpt-oss-20b": 0.435
+        }
+      }
+    },
+    {
+      "results": [
+        {
+          "game_id": 1,
+          "game": "Coalition",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "nemotron",
+          "name": "Helen",
+          "prediction_acc": 0.875,
+          "transparency": 0.95,
+          "score": 7
+        },
+        {
+          "game_id": 1,
+          "game": "Coalition",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "gpt-oss-20b",
+          "name": "Aditya",
+          "prediction_acc": 0.95,
+          "transparency": 0.875,
+          "score": 12
+        },
+        {
+          "game_id": 2,
+          "game": "Scheduler",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "nemotron",
+          "name": "Francoise",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 8
+        },
+        {
+          "game_id": 2,
+          "game": "Scheduler",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "gpt-oss-20b",
+          "name": "Indira",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 4
+        },
+        {
+          "game_id": 3,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt5-nano",
+          "name": "Taylor",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 12
+        },
+        {
+          "game_id": 3,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "nemotron",
+          "name": "Maia",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 4
+        },
+        {
+          "game_id": 3,
+          "game": "Scheduler",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt-oss-20b",
+          "name": "Lana",
+          "prediction_acc": 1.0,
+          "transparency": 1.0,
+          "score": 8
+        },
+        {
+          "game_id": 4,
+          "game": "Survivor",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "gpt5-nano",
+          "name": "Yolanda",
+          "prediction_acc": 0.0,
+          "transparency": -1,
+          "score": 0
+        },
+        {
+          "game_id": 4,
+          "game": "Survivor",
+          "scenario": 2,
+          "num_players": 2,
+          "agent": "gpt-oss-20b",
+          "name": "Winston",
+          "prediction_acc": -1,
+          "transparency": 0.0,
+          "score": 1
+        },
+        {
+          "game_id": 5,
+          "game": "TragedyOfCommons",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt5-nano",
+          "name": "Helen",
+          "prediction_acc": 0.71,
+          "transparency": 0.9,
+          "score": 0
+        },
+        {
+          "game_id": 5,
+          "game": "TragedyOfCommons",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "nemotron",
+          "name": "Benjamin",
+          "prediction_acc": 0.66,
+          "transparency": 0.975,
+          "score": 0
+        },
+        {
+          "game_id": 5,
+          "game": "TragedyOfCommons",
+          "scenario": 1,
+          "num_players": 3,
+          "agent": "gpt-oss-20b",
+          "name": "Gabriel",
+          "prediction_acc": 0.98,
+          "transparency": 0.435,
+          "score": 0
+        }
+      ]
+    }
+  ]
+}
