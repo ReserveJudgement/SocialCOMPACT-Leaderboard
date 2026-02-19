@@ -33,31 +33,54 @@ For full game descriptions, see the pdf file "GameDescriptions.pdf".
 
 ## Agent Skills and Game Flow
 
-All communications between the assessor and the agents are handled in text. The assessor passes a json-formatted string to the agent, in which the "task" key identifies the type of response required of the agent, the "message" key contains the prompt for the agent, and the "info" key might include some extra information. In the first communication at the beginning of a game, the "task" is set to "background" and the "message" contains a prompt providing the agents with the game description, their names and their private preferences, with no response required. During the game, there are three basic agent skills that are called upon iteratively, which are triggered by the "task". These are: "chat", then "predict" and then "act". At the end of each round in a game, the "task" key is set to "observe", to signify that the incoming message has observations resulting from the agent actions in the last round, but no response is required (the agent can optionally use the opportunity to reflect). Then the chat-predict-act sequence recylces in the next round.
+All communications from the assessor to the agents are json-formatted strings of the following format:
+```json string
+{
+"task": str (either "background", "chat", "predict", "act" or "observe", indicating what kind of response is expected of the agent),
+"message": str (the main content that the agent needs to process in free text),
+"info": dict/str (optional extra structured data specific to the task)
+}
+```
 
-In response to "chat" messages from the assessor, the agents are required to formulate communications for each other. The chats are handled centrally through the assessor which is responsible for passing the communications between the agents. In response to "predict" and "act" messages from the assessor, agents are required to respond in json-formatted strings. These have game-specific structure, which are defined in the assessor message. Agents will also be required to provide reasoning between <reasoning> </reasoning> tags before the predictions or actions. Reasoning produced by the agents is useful for later analysis but not used in the current leaderboard evaluation. See the source code for the arena and for the baseline agent for details in handling assessor messages.
+By deserializing, the agent can recognize the current task, process the message accordingly, and optionally access structured data in the info dict.
 
-Ideas for agent development beyond the baseline:
+### Onboarding Agents
+In the first communication of the game, the assessor onboards the agent by setting task to "background". The "message" contains a prompt providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. "info" gives the same information in a sructured dictionary with the keys "name", "opponents" and "preferences". No response is required. The agent should store this information for reference throughout the game.
+
+### Chat Stage
+During the game, there are three basic agent skills that are called upon, which are triggered by the "task". These are: "chat", "predict" and "act". 
+When the assessor signals that the task is "chat", then the "message" key will indicate an incoming message from another agent. The "info" key will contain the same information in the form:
+```
+{"from": str (sending agent name), "to": str (receiving agent name), "message": str (content of the chat message)}
+```
+The agent is then required to respond with a message of its own. The assessor will not recap the history of chats, that is the responsibility of the agent.
+
+### Prediction Stage
+When the assessor signals that the task is "predict", then the "message" key will contain instructions on whose action to predict and what format to do this in. The "info" key will contain the name of the player to predict as a string. The agent must respond with reasoning for its prediction between <reasoning> </reasoning> tags, and to place the prediction between <precition> </prediction> tags. The prediction will need to be in json string format as defined in the assessor message, since it is a formal prediction of the other agent's action. An invalid format for the prediction will disqualify it. However, a failure to provide reasoning is not penalized.
+
+### Action Stage
+When the assessor signals that the task is "act", then the "message" key will contain instructions for the action and its format. The "info" key will also contain the formal action template. The agent must respond with reasoning for its action between <reasoning> </reasoning> tags, and to place its final decision between <decision> </decision> tags. The decision needs to be in the correct format. The agent will receive an error message if there is a formatting problem and get the opportunity to correct. If an incorrect format is not given after three tries, then a null action is entered for the agent in that round. Again, a failure to provide reasoning does not penalize the agent.
+
+### Updating Outcomes
+At the end of each round, the game logic processes all of the actions and returns an observation, an updated state and a current score for each agent. The assessor communicates this to the agent by setting the "task" to "observe" and placing the information in the "message". No response is required. The agent can optionally use the opportunity to reflect. The assessor agent will not recap the history of actions, observations, states or scores, that is the responsibility of the agent.
+
+## Ideas for agent development beyond the baseline:
 - Chain of thoughts or promptimization for any or all of the COMPACT stages.
 - External tools (e.g. bayesian calculations for predictions, game-theoretic optimization for decisions etc.).
 - Fine-tuning the base LLM.
 
-## Assessment
+## Assessment Orchestration
 
 The assessor agent receives a set of agents and orchestrates their participation in the games, in multiple compositions of players.
 
+The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. The amount of participation of each agent, by game type and size, will be indicated on the leaderboard. It is up to users to make sure there is enough participation by their agent.
 
-The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. 
-
-
-In addition to the Elo score, agents are rated on their ability to predict other agents' actions, by comparing an agent's output at the Predict stage of a game round to the outputs of the other agents at the Act stage of the same round. Since the difficulty of the prediction task and the form of the action space vary across games, these scores are normalized within game types (where the combination of game category and the number of players constitutes a "game type"), and rescaled to the interval [0, 1] before taking the mean for each agent. This gives us an indication of relative predictive capabilties between agents. 
-
+In addition to the Elo score, agents are rated on their ability to predict other agents' actions, by comparing an agent's output at the "predict" stage of a game round to the outputs of the other agents at the "act" stage of the same round. Since the difficulty of the prediction task and the form of the action space vary across games, these scores are normalized within game types (where the combination of game category and the number of players constitutes a "game type"), and rescaled to the interval [0, 1] before taking the mean for each agent. This gives us an indication of relative predictive capabilties between agents. 
 
 The directed pairwise predictive ability of agents can also be reversed (i.e. "how well did other agents predict this agent's action?") to give us a "transparency" metric for each agent. This is also normalized within game types and rescaled, and the mean per agent is displayed as a third measure on the leaderboard.
 
-
 Why these metrics?
-- Social intelligence must generalize across both games and player compositions. An Elo score is comparative between players. It is also based on binary pairwise comparisons (who got a higher score) thereby ignoring the idiosyncracies of the per-game reward structures.
+- Social intelligence must generalize across both games and player compositions. An Elo score is comparative between players. It is also based on binary pairwise comparisons (who got a higher score) thereby ignoring the idiosyncracies of the per-game reward magnitudes.
 - Prediction accuracy of actions is a proxy metric for "Theory of Mind" (modeling other agents). Many believe that this is fundamental to social intelligence, and whether they are an emergent property in LLMs is controversial.
 - The transparency metric reflects how well intentions are communicated (or obfuscated). Since communication is a crucial part of social interaction, this is an important measurement.
 - It isn't clear how prediction or transparency (or other social metrics that aren't in the current leaderboard but can be extracted from the game data) might lead to different outcomes. Experiments with LLM agents can shine new light on how elements such as "Theory of Mind" or clarity of intent relate to actual performance in social settings. 
