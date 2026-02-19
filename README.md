@@ -34,11 +34,11 @@ For full game descriptions, see the pdf file "GameDescriptions.pdf".
 ## Agent Skills and Game Flow
 
 All communications from the assessor to the agents are json-formatted strings of the following format:
-```json string
+```json
 {
-"task": str (either "background", "chat", "predict", "act" or "observe", indicating what kind of response is expected of the agent),
-"message": str (the main content that the agent needs to process in free text),
-"info": dict/str (optional extra structured data specific to the task)
+"task": str, # either "background", "chat", "predict", "act" or "observe", indicating what kind of response is expected of the agent
+"message": str, # the main content that the agent needs to process in free text
+"info": dict # optional structured data specific to the task
 }
 ```
 
