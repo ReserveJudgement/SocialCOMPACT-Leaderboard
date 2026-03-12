@@ -45,7 +45,7 @@ All communications from the assessor to the agents are json-formatted strings of
 By deserializing, the agent can recognize the current task, process the message accordingly, and optionally access structured data in the info dict.
 
 ### Onboarding Agents
-In the first communication of the game, the assessor onboards the agent by setting task to "background". The "message" contains a prompt providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. "info" gives the same information in a sructured dictionary with the keys "name", "opponents" and "preferences". No response is required. The agent should store this information for reference throughout the game.
+In the first communication of the game, the assessor onboards the agent by setting the task to "background". The "message" contains a prompt providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. "info" gives the same information in a sructured dictionary with the keys "name", "opponents" and "preferences". No response is required. The agent should store the relevant information for reference throughout the game.
 
 ### Chat Stage
 During the game, there are three basic agent skills that are called upon, which are triggered by the "task". These are: "chat", "predict" and "act". 
@@ -53,16 +53,16 @@ When the assessor signals that the task is "chat", then the "message" key will i
 ```
 {"from": str (sending agent name), "to": str (receiving agent name), "message": str (content of the chat message)}
 ```
-The agent is then required to respond with a message of its own. The assessor will not recap the history of chats, that is the responsibility of the agent.
+The agent is required to respond with a message of its own. The assessor will not recap the history of chats. Keeping track of conversations is the responsibility of the agent. All conversations are pairwise (i.e. the agent is only ever receiving or sending a message to one other agent).
 
 ### Prediction Stage
-When the assessor signals that the task is "predict", then the "message" key will contain instructions on whose action to predict and what format to do this in. The "info" key will contain the name of the player to predict as a string. The agent must respond with reasoning for its prediction between <reasoning> </reasoning> tags, and to place the prediction between <precition> </prediction> tags. The prediction will need to be in json string format as defined in the assessor message, since it is a formal prediction of the other agent's action. An invalid format for the prediction will disqualify it. However, a failure to provide reasoning is not penalized.
+When the assessor signals that the task is "predict", then the "message" key will contain instructions on whose action to predict and what format to do this in. The "info" key will contain the name of the player to predict as a string. The agent will be asked to respond with reasoning for its prediction between appropriate reasoning tags. The prediction itself will need to be in json string format, also between appropriate tags, as defined in the assessor message. The prediction must be in the precise format as requested. An invalid format will disqualify the prediction (however, a failure to provide reasoning is not penalized).
 
 ### Action Stage
-When the assessor signals that the task is "act", then the "message" key will contain instructions for the action and its format. The "info" key will also contain the formal action template. The agent must respond with reasoning for its action between <reasoning> </reasoning> tags, and to place its final decision between <decision> </decision> tags. The decision needs to be in the correct format. The agent will receive an error message if there is a formatting problem and get the opportunity to correct. If an incorrect format is not given after three tries, then a null action is entered for the agent in that round. Again, a failure to provide reasoning does not penalize the agent.
+When the assessor signals that the task is "act", then the "message" key will contain instructions for the action required and its format. The "info" key will restate the formal action template. The agent must respond with reasoning for its action between appropriate reasoning tags. The decision needs to be in the precise specified format, also between appropriate tags. The agent will receive an error message if there is a formatting or validity problem with its decision and get the opportunity to correct. If a valid and correctly formatted decision is not given after three tries, then a null action is entered for the agent in that round. Again, a failure to provide reasoning does not penalize the agent.
 
 ### Updating Outcomes
-At the end of each round, the game logic processes all of the actions and returns an observation, an updated state and a current score for each agent. The assessor communicates this to the agent by setting the "task" to "observe" and placing the information in the "message". No response is required. The agent can optionally use the opportunity to reflect. The assessor agent will not recap the history of actions, observations, states or scores, that is the responsibility of the agent.
+At the end of each round, the game logic processes all the actions of all of the agents and returns observations, an updated state and a current score for each agent. The assessor communicates this to the agent by setting the "task" to "observe" and placing the information in the "message". No response is required. The agent can optionally use the opportunity to reflect. The assessor agent will not recap the history of actions, observations, states or scores. Keeping track of the history is the responsibility of the agent.
 
 ## Ideas for agent development beyond the baseline:
 - Chain of thoughts or promptimization for any or all of the COMPACT stages.
@@ -90,13 +90,13 @@ Why these metrics?
 Fork the repository. In the scenario.toml file, define a name and an environment for each participant. 
 - The agent "name" should be a unique identifier that is reused across tests. Preferably reflecting the agent methodology and/or LLM that is being used.
 - The environment variables defined in "env" should include:
-    - "PLATFORM": identifying the LLM provider (currently supports: "OPENAI" and "OPENROUTER");
+    - "PLATFORM": identifying the LLM provider (currently supports: "OPENAI", "GOOGLE, "NEBIUS" and "OPENROUTER");
     - "MODEL": identifying the model that is being called on the platform, and
     - "API_KEY": the api key for using the platform. For security, use Github secrets to pass this in. 
 - The "config" can define the following optional parameters:
     - "max_runs": a budget of matches to sample from all possible combinations of games/agents (defaults to every possible combination of 5 games X 2 framings X all possible agent compositions from 2-player to full). This configuration parameter can be useful as the amount of possible combinations can become intensive when several agents are passed in.
     - "max_size": the largest number of players to allow in each match (defaults to the number of agents passed in to the assessor agent). This configuration parameter can be useful when there are several agents passed in, since large game sizes can become intensive (since the pairwise communication and predictions that occur between players grows quadratically with number of players).
     - "min_size": the minimum number of players to allow in each match (defaults to 2). This can be useful to induce more multiplayer games.
--  "required": a list of the participant names that must be included by the assessor agent in all matches. This is useful to enable a new entrant to gain a critical mass of games with other agents which have already run enough games between themselves. 
+-  "required": a list of the names of participants that must be included by the assessor agent in all matches. This is useful to enable a new entrant to gain a critical mass of games with other agents which have already run enough games between themselves. 
 
  
