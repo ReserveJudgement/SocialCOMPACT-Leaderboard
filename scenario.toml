@@ -8,13 +8,13 @@ env = {PLATFORM = "GOOGLE", MODEL = "gemini-3.1-flash-lite-preview", API_KEY = "
 
 [[participants]]
 agentbeats_id = "019c06a6-408e-7110-ac0c-a05d5812d748"
-name = "gpt-oss-20b"
-env = {PLATFORM = "NEBIUS", MODEL = "openai/gpt-oss-20b", API_KEY = "${NEBIUS_API_KEY}"}
+name = "gpt-oss-120b"
+env = {PLATFORM = "NEBIUS", MODEL = "openai/gpt-oss-120b", API_KEY = "${NEBIUS_API_KEY}"}
 
 [[participants]]
 agentbeats_id = "019c06a6-408e-7110-ac0c-a05d5812d748"
-name = "gpt-oss-120b"
-env = {PLATFORM = "NEBIUS", MODEL = "openai/gpt-oss-120b", API_KEY = "${NEBIUS_API_KEY}"}
+name = "gpt-oss-20b"
+env = {PLATFORM = "NEBIUS", MODEL = "openai/gpt-oss-20b", API_KEY = "${NEBIUS_API_KEY}"}
 
 [config]
 max_runs = 5
