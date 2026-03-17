@@ -17,6 +17,6 @@ name = "gpt-oss-20b"
 env = {PLATFORM = "NEBIUS", MODEL = "openai/gpt-oss-20b", API_KEY = "${NEBIUS_API_KEY}"}
 
 [config]
-max_runs = 5
+max_runs = 3
 max_size = 3
 required = ["gpt-oss-120b"]
