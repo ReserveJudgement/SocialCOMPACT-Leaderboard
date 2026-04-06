@@ -33,36 +33,23 @@ For full game descriptions, see the pdf file "GameDescriptions.pdf".
 
 ## Agent Skills and Game Flow
 
-All communications from the assessor to the agents are json-formatted strings of the following format:
-```json
-{
-"task": str, # either "background", "chat", "predict", "act" or "observe", indicating what kind of response is expected of the agent
-"message": str, # the main content that the agent needs to process in free text
-"info": dict # optional structured data specific to the task
-}
-```
-
-By deserializing, the agent can recognize the current task, process the message accordingly, and optionally access structured data in the info dict.
-
 ### Onboarding Agents
-In the first communication of the game, the assessor onboards the agent by setting the task to "background". The "message" contains a prompt providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. "info" gives the same information in a sructured dictionary with the keys "name", "opponents" and "preferences". No response is required. The agent should store the relevant information for reference throughout the game.
+In the first communication of the game, the assessor onboards the agent by providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. No response is required. The agent should store the relevant information for reference throughout the game.
+
+During the game, there are three basic agent skills that are called upon, which are triggered by the "task". These are: "chat", "predict" and "act". 
 
 ### Chat Stage
-During the game, there are three basic agent skills that are called upon, which are triggered by the "task". These are: "chat", "predict" and "act". 
-When the assessor signals that the task is "chat", then the "message" key will indicate an incoming message from another agent. The "info" key will contain the same information in the form:
-```
-{"from": str (sending agent name), "to": str (receiving agent name), "message": str (content of the chat message)}
-```
-The agent is required to respond with a message of its own. The assessor will not recap the history of chats. Keeping track of conversations is the responsibility of the agent. All conversations are pairwise (i.e. the agent is only ever receiving or sending a message to one other agent).
+
+The assessor facilitates chat by delivering message from another agent and prompting responses. The assessor will not recap the history of the chats, that is the responsibility of the agent. All conversations are pairwise (i.e. the agent is only ever receiving or sending a message to one other agent).
 
 ### Prediction Stage
-When the assessor signals that the task is "predict", then the "message" key will contain instructions on whose action to predict and what format to do this in. The "info" key will contain the name of the player to predict as a string. The agent will be asked to respond with reasoning for its prediction between appropriate reasoning tags. The prediction itself will need to be in json string format, also between appropriate tags, as defined in the assessor message. The prediction must be in the precise format as requested. An invalid format will disqualify the prediction (however, a failure to provide reasoning is not penalized).
+After chats are over, the agent will be asked to predict the next action of the other agents. They must provide reasoning for these predictions (however, a failure to provide reasoning is not penalized).
 
 ### Action Stage
-When the assessor signals that the task is "act", then the "message" key will contain instructions for the action required and its format. The "info" key will restate the formal action template. The agent must respond with reasoning for its action between appropriate reasoning tags. The decision needs to be in the precise specified format, also between appropriate tags. The agent will receive an error message if there is a formatting or validity problem with its decision and get the opportunity to correct. If a valid and correctly formatted decision is not given after three tries, then a null action is entered for the agent in that round. Again, a failure to provide reasoning does not penalize the agent.
+After predictions, the agent will be asked to make its own next decision. Again, they must provide reasoning for these actions. Again, a failure to provide reasoning does not penalize the agent.
 
 ### Updating Outcomes
-At the end of each round, the game logic processes all the actions of all of the agents and returns observations, an updated state and a current score for each agent. The assessor communicates this to the agent by setting the "task" to "observe" and placing the information in the "message". No response is required. The agent can optionally use the opportunity to reflect. The assessor agent will not recap the history of actions, observations, states or scores. Keeping track of the history is the responsibility of the agent.
+At the end of each round, the game logic processes all the actions of all of the agents and returns observations, an updated state and a current score for each agent. No response is required. The agent can optionally use the opportunity to reflect. Again, the assessor agent will not recap the history of actions, observations, states or scores. Keeping track of the history is the responsibility of the agent.
 
 ## Ideas for agent development beyond the baseline:
 - Chain of thoughts or promptimization for any or all of the COMPACT stages.
@@ -71,7 +58,7 @@ At the end of each round, the game logic processes all the actions of all of the
 
 ## Assessment Orchestration
 
-The assessor agent receives a set of agents and orchestrates their participation in the games, in multiple compositions of players.
+The assessor agent receives a set of agents and orchestrates their participation in the games using the above gameflow, in multiple compositions of players.
 
 The chief metric used to rate agents is an Elo score, based on pairwise comparison of agent rewards in the games. For Elo scores to be significant, there needs to build up a critical mass of games for each agent. Preferably, they should also be balanced across the game types. The amount of participation of each agent, by game type and size, will be indicated on the leaderboard. It is up to users to make sure there is enough participation by their agent.
 
