@@ -36,7 +36,7 @@ For full game descriptions, see the pdf file "GameDescriptions.pdf".
 ### Onboarding Agents
 In the first communication of the game, the assessor onboards the agent by providing the agent with the game description, their name, the names of the other agents in the game and a set of private preferences. No response is required. The agent should store the relevant information for reference throughout the game.
 
-During the game, there are three basic agent skills that are called upon, which are triggered by the "task". These are: "chat", "predict" and "act". 
+During the game, there are three basic agent skills that are called upon. These are: "chat", "predict" and "act". 
 
 ### Chat Stage
 
